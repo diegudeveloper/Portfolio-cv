@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/container-information.css">
-    <link rel="stylesheet" href="/css/container-information-home.css">
+    <!--<link rel="stylesheet" href="/css/container-information-home.css">
     <link rel="stylesheet" href="/css/container-information-about-me.css">
-    <link rel="stylesheet" href="/css/conatiner-information-resumen.css">
+    <link rel="stylesheet" href="/css/conatiner-information-resumen.css">-->
     <title>Diegu-Developer</title>
 </head>
 <body>
@@ -21,24 +21,12 @@
         <div class="container-full">
             <div class="container-menu">
                 <nav class="menu-container">
-                    <button class="btn-home" id="btn-home"><img src="/asses/icons/home.svg" alt="">Home</button>
-                    <button class="btn-about" id="btn-aboutme"><img src="/asses/icons/usuario.svg" alt="">about men</button>
-                    <button class="btn-resumen" id="btn-resume"><img src="/asses/icons/education.svg" alt="">Resumen</button>
-                    
-                    <input type="radio" name="mostrar-ventana" id="home">
-                    <input type="radio" name="mostrar-ventana" id="about-me">
-                    <input type="radio" name="mostrar-ventana" id="resumen">
-                    <input type="radio" name="mostrar-ventana" id="portafolio">
-                    <input type="radio" name="mostrar-ventana" id="blog">
-                    <input type="radio" name="mostrar-ventana" id="contacto">
-                    <ul class="menu">
-                      <li><a href="#"><label for="home"><img src="/asses/icons/home.svg" alt="" class="home-main">Home</label></a></li>
-                      <li><a href="#"><label for="about-me"><img src="/asses/icons/usuario.svg" alt="" class="username" onclick="aboutmeContainer" id="eventoaboutme">About</label></a></li>
-                      <li><a href="#"><label for="resumen"><img src="/asses/icons/education.svg" alt="" class="resume">Reume</label></a></li>
-                      <li><a href="#"><label for="portafolio"><img src="/asses/icons/portafolio.svg" alt="" class="portfolio">Portfolio</label></a></li>
-                      <li><a href="#"><label for="blog"><img src="/asses/icons/blogging.svg" alt="" class="blog-main">Blog</label></a></li>
-                      <li><a href="#"><label for="contacto"><img src="/asses/icons/email.svg" alt="" class="contact">Contact</label></a></li>
-                    </ul>
+                    <button id="btn-home" class="home"><img src="/asses/icons/home.svg" alt="">Home</button>
+                    <button id="btn-about"><img src="/asses/icons/usuario.svg" alt="">about men</button>
+                    <button id="btn-resume"><img src="/asses/icons/education.svg" alt="">Resumen</button>
+                    <button id="btn-portfolio"><img src="/asses/icons/portafolio.svg" alt="">Portfolio</button>
+                    <button id="btn-blog"><img src="/asses/icons/blogging.svg" alt="">Blog</button>
+                    <button id="btn-contact"><img src="/asses/icons/contact.svg" alt="">Conact</button>
                 </nav>
             </div>
             <div class="container-header">
@@ -73,33 +61,87 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div class="container-information">
-                <div class="container-home" id="infohome" >
-                    <picture class="conta-logo">
-                        <img src="/asses/logo/Recurso 60.svg" class="logo" alt="">
-                    </picture>
+                <div id="content-home" class="content open">
+                    <div class="inside-content">
+                        <picture class="conta-logo">
+                            <img src="/asses/logo/Recurso 60.svg" class="logo" alt="">
+                        </picture>
+                    </div>
                 </div>
 
-                <div class="container-information-about-me" id="infabout">
-                    <div class="about">
-                        <h2 class="aboutme">About Me</h2>
-                    </div>
-                    <div class="text-about">Hello! I’m Diego Gutiérrez.
-                        Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
-                    </div>
-                    <div class="information-aboutme-left">
-                        <div class="age">Age:   39</div>
-                        <div class="Residence: Malta (Bander)"></div>
-                    </div>
-                    <div class="information-aboutme-rigth">
-                        <div class="age">Adress:    Sliema</div>
-                        <div class="E-mail:         diegudeveloper@gmail.com"></div>
+                <div id="content-about" class="content closed">
+                    <div class="inside-content">
+                        <div class="about">
+                            <h2 class="aboutme">About Me</h2>
+                        </div>
+                        <div class="text-about">Hello! I’m Diego Gutiérrez.
+                            Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+                        </div>
+                        <div class="information-aboutme-left">
+                            <div class="age">Age:   39</div>
+                            <div class="Residence: Malta (Bander)"></div>
+                        </div>
+                        <div class="information-aboutme-rigth">
+                            <div class="age">Adress:    Sliema</div>
+                            <div class="E-mail:         diegudeveloper@gmail.com"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="container-information-resumen" id="inforesumen">
+                <div id="content-resumen" class="content closed">
                     <h2>Resumen</h2>
+                </div>
+                <div id="content-portfolio" class="content closed">
+                    <div class="inside-content">
+                      <h1>PORTFOLIO</h1>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                        cumque rem vitae, aliquid nihil maxime a odio nemo. Nam, voluptas
+                        blanditiis veniam eveniet laborum placeat, labore dolore nemo itaque
+                        id vel obcaecati molestias consectetur nisi aspernatur, perspiciatis
+                        omnis quam pariatur! Necessitatibus debitis ex optio earum illum!
+                        Nisi aspernatur quod quo? Eveniet ducimus reprehenderit voluptatum,
+                        quae sed, provident quo dolorum iure debitis officia optio eum.
+                        Rerum earum repellendus fuga illum explicabo, ipsam dolorem quas cum
+                        sequi esse doloremque harum ad ullam nam consequuntur quod accusamus
+                        perspiciatis. Hic!
+                      </p>
+                    </div>
+                </div>
+                <div id="content-blog" class="content closed">
+                    <div class="inside-content">
+                      <h1>blog</h1>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                        cumque rem vitae, aliquid nihil maxime a odio nemo. Nam, voluptas
+                        blanditiis veniam eveniet laborum placeat, labore dolore nemo itaque
+                        id vel obcaecati molestias consectetur nisi aspernatur, perspiciatis
+                        omnis quam pariatur! Necessitatibus debitis ex optio earum illum!
+                        Nisi aspernatur quod quo? Eveniet ducimus reprehenderit voluptatum,
+                        quae sed, provident quo dolorum iure debitis officia optio eum.
+                        Rerum earum repellendus fuga illum explicabo, ipsam dolorem quas cum
+                        sequi esse doloremque harum ad ullam nam consequuntur quod accusamus
+                        perspiciatis. Hic!
+                      </p>
+                    </div>
+                </div>
+                <div id="content-contact" class="content closed">
+                    <div class="inside-content">
+                      <h1>CONTACT</h1>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                        cumque rem vitae, aliquid nihil maxime a odio nemo. Nam, voluptas
+                        blanditiis veniam eveniet laborum placeat, labore dolore nemo itaque
+                        id vel obcaecati molestias consectetur nisi aspernatur, perspiciatis
+                        omnis quam pariatur! Necessitatibus debitis ex optio earum illum!
+                        Nisi aspernatur quod quo? Eveniet ducimus reprehenderit voluptatum,
+                        quae sed, provident quo dolorum iure debitis officia optio eum.
+                        Rerum earum repellendus fuga illum explicabo, ipsam dolorem quas cum
+                        sequi esse doloremque harum ad ullam nam consequuntur quod accusamus
+                        perspiciatis. Hic!
+                      </p>
+                    </div>
                 </div>
             </div>
         </div>

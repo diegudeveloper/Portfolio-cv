@@ -22,33 +22,66 @@ function sliderresumen () {
     inforesumen.style.left=(0);
 }*/
 
-var divOpen = '';
+document.addEventListener('DOMContentLoaded', () => {
+	const btnHome = document.getElementById('btn-home');
+	const btnAbout = document.getElementById('btn-about');
+	const btnResumen = document.getElementById('btn-resume');
+	const btnPortfolio = document.getElementById('btn-portfolio');
+	const btnBlog = document.getElementById('btn-blog');
+	const btnContact = document.getElementById('btn-contact');
+	const divHome = document.getElementById('content-home');
+	const divAbout = document.getElementById('content-about');
+	const divResumen = document.getElementById('content-about');
+	const divBlog = document.getElementById('content-about');
+	const divPortfolio = document.getElementById('content-portfolio');
+	const divContact = document.getElementById('content-contact');
 
-document.addEventListener('DOMContentionLoaded', () => {
+	function checkIfOpen() {
+		let btnActive = document.querySelector('.active');
+		if (btnActive) {
+			btnActive.classList.remove('active');
+		}
+		let divOpen = document.querySelector('.open');
+		if (divOpen) {
+			divOpen.classList.remove('open');
+			divOpen.classList.add('closed');
+		}
+	}
 
-    const btnAboutme = document.getElementById("btn-aboutme");
-    const divOpenAbout = document.getElementById("infabout");
-    btnAboutme.addEventListener('click', () => {
-        open(divOpenAbout);   
-    }
-)
-})
+	function open(btn, div) {
+		checkIfOpen();
+		btn.classList.add('active');
+		div.classList.remove('closed');
+		div.classList.add('open');
+	}
 
-    const btnResume = document.getElementById("btn-resume");
-    const divOpenResume = document.getElementById("inforesaumen");
-    btnResume.addEventListener('click', () => {
-        open(divOpenResume);   
-    }
-)
+	btnHome.addEventListener('click', () => {
+		open(btnHome, divHome);
+		console.log('open', btnHome, divHome);
+	});
 
-function open(elemento) {
-    if(divOpen != null) {
-        cerrar(divOpen)
-    }
-    elemento.style.left=(0);
-    divOpen = elemento;
-}
+	btnAbout.addEventListener('click', () => {
+		open(btnAbout, divAbout);
+		console.log('open', btnAbout, divAbout);
+	});
 
-function cerrar(elemento) {
-    elemento.style,left='200%';
-}
+	btnResumen.addEventListener('click', () => {
+		open(btnResumen, divResumen);
+		console.log('open', btnResumen, divResumen);
+	});
+
+	btnPortfolio.addEventListener('click', () => {
+		open(btnPortfolio, divPortfolio);
+		console.log('open', btnPortfolio, divPortfolio);
+	});
+
+	btnBlog.addEventListener('click', () => {
+		open(btnBlog, divBlog);
+		console.log('open', btnBlog, divBlog);
+	});
+
+	btnContact.addEventListener('click', () => {
+		open(btnContact, divContact);
+		console.log('open', btnContact, divContact);
+	});
+});

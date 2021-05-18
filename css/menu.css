@@ -13,52 +13,7 @@
     background-color: var(--color-bg);
 }
 
-.container-main .container-full .container-menu .menu-container input {
-    /*display: none;*/
-}
-
-.container-main .container-full .container-menu .menu-container .btn-home img {
+.container-main .container-full .container-menu .menu-container button img {
     width: 30px;
-}
-.container-main .container-full .container-menu .menu-container .btn-about img {
-    width: 30px;
-}
-.container-main .container-full .container-menu .menu-container .btn-resumen img {
-    width: 30px;
-}
-
-.container-main .container-full .container-menu .menu-container .menu {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-}
-
-.container-main .container-full .container-menu .menu-container .menu li {
-    list-style: none;
-    text-align: center;
-    flex: auto;
-    /*border-bottom: .1px solid #EEEEEE;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-main .container-full .container-menu .menu-container .menu li a {
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: rgba(255,255,255,.85);
-}
-
-
-.container-main .container-full .container-menu .menu-container .menu li a .home-main, .username, .resume, .portfolio, .blog-main, .contact {
-    width: 40px;
     height: 30px;
-    display: block;
-    margin: 0 auto;
-    color: rgba(255,255,255,.85);
 }
