@@ -25,13 +25,13 @@ function sliderresumen () {
 document.addEventListener('DOMContentLoaded', () => {
 	const btnHome = document.getElementById('btn-home');
 	const btnAbout = document.getElementById('btn-about');
-	const btnResumen = document.getElementById('btn-resume');
+	const btnResumen = document.getElementById('btn-resumen');
 	const btnPortfolio = document.getElementById('btn-portfolio');
 	const btnBlog = document.getElementById('btn-blog');
 	const btnContact = document.getElementById('btn-contact');
 	const divHome = document.getElementById('content-home');
 	const divAbout = document.getElementById('content-about');
-	const divResumen = document.getElementById('content-about');
+	const divResumen = document.getElementById('content-resumen');
 	const divBlog = document.getElementById('content-about');
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
