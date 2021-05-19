@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const divHome = document.getElementById('content-home');
 	const divAbout = document.getElementById('content-about');
 	const divResumen = document.getElementById('content-resumen');
-	const divBlog = document.getElementById('content-about');
+	const divBlog = document.getElementById('content-blog');
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
 
