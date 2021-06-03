@@ -11,9 +11,29 @@
     /*border: 1px solid green;*/
     border-radius: 5px;
     background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.container-main .container-full .container-menu .menu-container button {
+    background-color: var(--color-bg);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #EEEEEE;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 
 .container-main .container-full .container-menu .menu-container button img {
     width: 30px;
     height: 30px;
+    padding-bottom: 5px;
+    color: #EEEEEE;
 }
