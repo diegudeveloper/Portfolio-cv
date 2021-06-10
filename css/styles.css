@@ -338,27 +338,39 @@ html {
 	z-index: 1;
 }
 #content-home{
+    width: 100%;
+    max-width: 643px;
     height: 100%;
 	/*background-color: rgb(74, 187, 89);*/
     background-color: var(--color-bg);
 }
 #content-about{
+    width: 100%;
+    max-width: 643px;
     height: 100%;
 	background-color: rgb(47, 141, 230);
 }
 #content-resumen{
+    width: 100%;
+    max-width: 643px;
     height: 100%;
 	background-color: rgb(78, 99, 119);
 }
 #content-portfolio{
+    width: 100%;
+    max-width: 643px;
     height: 100%;
 	background-color: rgb(111, 47, 212);
 }
 #content-blog{
+    width: 100%;
+    max-width: 643px;
     height: 100%;
 	background-color: rgb(28, 21, 39);
 }
 #content-contact{
+    width: 100%;
+    max-width: 643px;
     height: 100%;
 	background-color: rgb(206, 150, 31);
 }
