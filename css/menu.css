@@ -31,9 +31,10 @@
 
 
 
-.container-main .container-full .container-menu .menu-container button img {
+.container-main .container-full .container-menu .menu-container button .home .mhome {
     width: 30px;
     height: 30px;
     padding-bottom: 5px;
     color: #EEEEEE;
 }
+
