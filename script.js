@@ -1,3 +1,4 @@
+"use strict";
 document.addEventListener('DOMContentLoaded', () => {
 	const btnHome = document.getElementById('btn-home');
 	const btnAbout = document.getElementById('btn-about');
@@ -33,31 +34,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	btnHome.addEventListener('click', () => {
 		open(btnHome, divHome);
-		console.log('open', btnHome, divHome);
+		// console.log('open', btnHome, divHome);
 	});
 
 	btnAbout.addEventListener('click', () => {
 		open(btnAbout, divAbout);
-		console.log('open', btnAbout, divAbout);
+		// console.log('open', btnAbout, divAbout);
 	});
 
 	btnResumen.addEventListener('click', () => {
 		open(btnResumen, divResumen);
-		console.log('open', btnResumen, divResumen);
+		// console.log('open', btnResumen, divResumen);
 	});
 
 	btnPortfolio.addEventListener('click', () => {
 		open(btnPortfolio, divPortfolio);
-		console.log('open', btnPortfolio, divPortfolio);
+		// console.log('open', btnPortfolio, divPortfolio);
 	});
 
 	btnBlog.addEventListener('click', () => {
 		open(btnBlog, divBlog);
-		console.log('open', btnBlog, divBlog);
+		// console.log('open', btnBlog, divBlog);
 	});
 
 	btnContact.addEventListener('click', () => {
 		open(btnContact, divContact);
-		console.log('open', btnContact, divContact);
+		// console.log('open', btnContact, divContact);
 	});
 });
