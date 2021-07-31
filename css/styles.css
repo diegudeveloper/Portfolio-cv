@@ -183,9 +183,6 @@ html {
     font-weight: 100;
 }
 
-
-
-
 .container-header .pictureMe .me .social-media {
     width: 100%;
     height: auto; 
@@ -350,6 +347,9 @@ html {
     height: 100%;
 	/*background-color: rgb(47, 141, 230);*/
     background-color: var(--color-bg);
+
+    overflow-y: scroll
+}
 }
 #content-resumen{
     width: 100%;
@@ -446,3 +446,23 @@ html {
     align-items: center;
 }
 
+/* about me */
+
+
+.container-information .content .inside-content .box-github {
+    width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+    margin-bottom: 60px;
+}
+
+.container-information .content .inside-content .box-lema .lema-title img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+    margin-top: -60px;
+    position: relative;
+    z-index: 100;
+}
