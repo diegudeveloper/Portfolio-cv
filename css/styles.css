@@ -350,7 +350,7 @@ html {
 
     overflow-y: scroll
 }
-}
+
 #content-resumen{
     width: 100%;
     /*max-width: 643px;*/
@@ -455,6 +455,38 @@ html {
     border: 1px solid #fff;
 }
 
+.container-information .content .inside-content .box-github .lematitleMain {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    font-size: 2rem;
+    color: #EEEEEE;
+    padding-left: 30px;
+}
+
+.container-information .content .inside-content .box-github .lematitleMain .colorletter {
+    color: rgb(206, 150, 31);
+}
+
+.container-information .content .inside-content .box-lema .lema-title .lematitleMain {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2rem;
+    color: #EEEEEE;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.container-information .content .inside-content .box-lema .lema-title .lematitleMain .colorletter {
+    color: rgb(206, 150, 31);
+}
+
 .container-information .content .inside-content .box-lema .lema-title h3 {
     width: 90%;
     height: 130px;
@@ -478,15 +510,33 @@ html {
     margin-bottom: 10px;
 }
 
-.container-information .content .inside-content .followers {
+.container-information .content .inside-content .followers .follower-title {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2rem;
+    color: #EEEEEE;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.container-information .content .inside-content .followers .follower-title .followerstitleMain {
+    color: rgb(206, 150, 31);
+}
+
+.container-information .content .inside-content .followers .follower-container {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 150px));
+    grid-template-columns: repeat(auto-fill, minmax(50px, 140px));
     grid-auto-rows: minmax(200px, auto);
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .container-information .content .inside-content .followers .followers1, .followers2, .followers3, .followers4 {
