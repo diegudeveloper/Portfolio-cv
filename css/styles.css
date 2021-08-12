@@ -319,9 +319,9 @@ html {
 	height: 100vh;
 	position: absolute;
 	transition: all 1s ease-out;
-	flex-direction: column;
+	/*flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 .content.open{    
 	left: 0 !important;
@@ -355,7 +355,8 @@ html {
     width: 100%;
     /*max-width: 643px;*/
     height: 100%;
-	background-color: rgb(78, 99, 119);
+	background-color: var(--color-bg);
+    overflow-y: scroll;
 }
 #content-portfolio{
     width: 100%;
@@ -552,4 +553,60 @@ html {
 
 /* resumen */
 
+.container-information .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+}
 
+.container-information .content .text_resumen {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.container-information .content .text_resumen h2 {
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
+.container-information .content .text_resumen .colorletter {
+    color: rgb(206, 150, 31);
+}
+
+.container-information .content .container_education {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-information .content .container_education .icon_text {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 28px;
+    
+}
+
+.container-information .content .container_education .icon_text .fas {
+    color: rgb(206, 150, 31);
+}
+
+.container-information .content .container_education .icon_text .text_ed {
+    font-size: 17px;
+    font-weight: 500;
+    color: #EEEEEE;
+    margin-left: 10PX;
+}
+
+.container-information .content .container_education .resumen_education {
+    width: 50%;
+    height: auto;
+}
