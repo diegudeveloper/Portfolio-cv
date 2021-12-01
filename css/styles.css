@@ -405,14 +405,30 @@ html {
 
 .inside-content .text-about {
     width: 90%;
-    height: 130px;
-    display: flex;
+    height: auto;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;
     color: #FFFFFF8C;
     padding-left: 30px;
     text-align: justify;
+    font-size: 1.3rem;
+}
+
+.inside-content .text-about .diego, .gutierrez {
+    color: var(--color-primary);
+}
+
+.inside-content .text-about .pregunta {
+    color: var(--color-primary);
+}
+
+.inside-content .text-about .text-pregunta {
+    width: 100%;
+    font-size: 2rem;
+    color: rgb(238, 238, 238);
+    text-align: left;
 }
 
 .inside-content .box-information {
