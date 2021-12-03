@@ -698,7 +698,7 @@ html {
     padding: 10px 0;
     color: #EEEEEE;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .container-information .content .inside-content .container_proyects .container-left .card .description_card .codigo {
@@ -708,7 +708,7 @@ html {
 
 .container-information .content .inside-content .container_proyects .container-left .card .description_card .codigo a {
     color: #EEEEEE;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 100;
 }
 
@@ -718,7 +718,7 @@ html {
 }
 
 .container-information .content .inside-content .container_proyects .container-left .card .description_card .link a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #EEEEEE;
     font-weight: 100
