@@ -1,0 +1,104 @@
+.container-information .content .inside-content .container_main{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.container-information .content .inside-content .container_main H2 {
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
+.container-information .content .inside-content .container_main .colorletter {
+    color: rgb(206, 150, 31)
+}
+
+.container-information .content .inside-content .container_proyects {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+
+.container-information .content .inside-content .container_proyects .container-left {
+    width: 50%;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card {
+    max-width: 230px;
+    height: auto;
+    /*border: 1px solid #fff;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .img_card {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .img_card img {
+    width: 100%;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .description_card  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card h3 {
+    width: 100%;
+    padding: 10px 0;
+    color: #EEEEEE;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .description_card .codigo {
+    width: 50%;
+    padding: 5px 0;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .description_card .codigo a {
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .description_card .link {
+    width: 50%;
+    padding: 5px 0;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .description_card .link a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: 100
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-information .content .inside-content .container_main  .container_proyects .container-rigth {
+    width: 50%;
+}
