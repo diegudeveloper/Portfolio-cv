@@ -54,6 +54,7 @@
     font-size: 1.3rem;
     color: #EEEEEE;
     margin: 0 auto;
+    font-weight: 100;
 }
 
 .container-information .content .inside-content .box-lema .lema-title .fa-quote-left {
@@ -77,6 +78,11 @@
     object-fit: cover;
     border: 1px solid white;
     margin-bottom: 10px;
+}
+
+.container-information .content .inside-content .box-lema .lema-title .name-me, .ocupation {
+    color: var(--color-primary);
+    font-weight: 100;
 }
 
 .container-information .content .inside-content .followers .follower-title {
@@ -108,10 +114,11 @@
 }
 
 .container-information .content .inside-content .followers .followers1, .followers2, .followers3, .followers4 {
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -119,8 +126,44 @@
     margin-bottom: 30px;
 }
 
+.container-information .content .inside-content .followers .followers1 img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.container-information .content .inside-content .followers .followers1 h3 {
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .followers .followers2 img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.container-information .content .inside-content .followers .followers2 h3 {
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .followers .followers3 img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.container-information .content .inside-content .followers .followers3 h3 {
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .followers .followers4 img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.container-information .content .inside-content .followers .followers4 h3 {
+    font-weight: 100;
+}
+
 .inside-content .about-title {
-    width: 100%;
+    width: 70%;
     height: 80px;
     display: flex;
     justify-content: center;
