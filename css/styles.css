@@ -410,13 +410,19 @@ html {
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;
-    color: #FFFFFF8C;
+    /*color: #FFFFFF8C;*/
+    color: #EEEEEE;
     padding-left: 30px;
     text-align: justify;
     font-size: 1.3rem;
 }
 
 .inside-content .text-about .diego, .gutierrez {
+    color: var(--color-primary);
+    font-size: 1.9rem;
+}
+
+.inside-content .text-about .valor {
     color: var(--color-primary);
 }
 
