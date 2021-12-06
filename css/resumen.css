@@ -43,7 +43,6 @@
     display: flex;
     align-items: center;
     font-size: 28px;
-    
 }
 
 .container-information .content .container_education .icon_text .fas {
@@ -58,8 +57,9 @@
 }
 
 .container-information .content .container_education .resumen_education {
-    width: 45%;
+    width: 50%;
     height: auto;
+    margin-bottom: 75px;
 }
 
 .container-information .content .container_education .resumen_education .date {
@@ -73,7 +73,7 @@
 
 .container-information .content .container_education .resumen_education .university {
     margin-top: 10px;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     color: #EEEEEE;
     font-weight: 100;
 }
@@ -81,4 +81,20 @@
 .container-information .content .container_education .resumen_education .where {
     font-size: 1.5rem;
     color: #FFFFFF8C;
+}
+
+.container-information .content .container_education .resumen_education .description {
+    font-size: 1.5rem;
+    color: #FFFFFF8C;
+}
+
+.container-information .content .container_education .resumen_education .container_resumen {
+    width: 30%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.container-information .content .container_education .resumen_education .container_resumen img {
+    width: 100%;
+    
 }
