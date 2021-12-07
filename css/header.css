@@ -85,6 +85,7 @@
     height: 80%;
     display: block;
     position: relative;
+
 }
 
 .container-header .pictureMe .me::after{
@@ -140,14 +141,13 @@
     height: 110px;
     border-radius: 50%;
     object-fit: cover;
-    border: 1px solid white;
     margin-top: -60px;
     position: relative;
     z-index: 100;
 
-    /*-webkit-box-shadow: -10px 10px 5px 0px  rgba(251, 177, 59, 0.5);
-    -moz-box-shadow:  -10px 10px 5px 0px  rgba(251, 177, 59, 0.404);
-    box-shadow: -10px 10px 5px 0px rgba(251, 177, 59, 0.377);*/
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
+    box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
     
 }
 
