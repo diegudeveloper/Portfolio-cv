@@ -2,6 +2,7 @@
     --color-primary: #FBB03B;
     --color-secundary: #1A1A1A;
     --color-bg: #31313a;
+    --bg-color: rgba(251, 177, 59, 0.205);
 }
 
 * {
