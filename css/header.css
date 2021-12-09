@@ -118,7 +118,6 @@
     height: auto;
     font-size: 16px;
     color: var(--color-primary);
-    margin-top: 20px;
     font-weight: 100;
 }
 
@@ -126,6 +125,7 @@
     width: 100%;
     height: auto; 
     display: inline-block;
+    margin-top: 20px;
 }
 
 .container-header .pictureMe .me .social-media img {

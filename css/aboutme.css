@@ -86,8 +86,13 @@
     margin-bottom: 10px;
 }
 
-.container-information .content .inside-content .box-lema .lema-title .name-me, .ocupation {
-    color: var(--color-primary);
+.container-information .content .inside-content .box-lema .lema-title .name-me {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .box-lema .lema-title .ocupation {
+    color: #EEEEEE;
     font-weight: 100;
 }
 
