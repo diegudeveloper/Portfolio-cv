@@ -64,36 +64,67 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// async function getContributions(token, username) {
-//     const headers = {
-//         'Authorization': `bearer ${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}`,
-//     }
-//     const body = {
-//         "query": `query {
-//             user(login: "${username}") {
-//               name
-//               contributionsCollection {
-//                 contributionCalendar {
-//                   colors
-//                   totalContributions
-//                   weeks {
-//                     contributionDays {
-//                       color
-//                       contributionCount
-//                       date
-//                       weekday
-//                     }
-//                     firstDay
-//                   }
-//                 }
-//               }
-//             }
-//         }`
-//     }
-//     const response = await fetch('https://api.github.com/graphql', { method: 'POST', body: JSON.stringify(body), headers: headers })
-//     const data = await response.json()
-//     return data
-// }
 
-// const data = await getContributions('token', 'diegudeveloper')
-// console.log(data)
+
+
+//Variable donde vas a recibir el dato
+let data = undefined
+//Variable donde vas a recibir el dato especifico
+let commits = undefined
+//Tu Token
+let token = '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'
+//Tu usuario
+let username = 'diegudeveloper'
+//Vamos a hacer una peticion de tipo POST y vamos a necesitar hacer una autenticación con GitHub
+//Por eso en la peticion, vamos a enviar un HEADER con una llave llamada Authorization que por valor va a traer el token que nos dió GitHub
+const headers = {
+  'Authorization': `bearer ${token}`,
+}
+
+//Este body es un Query de GraphQL
+//GraphQL es una tecnología que sirve para consultar datos básicamente
+const body = {
+  "query": `query {
+            user(login: "${username}") {
+              name
+              contributionsCollection {
+                contributionCalendar {
+                  colors
+                  totalContributions
+                  weeks {
+                    contributionDays {
+                      color
+                      contributionCount
+                      date
+                      weekday
+                    }
+                    firstDay
+                  }
+                }
+              }
+            }
+          }`
+}
+//Ahora llamamos el metodo fetch, con la URL, el metodo, el cuerpo de la peticion (body) y la cabecera (headers)
+fetch('https://api.github.com/graphql', { method: 'POST', body: JSON.stringify(body), headers: headers })
+  //Fetch funciona de forma asincrona y tiene por así decirlo 2 estados, uno es cuando ya se envió la peticion
+  //El otro es cuando recibe la respuesta, el siguiente es el que confirma el envio de la peticion
+  .then(res => res.json())
+  //Verifica que no haya errores con un catch
+  .catch((error) => {
+    console.error("There is an error:", error)
+  })
+  //Si no hay errores sigue derecho al segundo estado, que vendría a ser cuando ya tenemos los datos
+  //Normalmente es una respuesta ya serializada, por lo que no sería sino acceder a la propiedad data del objeto response
+  .then((response) => {
+    //Aca ya recibio la info
+    console.info("Success:", response.data)
+    data = response.data
+    commits = response.data.user.contributionsCollection.contributionCalendar.totalContributions
+  })
+  .finally(() => {
+    //Aca ya se terminó de procesar la promesa, en este punto, data y commits
+    //ya están llenos con los valores del .then anterior
+    //Aqui ya podrias hacer operaciones con esos valores
+    console.log(`Hiciste ${commits} este último año`)
+  })
