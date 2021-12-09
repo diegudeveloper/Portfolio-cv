@@ -72,7 +72,7 @@ let data = undefined
 //Variable donde vas a recibir el dato especifico
 let commits = undefined
 //Tu Token
-let token = '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'
+let token = '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'
 //Tu usuario
 let username = 'diegudeveloper'
 //Vamos a hacer una peticion de tipo POST y vamos a necesitar hacer una autenticación con GitHub
@@ -99,11 +99,12 @@ const body = {
                       weekday
                     }
                     firstDay
-                  }
                 }
-              }
             }
-          }`
+        }
+    }
+}`
+
 }
 //Ahora llamamos el metodo fetch, con la URL, el metodo, el cuerpo de la peticion (body) y la cabecera (headers)
 fetch('https://api.github.com/graphql', { method: 'POST', body: JSON.stringify(body), headers: headers })
@@ -117,6 +118,7 @@ fetch('https://api.github.com/graphql', { method: 'POST', body: JSON.stringify(b
   //Si no hay errores sigue derecho al segundo estado, que vendría a ser cuando ya tenemos los datos
   //Normalmente es una respuesta ya serializada, por lo que no sería sino acceder a la propiedad data del objeto response
   .then((response) => {
+	
     //Aca ya recibio la info
     console.info("Success:", response.data)
     data = response.data
@@ -126,5 +128,6 @@ fetch('https://api.github.com/graphql', { method: 'POST', body: JSON.stringify(b
     //Aca ya se terminó de procesar la promesa, en este punto, data y commits
     //ya están llenos con los valores del .then anterior
     //Aqui ya podrias hacer operaciones con esos valores
+
     console.log(`Hiciste ${commits} este último año`)
-  })
+})
