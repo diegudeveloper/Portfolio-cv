@@ -30,18 +30,19 @@
 
     .container-main .container-full .container-information {
         height: auto;
-        position: absolute;
+        /* position: absolute; */
         left: 16%;
         max-width: 580px;
         max-height: auto;
         border-radius: 5px;
-        overflow: initial;
-        flex-direction: column;
+        /* overflow: initial; */
+        /* flex-direction: column; */
     }
 
     .content {
         height: auto;
         position: initial;
+        z-index: 100;
     }
 
     .container-main .container-full .container-information #content-home {
@@ -49,13 +50,11 @@
         height: auto;
     }
 
-    .container-main .container-full .container-information #content-about {
-        height: auto
-    }
+    /* .container-main .container-full .container-information #content-about {
 
-    .container-main .container-full .container-information #content-resumen {
-        height: auto;
-    }
+    } */
 
-    
+   
+
+
 }
