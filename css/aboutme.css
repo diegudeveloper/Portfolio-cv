@@ -248,7 +248,7 @@
 
 .inside-content .box-lema {
     width: 100%;
-    height: auto;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;

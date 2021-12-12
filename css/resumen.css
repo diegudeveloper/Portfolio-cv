@@ -14,24 +14,15 @@
     padding-left: 30px;
 }
 
+.container-information .content .text_resumen h2 {
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
 .linea_horizontal { 
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
-}
-
-
-/*.linea_horizontal { 
-    width: 1px;
-    border: 0;
-    height: 100px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
-}*/
-
-
-.container-information .content .text_resumen h2 {
-    font-size: 2rem;
-    color: #EEEEEE;
 }
 
 .container-information .content .text_resumen .colorletter {
@@ -64,14 +55,35 @@
     color: #EEEEEE;
     margin-left: 10PX;
 }
-
-.container-information .content .container_education .resumen_education {
-    width: 50%;
-    height: auto;
-    margin-bottom: 75px;
+.container-information .content .container_education .resumen_education .container_resumen {
+    width: 30%;
+    object-fit: cover;
+    margin-top: 20px;
 }
 
-.container-information .content .container_education .resumen_education .date {
+.container-information .content .container_education .resumen_education .container_resumen img {
+    width: 100%;
+}
+
+
+.container-information .content .containerResumenAll {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-information .content .containerResumenAll .containerLeftResumen {
+    width: 42%;
+}
+
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
+    width: 50%;
+    height: auto;
+}
+
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date   {
     width:32%;
     text-align: center;
     font-size: 1.2rem;
@@ -80,39 +92,40 @@
     padding: 2px;
 }
 
-.container-information .content .container_education .resumen_education .university {
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .university {
     margin-top: 10px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #EEEEEE;
     font-weight: 100;
 }
 
-.container-information .content .container_education .resumen_education .where {
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .where {
     font-size: 1.5rem;
     color: #FFFFFF8C;
 }
 
-.container-information .content .container_education .resumen_education .description {
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .description {
     font-size: 1.5rem;
-    color: var(--color-primary);
+    color: #FFFFFF8C;
 }
 
-.container-information .content .container_education .resumen_education .certificate {
-    width: 60%;
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
-.container-information .content .container_education .resumen_education .certificado {
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate .certificado {
     width: 60%;
     text-decoration: none;
     color: #EEEEEE;
     font-size: 1.5rem;
 }
 
-.container-information .content .container_education .resumen_education .certificate .fa-award {
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate .fa-award {
     display: block;
     width: 40%;
     font-size: 2rem;
@@ -122,7 +135,91 @@
     transition: all .9s ease;
 }
 
-.container-information .content .container_education .resumen_education .certificate .fa-award:hover {
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate .fa-award:hover {
+    display: block;
+    transition: all .9s ease;
+    transform:scale(1.8);
+    cursor: pointer;
+}
+
+
+.container-information .content .containerResumenAll .containerRightResumen {
+    width: 45%;
+    margin-left: 3%;
+}
+
+
+/*.linea_horizontal { 
+    width: 1px;
+    border: 0;
+    height: 100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}*/
+
+.container-information .content .containerResumenAll .containerRightResumen {
+    width: 45%;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education {
+    width: 50%;
+    height: auto;
+    margin-bottom: 75px;
+    margin-bottom: 30px;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .date   {
+    width:32%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgb(206, 150, 31);
+    color: var(--color-primary);
+    padding: 2px;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .university {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #EEEEEE;
+    font-weight: 100;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .where {
+    font-size: 1.5rem;
+    color: #FFFFFF8C;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .description {
+    font-size: 1.5rem;
+    color: #FFFFFF8C;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .certificate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .certificate .certificado {
+    width: 60%;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 1.5rem;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .certificate .fa-award {
+    display: block;
+    width: 40%;
+    font-size: 2rem;
+    color: var(--color-primary);
+    text-align: center;
+
+    transition: all .9s ease;
+}
+
+.container-information .content .containerResumenAll .containerRightResumen .resumen_education .certificate .fa-award:hover {
     display: block;
     transition: all .9s ease;
     transform:scale(2.25);
@@ -130,14 +227,13 @@
 }
 
 
-
-.container-information .content .container_education .resumen_education .container_resumen {
-    width: 30%;
-    object-fit: cover;
-    margin-top: 20px;
+.container-information .content .containerResumenAll .containerRightResumen {
+    width: 45%;
+    margin-left: 9%;
 }
 
-.container-information .content .container_education .resumen_education .container_resumen img {
-    width: 100%;
-    
-}
+
+
+
+
+
