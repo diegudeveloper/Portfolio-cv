@@ -38,7 +38,7 @@
     max-width: 230px;
     height: auto;
     /*border: 1px solid #fff;*/
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -98,18 +98,7 @@
     font-weight: 100
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Right side*/
 
 
 .container-information .content .inside-content .container_proyects .container_rigth {
