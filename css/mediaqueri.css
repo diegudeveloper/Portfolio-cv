@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px) {
+    .container-main {
+        height: auto;
+    }
+    .container-main .container-full {
+        width: 70%;
+        margin: 15px auto 10px auto;
+        display: block;
+        overflow:initial;
+        position: relative;
+    }
+
+    .container-main .container-full .container-menu {
+        left: 5%;
+    }
+
+    .container-main .container-full .container-menu .menu-container {
+        height: 90%;
+        margin-left: 30px;
+    }
+
+    .container-main .container-full .container-header {
+        position: absolute;
+        top: 0;
+        left: 15%;
+        max-width: 580px;
+        max-height: 600px;
+        border-radius: 5px;
+    }
+
+    .container-main .container-full .container-information {
+        height: auto;
+        position: absolute;
+        left: 16%;
+        max-width: 580px;
+        max-height: auto;
+        border-radius: 5px;
+        overflow: initial;
+        flex-direction: column;
+    }
+
+    .content {
+        height: auto;
+        position: initial;
+    }
+
+    .container-main .container-full .container-information #content-home {
+        display: none;
+        height: auto;
+    }
+
+    .container-main .container-full .container-information #content-about {
+        height: auto
+    }
+
+    .container-main .container-full .container-information #content-resumen {
+        height: auto;
+    }
+
+    
+}
