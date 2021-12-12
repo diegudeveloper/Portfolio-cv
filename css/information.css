@@ -31,7 +31,7 @@
 
 .inside-content{
     width: 90%;
-    height: 100%;
-	margin: 0 auto;
+    height: auto;
+	margin: 30px auto;
 	text-align: center;
 }
