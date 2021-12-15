@@ -7,15 +7,6 @@
 }
 
 .container-information .content .inside-content .containerFullBlog {
-    /*width: 100%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;*/
-
     width: 100%;
     height: 100%;
     margin-top: 20px;
@@ -69,18 +60,6 @@
     color: #FFFFFF8C;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* right*/
 
 .container-information .content .inside-content .containerFullBlog .blogRight {
@@ -129,5 +108,3 @@
     font-size: 1.3rem;
     color: #FFFFFF8C;
 }
-
-
