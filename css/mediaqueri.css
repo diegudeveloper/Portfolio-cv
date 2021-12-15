@@ -63,10 +63,34 @@
     .content.closed {
         opacity: 1;
     }
+
+    /*blog*/
+
+    .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
+        width: 250px;
+    }
+
+    .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
+        width: 250px;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
     .container-main .container-full {
         width: 100%;
     }
+
+    .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
+        width: 250px;
+    }
+
+    .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
 }
