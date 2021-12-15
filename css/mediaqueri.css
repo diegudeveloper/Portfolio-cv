@@ -1,17 +1,22 @@
 @media screen and (max-width: 1024px) {
     .container-main {
-        height: auto;
+        
+        position: relative;
+        /*height: 280vh;*/
+        height: 440vh;
+        border: none;
     }
     .container-main .container-full {
         width: 70%;
         margin: 15px auto 10px auto;
         display: block;
         overflow:initial;
-        position: relative;
+        position: absolute;
+        top: 0;
     }
 
     .container-main .container-full .container-menu {
-        left: 5%;
+        height: 91%;
     }
 
     .container-main .container-full .container-menu .menu-container {
@@ -48,6 +53,10 @@
     .container-main .container-full .container-information #content-home {
         display: none;
         height: auto;
+    }
+
+    .content.closed {
+        opacity: 1;
     }
 
     /* .container-main .container-full .container-information #content-about {

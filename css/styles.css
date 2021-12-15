@@ -76,7 +76,7 @@ html {
 	opacity: 1;
 	z-index: 3;
 }
-.content.closed{
+.content.closed {
 	left: 100% !important;
 	opacity: .3;
 	z-index: 1;
