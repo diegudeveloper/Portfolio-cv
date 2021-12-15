@@ -33,6 +33,11 @@
         border-radius: 5px;
     }
 
+    .container-header .pictureMe .me img {
+        width: 146px;
+        height: 146px;
+    }
+
     .container-main .container-full .container-information {
         height: auto;
         /* position: absolute; */
