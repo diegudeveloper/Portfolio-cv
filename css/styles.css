@@ -145,8 +145,8 @@ html {
     /*max-width: 643px;*/
     height: 100%;
 	background-color: var(--color-bg);
-    overflow-y: scroll;
 }
+
 #content-contact{
     width: 100%;
     /*max-width: 643px;*/

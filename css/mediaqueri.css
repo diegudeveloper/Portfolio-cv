@@ -3,7 +3,7 @@
         
         position: relative;
         /*height: 280vh;*/
-        height: 440vh;
+        height: 510vh;
         border: none;
     }
     .container-main .container-full {
@@ -63,12 +63,10 @@
     .content.closed {
         opacity: 1;
     }
+}
 
-    /* .container-main .container-full .container-information #content-about {
-
-    } */
-
-   
-
-
+@media screen and (max-width: 768px) {
+    .container-main .container-full {
+        width: 100%;
+    }
 }
