@@ -7,22 +7,24 @@
 }
 
 .container-information .content .inside-content .containerFullBlog {
-    width: 100%;
+    /*width: 100%;
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
@@ -42,14 +44,48 @@
     object-fit: cover;
 }
 
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerText-blog .date {
+    width: 32%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgb(206, 150, 31);
+    color: var(--color-primary);
+    padding: 2px;
+    margin: 10px auto 10px auto;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerText-blog .title-blog {
+    width: 100%;
+    padding: 10px 0;
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerText-blog p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: #FFFFFF8C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* right*/
 
 .container-information .content .inside-content .containerFullBlog .blogRight {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    
 }
 
 .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
@@ -67,6 +103,31 @@
     width: 250px;
     height: 124px;
     object-fit: cover;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogRight .cardRight .containerText-blog .date {
+    width: 32%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgb(206, 150, 31);
+    color: var(--color-primary);
+    padding: 2px;
+    margin: 10px auto 10px auto;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogRight .cardRight .containerText-blog .title-blog {
+    width: 100%;
+    padding: 10px 0;
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogRight .cardRight .containerText-blog p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: #FFFFFF8C;
 }
 
 
