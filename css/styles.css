@@ -124,8 +124,6 @@ html {
     border-radius: 5px;
 }
 
-
-
 #content-portfolio{
     width: 100%;
     /*max-width: 643px;*/
@@ -137,7 +135,8 @@ html {
     width: 100%;
     /*max-width: 643px;*/
     height: 100%;
-	background-color: rgb(28, 21, 39);
+	background-color: var(--color-bg);
+    overflow-y: scroll;
 }
 #content-contact{
     width: 100%;

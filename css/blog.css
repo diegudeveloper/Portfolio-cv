@@ -1,0 +1,72 @@
+.container-information .content .inside-content .vertical { 
+    width: 1px;
+    border: 0;
+    height: auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+.container-information .content .inside-content .containerFullBlog {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogLetf {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
+    width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog {
+    width: 100%;
+    height: 100%;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog img {
+    width: 250px;
+    height: 124px;
+    object-fit: cover;
+}
+
+/* right*/
+
+.container-information .content .inside-content .containerFullBlog .blogRight {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
+    width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogRight .cardRight .containerImg-blog {
+    width: 100%;
+    height: 100%;
+}
+
+.container-information .content .inside-content .containerFullBlog .blogRight .cardRight .containerImg-blog img {
+    width: 250px;
+    height: 124px;
+    object-fit: cover;
+}
+
+
