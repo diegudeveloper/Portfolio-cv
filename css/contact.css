@@ -1,0 +1,45 @@
+.container_map {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.container_map iframe {
+    width: 100%;
+    height: 200px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+form input {
+    width: 48%;
+    height: 40px;
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+    outline: 0px;
+    border-bottom: 1px solid #cccc;
+    margin-right: 10px;
+}
+
+form input:focus {
+    border-bottom: 1px solid var(--color-primary);
+    color: #fff;
+}
+
+:focus::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.8;
+} 
+
+input:nth-child(3) {
+    resize: none;
+    width: 100%;
+    display: block;    
+}

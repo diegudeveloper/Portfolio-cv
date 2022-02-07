@@ -94,7 +94,8 @@ html {
     /*max-width: 643px;*/
     height: 100%;
     background-color: var(--color-bg);
-    overflow-y: scroll
+    overflow-y: scroll;
+    
 }
 
 #content-about::-webkit-scrollbar {
@@ -145,13 +146,16 @@ html {
     /*max-width: 643px;*/
     height: 100%;
 	background-color: var(--color-bg);
+    overflow-y: scroll;
 }
 
 #content-contact{
     width: 100%;
     /*max-width: 643px;*/
     height: 100%;
-	background-color: rgb(206, 150, 31);
+	/* background-color: rgb(206, 150, 31); */
+    background-color: var(--color-bg);
+    overflow-y: scroll;
 }
 
 #content-blog::-webkit-scrollbar {

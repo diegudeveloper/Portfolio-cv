@@ -224,7 +224,7 @@
 }
 
 .inside-content .box-information {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     padding-top: 10px;
@@ -232,6 +232,7 @@
     color: #FFFFFF8C;
     text-align: initial;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .inside-content .box-information .information-aboutme-left {
