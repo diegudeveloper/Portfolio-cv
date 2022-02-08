@@ -86,7 +86,7 @@
 }
 
 .container-information .content .containerResumenAll .containerLeftResumen {
-    width: 46%;
+    width: 48%;
     display: flex;
     flex-direction: column;
 }
@@ -101,7 +101,7 @@
 }
 
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date   {
-    width:32%;
+    width:70%;
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid rgb(206, 150, 31);
@@ -124,6 +124,7 @@
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .description {
     font-size: 1.5rem;
     color: #FFFFFF8C;
+    text-align: start;
 }
 
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate {
@@ -178,11 +179,11 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start
 }
 
 .container-information .content .containerResumenAll .containerRightResumen .resumen_education .date   {
-    width:32%;
+    width:70%;
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid rgb(206, 150, 31);
@@ -210,7 +211,6 @@
 .container-information .content .containerResumenAll .containerRightResumen .resumen_education .certificate {
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 5px;
     margin-bottom: 30px;

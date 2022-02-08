@@ -55,10 +55,11 @@
 .container-information .content .inside-content .container_proyects .container-left .card .img_card img {
     width: 100%;
     transition: all .9s ease;
+    
 }
 
 .container-information .content .inside-content .container_proyects .container-left .card .img_card img:hover {
-    transform:scale(1.2)
+    transform:scale(1.2);
 }
 
 .container-information .content .inside-content .container_proyects .container-left .card .description_card  {
@@ -84,6 +85,11 @@
     color: #EEEEEE;
     font-size: 1.7em;
     font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+.container-information .content .inside-content .container_proyects .container-left .card .description_card .codigo a:hover {
+    color: var(--color-primary);
 }
 
 .container-information .content .inside-content .container_proyects .container-left .card .description_card .link {
@@ -152,4 +158,9 @@
     color: #EEEEEE;
     font-size: 1.7em;
     font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+.container-information .content .inside-content .container_proyects .container-rigth .card .description_card .codigo a:hover {
+    color: var(--color-primary);
 }
