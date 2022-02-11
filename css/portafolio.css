@@ -24,15 +24,16 @@
 
 .container-information .content .inside-content .container_proyects .container-left {
     width: 50%;
+    /* border-right: 1px solid #ccc; */
 }
 
-.vertical { 
+/* .vertical { 
     width: 1px;
     border: 0;
     height: auto;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
 
-}
+} */
 
 .container-information .content .inside-content .container_proyects .container-left .card {
     max-width: 230px;
