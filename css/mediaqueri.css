@@ -116,8 +116,8 @@
     .container-main .container-full .container-menu .menu-container button {
         padding: 0 5px;
         flex: 1;
-        height: 100%;
-        border-right: 1px solid rgba(204, 204, 204, 0.200);
+        height: 60%;
+        border-right: 1px solid rgba(204, 204, 204, 0.100);
     }
 
     .container-main .container-full .container-header {
@@ -144,15 +144,6 @@
 
        
 
-
-
-
-
-
-
-
-
-
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
         width: 250px;
     }
@@ -162,6 +153,32 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    
+@media screen and (max-width: 450px) {
+
+    .inside-content .box-information {
+        flex-wrap: wrap;
+    }
+    .inside-content .box-information .information-aboutme-right {
+        width: 90%;
+    }
+
+    .inside-content .box-information .information-aboutme-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
+    width: 90%;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.100);
+    margin-bottom: 30px;
+    }
+    .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date {
+        width: 50%;
+    }
+    .container-information .content .inside-content .container_proyects .container-left .card {
+        width: 90%;
+    }
+    .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
+        width: 100%;
+        
+    }
 }

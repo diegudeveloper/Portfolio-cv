@@ -23,7 +23,9 @@
 }
 
 .container-information .content .inside-content .container_proyects .container-left {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     /* border-right: 1px solid #ccc; */
 }
 
@@ -36,6 +38,7 @@
 } */
 
 .container-information .content .inside-content .container_proyects .container-left .card {
+    width: 48%;
     max-width: 230px;
     height: auto;
     /*border: 1px solid #fff;*/

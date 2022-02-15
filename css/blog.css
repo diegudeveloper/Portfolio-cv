@@ -14,19 +14,21 @@
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
-    width: 320px;
+    width: 48%;
     height: auto;
     margin-bottom: 20px;
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog {
     width: 100%;
-    height: 100%;
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog img {
