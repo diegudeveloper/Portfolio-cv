@@ -179,6 +179,8 @@
     }
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
         width: 100%;
-        
+    }
+    #content-portfolio, #content-blog {
+        overflow-y: initial;
     }
 }
