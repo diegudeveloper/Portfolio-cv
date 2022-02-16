@@ -183,4 +183,12 @@
     #content-portfolio, #content-blog {
         overflow-y: initial;
     }
+    form input {
+        width: 100%;
+    }
+    .container_form .btn-enviar {
+        border: 1px solid var(--color-primary);
+        padding: 5px 10px;
+        cursor: pointer;
+    }
 }
