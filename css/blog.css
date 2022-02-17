@@ -8,7 +8,6 @@
 
 .container-information .content .inside-content .containerFullBlog {
     width: 100%;
-    height: 100%;
     margin-top: 20px;
     display: flex;
 }
@@ -17,22 +16,27 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
     width: 48%;
-    height: auto;
+    max-width: 230px;
+    height: 350px;
     margin-bottom: 20px;
+    border: 1px solid rgba(251, 177, 59, 0.200);
+    box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
+    margin: 0px auto 40px;
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog {
     width: 100%;
+    overflow: hidden;
 }
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog img {
-    width: 250px;
+    /* width: 250px; */
+    width: 100%;
     height: 124px;
     object-fit: cover;
 }

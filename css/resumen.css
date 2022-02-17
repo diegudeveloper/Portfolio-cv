@@ -12,11 +12,12 @@
     align-items: center;
     padding-left: 30px;*/
 
-    width: 70%;
+    width: 90%;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1PX solid rgba(204, 204, 204, 0.200);
 }
 
 .container-information .content .text_resumen h2 {
@@ -102,13 +103,22 @@
 }
 
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date   {
-    width:70%;
+    width:45%;
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid rgb(206, 150, 31);
     color: var(--color-primary);
     padding: 2px;
 }
+
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .dateOld {
+    border: 1px solid #ccc;
+    color: #ccc;
+    text-align: left;
+} 
+
+
+
 
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .university {
     margin-top: 10px;

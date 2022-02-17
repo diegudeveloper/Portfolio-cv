@@ -158,6 +158,15 @@ html {
     overflow-y: scroll;
 }
 
+#content-contact::-webkit-scrollbar {
+    width: 5px;
+}
+
+#content-contact::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF8C;
+    border-radius: 5px;
+}
+
 #content-blog::-webkit-scrollbar {
     width: 5px;
 }

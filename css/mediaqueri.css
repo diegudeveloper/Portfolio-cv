@@ -137,7 +137,7 @@
         margin: 0 auto;        
     }
 
-    #content-about, #content-resumen, #content-portfolio {
+    #content-about, #content-resumen, #content-portfolio, #content-blog {
         position: initial;
         border-bottom: 1px solid rgba(204, 204, 204, 0.200);
     }
@@ -179,6 +179,8 @@
     }
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
         width: 100%;
+        max-width: 230px;
+        overflow: hidden;
     }
     #content-portfolio, #content-blog {
         overflow-y: initial;
@@ -190,5 +192,9 @@
         border: 1px solid var(--color-primary);
         padding: 5px 10px;
         cursor: pointer;
+    }
+
+    .container-information .content .inside-content .containerFullBlog .blogLetf {
+        justify-content: center;
     }
 }
