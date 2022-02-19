@@ -93,17 +93,53 @@
     align-items: center;
 }
 
+.container-information .content .containerResumenAll .containerLeftResumen ul {
+    width: 100%;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
-    width: 49%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    border: 1px solid rgba(251, 177, 59, 0.2);
+    box-shadow: rgb(0 0 0 / 30%) -10px -10px 5px 0px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
 }
 
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    /* border: 2px solid #0bb5f4; */
+    border: 2px solid var(--color-primary);
+} 
+
+.container-information .content .containerResumenAll .containerLeftResumen .resumen_education::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 235px;
+    background-color: var(--color-primary);
+}
+
+
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date   {
-    width:45%;
+    width:35%;
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid rgb(206, 150, 31);
@@ -114,7 +150,6 @@
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .dateOld {
     border: 1px solid #ccc;
     color: #ccc;
-    text-align: left;
 } 
 
 
@@ -169,12 +204,12 @@
     transition: all .9s ease;
 }
 
-.container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate .fa-award:hover {
+/* .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .certificate .fa-award:hover {
     display: block;
     transition: all .9s ease;
     transform:scale(1.8);
     cursor: pointer;
-}
+} */
 
 /*.container-information .content .containerResumenAll .containerRightResumen {
     width: 45%;

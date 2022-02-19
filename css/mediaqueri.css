@@ -167,12 +167,12 @@
         margin-bottom: 30px;
     }
     .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
-    width: 90%;
+    width: 100%;
     border-bottom: 1px solid rgba(204, 204, 204, 0.100);
     margin-bottom: 30px;
     }
     .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date {
-        width: 50%;
+        width: 70%;
     }
     .container-information .content .inside-content .container_proyects .container-left .card {
         width: 90%;
