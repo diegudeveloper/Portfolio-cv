@@ -1,8 +1,6 @@
 @media screen and (max-width: 1024px) {
     .container-main {
-        
         position: relative;
-        /*height: 280vh;*/
         height: 510vh;
         border: none;
     }
@@ -40,13 +38,10 @@
 
     .container-main .container-full .container-information {
         height: auto;
-        /* position: absolute; */
         left: 16%;
         max-width: 580px;
         max-height: auto;
         border-radius: 5px;
-        /* overflow: initial; */
-        /* flex-direction: column; */
     }
 
     .content {
@@ -73,8 +68,6 @@
     .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
         width: 250px;
     }
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -108,7 +101,6 @@
         margin: 0 auto;
         display: flex;
         flex-direction: row;
-        /* padding: 10px 15px; */
         margin-bottom: 30px;
         border-radius: 10px;
     }
@@ -125,7 +117,6 @@
         height: 765px;
         position: initial;
         width: 90%;
-        /* max-width: 397px; */
         margin: 0 auto;
         margin-bottom: 30px;
     }
@@ -141,8 +132,6 @@
         position: initial;
         border-bottom: 1px solid rgba(204, 204, 204, 0.200);
     }
-
-       
 
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
         width: 250px;
@@ -167,9 +156,9 @@
         margin-bottom: 30px;
     }
     .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
-    width: 100%;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.100);
-    margin-bottom: 30px;
+        width: 100%;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.100);
+        margin-bottom: 30px;
     }
     .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date {
         width: 70%;
