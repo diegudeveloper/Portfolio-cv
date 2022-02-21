@@ -150,3 +150,7 @@
     text-decoration: none;
     color: var(--color-primary)
 }
+
+.container-information .content .inside-content .blogText .suceda {
+    color: var(--color-primary)
+}
