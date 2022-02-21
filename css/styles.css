@@ -121,6 +121,21 @@ body {
 	background-color: var(--color-bg);
     overflow-y: scroll;
 }
+
+#content_blog_01 {
+    width: 100%;
+    height: 100%;
+	background-color: var(--color-bg);
+    overflow-y: scroll;
+}
+#content_blog_01::-webkit-scrollbar {
+    width: 5px;
+}
+#content_blog_01::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF8C;
+    border-radius: 5px;
+}
+
 #content-contact{
     width: 100%;
     height: 100%;

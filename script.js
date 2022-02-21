@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	const divAbout = document.getElementById('content-about');
 	const divResumen = document.getElementById('content-resumen');
 	const divBlog = document.getElementById('content-blog');
+
+	const btnBlog01 = document.getElementById('btn_B01');
+	const divB01 = document.getElementById('content_blog_01');
+
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
 
@@ -60,6 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	btnContact.addEventListener('click', () => {
 		open(btnContact, divContact);
 		// console.log('open', btnContact, divContact);
+	});
+
+	btnBlog01.addEventListener('click', () => {
+		open(btnBlog01,divB01 )
 	});
 });
 

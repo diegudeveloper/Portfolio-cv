@@ -10,9 +10,22 @@
     flex-wrap: wrap;
     justify-content: space-between;    
 }
-
+.container-information .content .inside-content .containerFullBlog .blogLetf .link_card {
+    text-decoration: none;
+    width: 100%;
+    max-width: 230px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(251, 177, 59, 0.200);
+    box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
+    margin: 0px auto 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--color-bg);
+    cursor: pointer;
+}
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
-    width: 48%;
+    width: 100%;
     max-width: 230px;
     height: 350px;
     margin-bottom: 20px;
@@ -22,6 +35,10 @@
     border-radius: 5px;
     overflow: hidden;
 }
+.container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft:hover > .title-blog {
+    color: var(--color-primary);
+}
+
 
 .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft .containerImg-blog {
     width: 100%;
@@ -57,4 +74,74 @@
     margin: 0 auto;
     font-size: 1.3rem;
     color: #FFFFFF8C;
+}
+
+/*post*/
+
+.container-information .content .inside-content .blog-title {
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-information .content .inside-content .blog-title .blog {
+    width: 100%;
+    font-size: 2rem;
+    color: #EEEEEE;
+    text-align: left;
+}
+
+.container-information .content .inside-content .blog-title .blog .colorletter {
+    color: rgb(206, 150, 31);
+}
+
+.container-information .content .inside-content .text_blog {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.container-information .content .inside-content .text_blog h1 {
+    width: 100%;
+    text-align: start;
+    color: #EEEEEE;
+}
+
+.container-information .content .inside-content .text_blog .data {
+    width: 100%;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    margin-right: 5px;
+    display: flex;
+}
+
+.container-information .content .inside-content .blog_img {
+   width: 100%;
+   height: 300px;
+   overflow: hidden;
+   margin-top: 30px;
+}
+
+.container-information .content .inside-content .blog_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-information .content .inside-content .blogText {
+    width: 100%;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #EEEEEE;
+    text-align: start;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    line-height: 2.5rem;
 }
