@@ -70,14 +70,14 @@
 .container-information .content .containerResumenAll .containerLeftResumen {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 .container-information .content .containerResumenAll .containerLeftResumen ul {
-    width: 100%;
+    width: 75%;
     padding-left: 40px;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
     width: 100%;

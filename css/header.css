@@ -104,9 +104,15 @@
     position: relative;
     z-index: 100;
 
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
+    
+
+    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
     -moz-box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
-    box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);
+    box-shadow: 10px 10px 5px 0px rgba(251, 177, 59, 0.300);  */
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%); 
     
 }
 
