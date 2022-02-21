@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const btnBlog01 = document.getElementById('btn_B01');
 	const divB01 = document.getElementById('content_blog_01');
+	const btnBlog02 = document.getElementById('btn_B02');
+	const divB02 = document.getElementById('content_blog_02');
+
 
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
@@ -68,6 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	btnBlog01.addEventListener('click', () => {
 		open(btnBlog01,divB01 )
+	});
+	btnBlog02.addEventListener('click', () => {
+		open(btnBlog02,divB02 )
 	});
 });
 
