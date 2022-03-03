@@ -1,8 +1,12 @@
 :root {
-    --color-primary: #FBB03B;
-    --color-secundary: #1A1A1A;
-    --color-bg: #31313a;
-    --bg-color: rgba(251, 177, 59, 0.205);
+    --color-primary:    #FBB03B;
+    --color-secundary:  #1A1A1A;
+    --color-bg:         #31313a;
+    --bg-color:         rgba(251, 177, 59, 0.205);
+
+    --color-font:       #EEEEEE;
+    --color-font-dark:  #FFFFFF8C;
+    --color-line:       rgba(238, 238, 238, 0.300);
 }
 
 * {
@@ -16,6 +20,7 @@ html {
 }
 body {
     height: auto;
+    font-family: 'Poppins', sans-serif;
 }
 .container-main {
     width: 100%;
@@ -24,6 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
     background: #17171b !important;
     background: -webkit-linear-gradient(top left,#17171b 0%,#28282f 100%) !important;
     background: linear-gradient(to bottom right,#17171b 0%,#28282f 100%) !important;
@@ -48,7 +54,7 @@ body {
 .container-information {
     width: 100%;
     height: 95%;
-    border-radius: 0 3px 3px 0;
+    /* border-radius: 0 3px 3px 0; */
     position: relative;
 }
 .content{
@@ -81,6 +87,7 @@ body {
     height: 100%;
     background-color: var(--color-bg);
     overflow-y: scroll;
+    margin-bottom: 2rem;
 }
 #content-about::-webkit-scrollbar {
     width: 5px;
@@ -94,6 +101,7 @@ body {
     height: 100%;
 	background-color: var(--color-bg);
     overflow-y: scroll;
+    margin-bottom: 2rem;
 }
 #content-resumen::-webkit-scrollbar {
     width: 5px;
@@ -107,6 +115,7 @@ body {
     height: 100%;
 	background-color: var(--color-bg);
     overflow-y: scroll;
+    margin-bottom: 2rem;
 }
 #content-portfolio::-webkit-scrollbar {
     width: 5px;
@@ -120,44 +129,8 @@ body {
     height: 100%;
 	background-color: var(--color-bg);
     overflow-y: scroll;
+    margin-bottom: 2rem;
 }
-
-/****POST****/
-
-#content_blog_01 {
-    width: 100%;
-    height: 100%;
-	background-color: var(--color-bg);
-    overflow-y: scroll;
-}
-#content_blog_01::-webkit-scrollbar {
-    width: 5px;
-}
-#content_blog_01::-webkit-scrollbar-thumb {
-    background-color: #FFFFFF8C;
-    border-radius: 5px;
-}
-
-#content_blog_02 {
-    width: 100%;
-    height: 100%;
-	background-color: var(--color-bg);
-    overflow-y: scroll;
-}
-#content_blog_02::-webkit-scrollbar {
-    width: 5px;
-}
-#content_blog_02::-webkit-scrollbar-thumb {
-    background-color: #FFFFFF8C;
-    border-radius: 5px;
-}
-
-
-
-
-
-
-
 #content-contact{
     width: 100%;
     height: 100%;
@@ -178,4 +151,21 @@ body {
 #content-blog::-webkit-scrollbar-thumb {
     background-color: #FFFFFF8C;
     border-radius: 5px;
+}
+#container_title {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid var(--color-line);
+}
+#title {
+    width: 100%;
+    font-size: 2rem;
+    color: #EEEEEE;
+    text-align: left;
+}
+.colorletter {
+    color: var( --color-primary);
 }

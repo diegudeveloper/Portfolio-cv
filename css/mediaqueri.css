@@ -18,10 +18,10 @@
         height: 91%;
     }
 
-    .container-main .container-full .container-menu .menu-container {
+    /* .container-main .container-full .container-menu .menu-container {
         height: 90%;
         margin-left: 30px;
-    }
+    } */
 
     .container-main .container-full .container-header {
         position: absolute;
@@ -42,7 +42,7 @@
         left: 16%;
         max-width: 580px;
         max-height: auto;
-        border-radius: 5px;
+        /* border-radius: 5px; */
     }
 
     .content {
@@ -92,10 +92,10 @@
     .container-main .container-full .container-menu {
         width: 100%;
         height: 72px;
-        margin-bottom: 20px;
+        margin-bottom: 2rem
     }
 
-    .container-main .container-full .container-menu .menu-container {
+    /* .container-main .container-full .container-menu .menu-container {
         position: initial;
         width: 100%;
         height: 100%;
@@ -104,14 +104,14 @@
         flex-direction: row;
         margin-bottom: 30px;
         border-radius: 10px;
-    }
+    } */
 
-    .container-main .container-full .container-menu .menu-container button {
+    /* .container-main .container-full .container-menu .menu-container button {
         padding: 0 5px;
         flex: 1;
         height: 60%;
         border-right: 1px solid rgba(204, 204, 204, 0.100);
-    }
+    } */
 
     .container-main .container-full .container-header {
         top: 100px;
@@ -119,7 +119,7 @@
         position: initial;
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
     }
 
     .container-main .container-full .container-information {
@@ -131,7 +131,7 @@
 
     #content-about, #content-resumen, #content-portfolio, #content-blog {
         position: initial;
-        border-bottom: 1px solid rgba(204, 204, 204, 0.200);
+        /* border-bottom: 1px solid rgba(204, 204, 204, 0.200); */
     }
 
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
