@@ -44,6 +44,10 @@ input:nth-child(3) {
     display: block;    
 }
 
+.container_form {
+    margin-top: 3rem;
+}
+
 .container_form .btn-enviar {
     font-size: 14px;
     color: #EEEEEE;

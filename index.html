@@ -31,36 +31,24 @@
                         <i class="fas fa-2x fa-home mhome"></i>
                         <span class="textmenu">Home</span>
                     </button>
-
-                    <hr class="linea_horizontal">
-
                     <button id="btn-about" class="menu-btn">
-                        <i class="fas fa-2x fa-user"></i>
+                        <i class="fas fa-2x fa-user mhome"></i>
                         <span class="textmenu"><span>About</span> Me</span>
                     </button>
-                    <hr class="linea_horizontal">
-
                     <button id="btn-resumen" class="menu-btn">
-                        <i class="fas fa-2x fa-graduation-cap"></i>
+                        <i class="fas fa-2x fa-graduation-cap mhome"></i>
                         <span class="textmenu">Resume</span>
                     </button>
-                    <hr class="linea_horizontal">
-
                     <button id="btn-portfolio" class="menu-btn">
-                        <i class="fas fa-2x fa-briefcase"></i>
+                        <i class="fas fa-2x fa-briefcase mhome"></i>
                         <span class="textmenu">Portfolio</span>
                     </button>
-
-                    <hr class="linea_horizontal">
-
                     <button id="btn-blog" class="menu-btn">
-                        <i class="fas fa-2x fa-id-card"></i>
+                        <i class="fas fa-2x fa-id-card mhome"></i>
                         <span class="textmenu">Blog</span>
-                    </button>
-
-                    <hr class="linea_horizontal">
+                    </button>                    
                     <button id="btn-contact" class="menu-btn">
-                        <i class="fas fa-2x fa-mail-bulk"></i>
+                        <i class="fas fa-2x fa-mail-bulk mhome"></i>
                         <span class="textmenu">Contact</span>
                     </button>
                 </nav>
@@ -249,11 +237,11 @@
                 </div>
                 <div id="content-portfolio" class="content closed">
                     <div class="inside-content">
-                        <div class="container_main">
-                            <h2><span class="colorletter">P</span>royectos</h2>
+                        <div class="container_main" id="container_title">
+                            <h2 id="title"><span class="colorletter">P</span>royectos</h2>
                         </div>
                         <div class="container_proyects">
-                            <div class="container-left">
+                            <div class="container-proyectos">
                                 <div class="card">
                                     <div class="img_card">
                                         <a href="https://diegudeveloper.github.io/Html_css_js_Travel_Agency/" target="_blank"><img src="assets/img/proyectos/P01.png" alt=""></a>
@@ -332,13 +320,13 @@
                 </div>
                 <div id="content-blog" class="content closed">
                     <div class="inside-content">
-                        <div class="about-title">
-                            <h2 class="aboutme"><span class="colorletter">B</span>log</h2>
+                        <div class="about-title" id="container_title">
+                            <h2 id="title"><span class="colorletter">B</span>log</h2>
                         </div>
                         <div class="containerFullBlog">
-                            <div class="blogLetf"> 
+                            <div class="blog"> 
                                 <button class="link_card" id="btn_B01" >
-                                    <div class="cardLeft">
+                                    <div class="card_blog">
                                         <div class="containerImg-blog">
                                             <img src="assets/img/Blog/01.jpg" alt="">
                                         </div>
@@ -356,7 +344,7 @@
                                     </div>
                                 </button>
                                 <button class="link_card" id="btn_B02">
-                                    <div class="cardLeft">
+                                    <div class="card_blog">
                                         <div class="containerImg-blog">
                                             <img src="assets/img/Blog/02.jpg" alt="">
                                         </div>
@@ -372,22 +360,24 @@
                                         </p>
                                     </div>                           
                                 </button>
-                                <div class="cardLeft">
-                                    <div class="containerImg-blog">
-                                        <img src="assets/img/Blog/03.jpg" alt="">
-                                    </div>
-                                    <div class="containerText-blog">
-                                        <h3 class="date">
-                                            10/10/2021
-                                        </h3>
-                                        <h2 class="title-blog">
-                                            ¿Qué harías de tu vida si el dinero no importara? 
-                                        </h2>
-                                        <p>
-                                            ¿Nunca te has hecho esa pregunta? debo confesar que cuando la escuche me quede atonico y creeme!...
-                                        </p>
+                                <button class="link_card" id="btn_B02">
+                                    <div class="card_blog">
+                                        <div class="containerImg-blog">
+                                            <img src="assets/img/Blog/03.jpg" alt="">
+                                        </div>
+                                        <div class="containerText-blog">
+                                            <h3 class="date">
+                                                10/10/2021
+                                            </h3>
+                                            <h2 class="title-blog">
+                                                ¿Qué harías de tu vida si el dinero no importara? 
+                                            </h2>
+                                            <p>
+                                                ¿Nunca te has hecho esa pregunta? debo confesar que cuando la escuche me quede atonico y creeme!...
+                                            </p>
+                                        </div> 
                                     </div> 
-                                </div>                          
+                                </button>                         
                             </div>                            
                         </div> 
                     </div>
@@ -395,24 +385,24 @@
                 <div id="content-contact" class="content closed">
                     <div class="inside-content">
                         <div class="inside">
-                            <div class="about-title">
-                                <h2 class="aboutme"><span class="colorletter">E</span>scribeme</h2>
+                            <div id="container_title">
+                                <h2 id="title"><span class="colorletter">E</span>scribeme</h2>
                             </div>
                         <div class="container_map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206731.31028550724!2d14.238266587691946!3d35.94264659204599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e45281d8647c5%3A0xf582d86136be4239!2sMalta!5e0!3m2!1ses-419!2smt!4v1644246546394!5m2!1ses-419!2smt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="box-information">
                             <div class="information-aboutme-left">
-                                <div class="age"><span class="color-inf">Adress: </span>Malta</div><br>
-                                <div class="Residence"><span class="color-inf">E-mail: </span>diegudeveloper@gmail.com</div>
+                                <div class="age"><span class="colorletter">Adress: </span>Malta</div><br>
+                                <div class="Residence"><span class="colorletter">E-mail: </span>diegudeveloper@gmail.com</div>
                             </div>
                             <div class="information-aboutme-right">
-                                <div class="age"><span class="color-inf">FREELANCE: </span>Available</div>
-                                <div class="correo"><span class="color-inf"></span></div>
+                                <div class="age"><span class="colorletter">Freelace: </span>Available</div>
+                                <div class="correo"><span class="colorletter"></span></div>
                             </div>
                         </div>
-                        <div class="about-title">
-                            <h2 class="aboutme"><span class="colorletter">E</span>scribeme</h2>
+                        <div id="container_title">
+                            <h2 id="title"><span class="colorletter">E</span>scribeme</h2>
                         </div>
                         <div class="container_form">
                             <form action="">

@@ -14,31 +14,41 @@
     justify-content: space-evenly;
 }
 .menu-container button {
+    width: 100%;
     background-color: var(--color-bg);
     border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #EEEEEE;
+    color: var(--color-font);
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
+    flex: 1;
+    border-bottom: 1px solid var(--color-line);
 }
 .menu-btn{
     cursor: pointer;
     transition: all ease 0.15s;
 }
 .menu-btn:hover,
-.menu-btn:focus{
+.menu-btn:focus > {
     color: #aaa !important;
-    transform: scale(1.1);
+
 }
+.menu-btn .mhome {
+    transition: ease 0.3s all;
+}
+.menu-btn .mhome:hover {
+    transform: scale(1.2);
+    color: var(--color-primary);
+} 
 
 /*mediaqueri*/
 
 @media screen and (max-width: 1024px) {
     .menu-container {
-        height: 90%;
+        height: 100%;
         margin-left: 30px;
     }
 }
