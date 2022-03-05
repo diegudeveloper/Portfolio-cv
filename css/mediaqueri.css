@@ -55,15 +55,6 @@
         opacity: 1;
     }
 
-    /*blog*/
-
-    /* .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
-        width: 250px;
-    } */
-
-    /* .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
-        width: 250px;
-    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -89,24 +80,6 @@
         height: 72px;
         margin-bottom: 2rem
     }
-
-    /* .container-main .container-full .container-menu .menu-container {
-        position: initial;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 30px;
-        border-radius: 10px;
-    } */
-
-    /* .container-main .container-full .container-menu .menu-container button {
-        padding: 0 5px;
-        flex: 1;
-        height: 60%;
-        border-right: 1px solid rgba(204, 204, 204, 0.100);
-    } */
 
     .container-main .container-full .container-header {
         top: 100px;
@@ -145,31 +118,32 @@
 
     .inside-content .box-information {
         flex-wrap: wrap;
+        line-height: 4rem;
     }
-    .inside-content .box-information .information-aboutme-right {
+    /* .inside-content .box-information .information-aboutme-right {
         width: 90%;
-    }
+    } */
 
-    .inside-content .box-information .information-aboutme-left {
+    /* .inside-content .box-information .information-aboutme-left {
         width: 100%;
         margin-bottom: 30px;
-    }
-    .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
+    } */
+    /* .container-information .content .containerResumenAll .containerLeftResumen .resumen_education {
         width: 100%;
         border-bottom: 1px solid rgba(204, 204, 204, 0.100);
         margin-bottom: 30px;
-    }
-    .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date {
+    } */
+    /* .container-information .content .containerResumenAll .containerLeftResumen .resumen_education .date {
         width: 70%;
-    }
-    .container-information .content .inside-content .container_proyects .container-left .card {
+    } */
+    /* .container-information .content .inside-content .container_proyects .container-left .card {
         width: 90%;
-    }
-    .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
+    } */
+    /* .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
         width: 100%;
         max-width: 230px;
         overflow: hidden;
-    }
+    } */
     #content-portfolio, #content-blog {
         overflow-y: initial;
     }
@@ -182,7 +156,7 @@
         cursor: pointer;
     }
 
-    .container-information .content .inside-content .containerFullBlog .blogLetf {
+    /* .container-information .content .inside-content .containerFullBlog .blogLetf {
         justify-content: center;
-    }
+    } */
 }
