@@ -3,7 +3,7 @@
     max-width: 480px;
     height: 95%;
     max-height: 674px;
-    /* border: 1px solid var(--color-secundary); */
+    border: 1px solid var(--color-secundary);
     border-radius: 3px;
     margin-left: 8px;
     position: relative;
