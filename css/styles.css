@@ -132,7 +132,7 @@ body {
     height: 100%;
 	/* background-color: rgb(206, 150, 31); */
     background-color: var(--color-bg);
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 #content-contact::-webkit-scrollbar {
     width: 5px;

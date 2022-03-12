@@ -6,63 +6,63 @@
     margin-top: 30px;
 }
 
-.container_map iframe {
+.mainConcta {
     width: 100%;
-    height: 200px;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-form {
-    display: flex;
-    flex-wrap: wrap;
+
+.btn_contact {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    color: var(--color-font);
+    margin-top: 1rem;
+    display: inline-block;
+    padding-top: 5px;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid var(--color-primary);
+    transition: all 0.3s ease;
+    
+  
+    /* box-shadow: var(--box-shadow); */
+}
+
+.btn_contact:hover {
+    box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.btn1 {
+    width: 70%;
+}
+
+.btn123 {
+    width: 30%;
     
 }
 
-form input {
-    width: 48%;
-    height: 40px;
-    margin-bottom: 30px;
-    background: none;
-    border: none;
-    outline: 0px;
-    border-bottom: 1px solid #cccc;
-    margin-right: 10px;
-}
-
-form input:focus {
-    border-bottom: 1px solid var(--color-primary);
-    color: #fff;
-}
-
-:focus::-webkit-input-placeholder {
-    color: #fff;
-    opacity: 0.8;
+.btn12 {
+    width: 40%;
+    
 } 
 
-input:nth-child(3) {
-    resize: none;
-    width: 100%;
-    display: block;    
-}
-
-.container_form {
-    margin-top: 3rem;
-}
-
-.container_form .btn-enviar {
-    font-size: 14px;
-    color: #EEEEEE;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.container_form .fas {
-    font-size: 1.5rem;
-    display: inline;
-    width: 10%;
-    margin-left: 10px;
-    margin-bottom: 30px;
-}
-
-.container_form .btn-enviar:hover {
-    color: var(--color-primary);
+@media screen and (min-width: 1024px) {
+    .mainConcta {
+        height: 500px;
+    }
+    .btn_contact {
+        height: 5rem;
+        padding-top: 15px;
+        margin-bottom: 1rem;
+    }
+    .main_btn {
+        width: 70%;
+    };
 }
