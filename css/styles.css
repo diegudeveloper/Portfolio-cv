@@ -26,6 +26,7 @@
   padding: 0;
 }
 html {
+  /* No entiendo el objetivo de setear asi el tamaño general de la fuente */
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
 }
@@ -36,6 +37,8 @@ body {
 .container-main {
   width: 100%;
   height: 100vh;
+
+  /* Si ya estas usando variables para los colores NO LO CAMBIES, que tal si despues quieres cambiar estos colores o si quieres añadir un tema claro ? */
   border: 5px solid #000;
   display: flex;
   justify-content: center;

@@ -30,6 +30,7 @@
                     </button>
                     <button id="btn-about" class="menu-btn">
                         <i class="fas fa-2x fa-user mhome"></i>
+                        <!-- * Porque usas estos dos Span aqui? no tiene sentido, puedes hacerlo con uno -->
                         <span class="textmenu"><span>About</span> Me</span>
                     </button>
                     <button id="btn-resumen" class="menu-btn">
@@ -62,6 +63,7 @@
                         <h1 class="name-me">Diego Gutiérrez</h1>
                         <h2 class="ocupation">Frontend - Developer</h2>
                         <div class="social-media">
+                            <!-- Estos iconos deberian cambiar el cursor tambien si es que funcionan como botones, sino no les veo el uso donde estan -->
                             <i class="fab fa-github icongithub"></i>                    
                             <i class="fab fa-linkedin-in"></i>                           
                             <i class="fab fa-codepen"></i>                           
@@ -71,11 +73,16 @@
                     <div class="footer-header">
                         <div class="download">
                             <div class="cvdownload">
+
+                                <!-- Mismo problema aqui, estas usando mas etiquetas de las necesarias, esto no va a afectar el rendimiento
+                                    pero igualmente es innecesario No necesitas el span ni el h3, cambia todo con CSS y has tu propio estilo-->
                                 <a href="#"><span><i class="fas fa-download"></i></span><h3>Download</h3></a>
                             </div>
                         </div>
                         <div class="contact-me">
                             <div class="contactme">
+                                <!-- Mismo problema aqui, estas usando mas etiquetas de las necesarias, esto no va a afectar el rendimiento
+                                    pero igualmente es innecesario No necesitas el span ni el h3, cambia todo con CSS y has tu propio estilo-->
                                 <a href="#"><span><i class="fas fa-paper-plane"></i></span><h3>Contact Me</h3></a>
                             </div>
                         </div>
@@ -86,6 +93,7 @@
                 <div id="content-home" class="content open ">
                     <div class="inside-content logo_diegu">
                         <picture class="conta-logo">
+                            <!-- aqui tienes que poner un alt, todas las imagenes lo deben llevar eso es parte del SEO y es para las personas debiles visuales -->
                             <img src="assets/logo/Recurso 60.svg" class="logo" alt="">
                         </picture>
                     </div>
@@ -93,8 +101,13 @@
                 <div id="content-about" class="content closed">
                     <div class="inside-content">
                         <div class="about-title" id="container_title">
+                            <!-- Este sistema que usas para colorear la primera letra esta bastante interesante pero tiene un problema GRANDE y es la internacionalizacion
+                            si en algun momento quieres añadir otro idioma a tu pagina es tremendo problema ! mejor es poner todo el texto junto de esa forma puedes
+                        mas adelante sacarlo de variables de javascript para internacionalizar ademas para el efecto de color que usas esta el pseudo elemento de css
+                    ::first-letter que te permite poner un estilo a la primera letra de un texto-->
                             <h2 class="aboutme" id="title"><span class="colorletter">S</span>obre mí</h2>
                         </div>
+                        <!-- No es buena idea poner texto suelto en un div mejor usa un span o un p para englovar el texto -->
                         <div class="text-about">Nombre: <span class="colorletter">D</span>iego <span class="colorletter">G</span>utiérrez.
                             <p class="description">
                                 Aprendiz Fronted Developer con más de 15 proyectos personales y en crecimiento.<br><br>
@@ -241,6 +254,7 @@
                             <div class="container-proyectos">
                                 <div class="card">
                                     <div class="img_card">
+                                        <!-- vuelves a repetir imagenes sin alt -->
                                         <a href="https://diegudeveloper.github.io/Html_css_js_Travel_Agency/" target="_blank"><img src="assets/img/proyectos/P01.png" alt=""></a>
                                     </div>
                                     <div class="description_card">
@@ -248,6 +262,7 @@
                                         <div class="codigo">
                                             <a href="https://github.com/diegudeveloper/Html_css_js_Travel_Agency" target="_blank"><i class="fas fa-code-branch"></i></a>
                                         </div>
+                                        <!-- para que es este h5 aqui, por favor dime que no es para crear un espacio! -->
                                         <h5></h5>
                                     </div>
                                 </div>
@@ -382,6 +397,8 @@
                 <div id="content-contact" class="content closed">
                     <div class="inside-content">
                         <div class="inside">
+                            <!-- En esta seccion encuentro el diseño confuso pues parece que debajo de el "Escribeme" hay un input de texto y no es asi, creo que seria buena idea 
+                            centrar los botones verticalmente para que obtengan mas importancia en la pagina ya que lo son todo aqui -->
                             <div id="container_title">
                                 <h2 id="title"><span class="colorletter">E</span>scribeme</h2>
                             </div>
@@ -402,6 +419,7 @@
             </div>
         </div>
     </div>
+    <!-- En general hay muchisimo html en un solo archivo seria mejor que lo dividieras por secciones y pusieras comentarios para saber que parte hace que -->
     <script src="/script.js"></script>
 </body>
 </html>

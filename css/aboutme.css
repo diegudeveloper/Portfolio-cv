@@ -1,34 +1,35 @@
+/* lo mismo de antes. Usa las variables para los colores, al principio parece molesto pero te salva de miles de problemas */
 .aboutme {
-    width: 100%;
-    font-size: 2rem;
-    color: #EEEEEE;
-    text-align: left;
+  width: 100%;
+  font-size: 2rem;
+  color: #eeeeee;
+  text-align: left;
 }
 
 .text-about {
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.6rem;
-    color: #EEEEEE;
-    text-align: justify;
-    font-size: 1.3rem;
-    margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #eeeeee;
+  text-align: justify;
+  font-size: 1.3rem;
+  margin-top: 2rem;
 }
 
 .box-information {
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding-top: 10px;
-    font-size: 1.4rem;
-    color: #FFFFFF8C;
-    text-align: initial;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 10px;
+  font-size: 1.4rem;
+  color: #ffffff8c;
+  text-align: initial;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .information-aboutme {
-    line-height: 3rem;
+  line-height: 3rem;
 }
