@@ -1,3 +1,14 @@
+@import url("/css/menu.css");
+@import url("/css/header.css");
+@import url("/css/information.css");
+@import url("/css/aboutme.css");
+@import url("/css/resumen.css");
+@import url("/css/portafolio.css");
+@import url("/css/blog.css");
+@import url("/css/contact.css");
+@import url("/css/mediaqueri.css");
+
+
 :root {
     --color-primary:    #FBB03B;
     --color-secundary:  #1A1A1A;
