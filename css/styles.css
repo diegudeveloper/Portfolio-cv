@@ -1,11 +1,12 @@
-/* @import "/css/menu.css";
+@import "/css/menu.css";
 @import "/css/header.css";
 @import "/css/information.css";
 @import "/css/aboutme.css";
+@import "/css/resumen.css";
 @import "/css/portafolio.css";
 @import "/css/blog.css";
 @import "/css/contact.css";
-@import "/css/mediaqueri.css"; */
+/* @import "/css/mediaqueri.css"; */
 
 
 :root {
@@ -63,7 +64,7 @@ body {
 }
 .container-information {
     width: 100%;
-    height: 95%;
+    height: 100%;
     position: relative;
 }
 .content{
@@ -74,12 +75,12 @@ body {
 	transition: all 1s ease-out;
 }
 .content.open{    
-	left: 0 !important;
+	right: 0 !important;
 	opacity: 1;
 	z-index: 3;
 }
 .content.closed {
-	left: 100% !important;
+	right: 100% !important;
 	opacity: .3;
 	z-index: 1;
 }
