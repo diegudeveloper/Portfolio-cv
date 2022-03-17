@@ -1,7 +1,7 @@
 .container-header {
     width: 100%;
     max-width: 480px;
-    height: 95%;
+    height: 100%;
     max-height: 674px;
     border: 1px solid var(--color-secundary);
     border-radius: 3px;
