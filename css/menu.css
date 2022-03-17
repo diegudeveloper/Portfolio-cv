@@ -83,5 +83,6 @@
         padding: 0 5px;
         flex: 1;
         height: 60%;
+        border: none;
     }
 }
