@@ -3,6 +3,9 @@
     height: 100%;
     z-index: 100;
 }
+.container-menu .spa {
+    color: white;
+}
 .menu-container {
     width: 74px;
     /* height: 375px; */
