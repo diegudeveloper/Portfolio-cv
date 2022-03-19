@@ -6,6 +6,21 @@
 .container-menu .spa {
     color: white;
 }
+.flags {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.flags_item {
+    width: 30px;
+}
+.flags_img {
+    display: block;
+    cursor: pointer;
+}
 .menu-container {
     width: 74px;
     /* height: 375px; */

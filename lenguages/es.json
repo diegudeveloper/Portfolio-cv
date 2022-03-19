@@ -1,0 +1,10 @@
+{
+   "menu": {
+      "home": "Inicio",
+      "about": "Sobre Mi",
+      "resumen": "Estudios",
+      "portfolio": "Portafolio",
+      "blog": "blog",
+      "contact": "contacto"
+    } 
+}

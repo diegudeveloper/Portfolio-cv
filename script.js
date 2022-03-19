@@ -1,4 +1,32 @@
 "use strict";
+
+	const flagsElement = document.getElementById("flags");
+	const textsToChange = document.querySelectorAll("[data-section]");
+
+	const changeLanguage = async (language) => {
+		const requestJson = await fetch(`./lenguages/${language}.json`);
+		const texts = await requestJson.json();
+
+		for(const textToChange of textsToChange) {
+			const section = textToChange.dataset.section;
+			const value = textToChange.dataset.value;
+
+			textToChange.innerHTML = texts[section][value];
+
+			//console.log(section, value);
+		}
+	};
+
+	flagsElement.addEventListener("click", (e) => {
+		changeLanguage(e.target.parentElement.dataset.language);
+	});
+
+	
+
+	
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
 	const btnHome = document.getElementById('btn-home');
 	const btnAbout = document.getElementById('btn-about');
@@ -13,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
 
+	
 	function checkIfOpen() {
 		let btnActive = document.querySelector('.active');
 		if (btnActive) {
@@ -63,3 +92,5 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 });
+
+	
