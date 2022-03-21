@@ -176,3 +176,7 @@ body {
 .colorletter {
     color: var( --color-primary);
 }
+
+.title::first-letter {
+    color: var(--color-primary);
+}
