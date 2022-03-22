@@ -139,12 +139,10 @@
     border-right: 1px solid var(--color-line);
 }
 
-.cvdownload {
+.cvdownload, .contactme {
     width: 70%;
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-around;
-    align-items: center; */
 }
 
 .cvdownload a {
@@ -152,7 +150,6 @@
     color: #EEEEEE;
     text-decoration: none;
     font-size: 1.3rem;
-    flex: initial;
     flex: 1;
 }
 
@@ -164,60 +161,18 @@
 }
 
 
-/* .footer-header .download .cvdownload a {
-    width: 100%;
+.contactme a {
+    width: 50%;
+    color: #EEEEEE;
     text-decoration: none;
+    font-size: 1.3rem;
+    flex: initial;
+    flex: 1;
+}
+
+.contactme i {
+    width: 20%;
     color: #EEEEEE;
     font-size: 1.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 2rem;
-}
-
-.footer-header .download .cvdownload h3 {
-    font-size: 14px;
-    color: #EEEEEE;
-}
-
-.footer-header .download .cvdownload h3 span img {
-    display: inline;
-    width: 10%;
-    
-} */
-
-.footer-header .contact-me .contactme a {
-    width: 100%;
-    text-decoration: none;
-    color: #EEEEEE;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 2rem;
-}
-
-.footer-header .contact-me .contactme h3 {
-    font-size: 14px;
-    color: #EEEEEE;
-}
-
-.footer-header .contactme span img {
-    display: inline-block;
-    width: 10%;
-    object-fit: cover;
-}
-
-.footer-header .download .cvdownload h3 span .fas {
-    font-size: 1.5rem;
-    display: inline;
-    width: 10%;
-    margin-left: 10px;
-}
-
-.footer-header .contact-me .contactme .fas {
-    font-size: 1.5rem;
-    display: inline;
-    width: 10%;
-    margin-left: 10px;
+    padding-left: 5rem;
 }
