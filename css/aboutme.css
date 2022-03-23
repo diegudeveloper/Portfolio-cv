@@ -1,6 +1,5 @@
 .aboutme {
     width: 100%;
-    font-size: 2rem;
     color: #EEEEEE;
     text-align: left;
 }
@@ -10,11 +9,26 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
     color: #EEEEEE;
     text-align: justify;
-    font-size: 1.3rem;
     margin-top: 2rem;
+}
+
+.container_interest {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.iconInterest {
+    /* width: 20%; */
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+
+.inte {
+    width: 80%;
 }
 
 .box-information {
@@ -22,7 +36,6 @@
     height: auto;
     display: flex;
     padding-top: 10px;
-    font-size: 1.4rem;
     color: #FFFFFF8C;
     text-align: initial;
     margin-top: 2rem;

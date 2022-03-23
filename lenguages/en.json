@@ -20,6 +20,13 @@
     "about-me": {
       "aboutme":"About Me",
       "name": "Name",
-      "description": "Apprentice Fronted Developer with more than 15 personal and growing projects. <br><br> Self-taught and learning Javascript and React to carry out more professional projects. <br><br> True to my core value: #MakeItHappen and convinced that we are part of the community that changes the world, the people who create technology, the people we have always wanted to be but above all becoming the best version of us."
+      "description": "Apprentice Fronted Developer with more than 15 personal and growing projects. <br><br> Self-taught and learning Javascript and React to carry out more professional projects. <br><br> True to my core value: #MakeItHappen and convinced that we are part of the community that changes the world, the people who create technology, the people we have always wanted to be but above all becoming the best version of us.",
+      "residence": "Residence: Malta",
+      "adress": "Adress: Sliema",
+      "E-mail": "E-mail: diegudeveloper@gmail.com",
+      "interests": "Interests",
+      "interests1": "One of the things I enjoy the most is the fact of exploring new gastronomic flavors, it is not the simple fact of eating, it is enjoying the explosion of flavors that you have on your palate, which added to a good drink is a priceless experience.",
+      "interests2": "Another guilty sin is traveling and getting to know new cultures with my wife, adding new knowledge and experiences to our lives is a learning experience that is never forgotten.",
+      "interests3": "As a very visual person I love series and movies, I can spend a whole weekend in my pajamas and ordering take-out so as not to leave the house if I'm in movie onfire mode."
    }
  }
