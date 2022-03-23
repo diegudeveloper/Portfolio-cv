@@ -35,6 +35,14 @@
       "educaction": "Cursos",
       "date": "2021 - Actualmente",
       "certificates": "Certificados"
+   },
+
+   "portfolio": {
+      "portfolia": "Portafolio",
+      "webname1": "Agencia de Viaje - Maquetación",
+      "webname3": "Portafolio - Maquetación",
+      "webname4": "Proyecto API",
+      "webname5": "Web Coffe - Maquetación"
    }
    
 }

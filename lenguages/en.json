@@ -35,5 +35,13 @@
       "educaction": "Education",
       "date": "2021 - Currently",
       "certificates": "Certificates"
-    }
+    },
+
+    "portfolio": {
+      "portfolio": "Portfolio",
+      "webname1": "Travel Agency - Layout",
+      "webname3": "Portfolio - Layout",
+      "webname4": "Project API",
+      "webname5": "Coffe Web - Layout"
+   }
  }
