@@ -7,10 +7,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaqueri.css">
+    <link rel="stylesheet" href="/font-family/Poppins-Black.ttf">
    
     <link rel="stylesheet" href="assets/font-awesome/font-awesome/css/all.css">
 
-    <title>Diego Gutiérrez | Fronten Developer</title>
+    <title>Diego Gutiérrez | Frontend Developer</title>
     <link rel="icon" type="image/ico" href="/assets/favIcon/favicon.ico"/>
 </head>
 <body>
@@ -111,27 +112,35 @@
                         </div>
                         <div class="box-information">
                             <div class="information-aboutme">
-                                <div class="age"><span class="colorletter">Age: </span>40</div>
-                                <div class="Residence"><span class="colorletter">Residence: </span>Malta</div>
-                                <div class="age"><span class="colorletter">Adress: </span>Sliema</div>
-                                <div class="correo"><span class="colorletter">E-mail: </span>diegudeveloper@gmail.com</div>
+                                <p data-section="about-me" data-value="residence">Residencia: Malta</p>
+                                <p data-section="about-me" data-value="adress">Dirección: Sliema</p>
+                                <p data-section="about-me" data-value="E-mail">Correo: diegudeveloper@gmail.com</p>
                             </div>
                         </div>
                         <div class="box-interest">
                             <div class="interest-title">
                                 <div id="container_title">
-                                    <h2 class="titleMain" id="title"><span class="colorletter">I</span>ntereses</h2>
+                                    <h2 class="title" data-section="about-me" data-value="interests" id="title">Intereses</h2>
                                 </div>
                                 <ul class="text-about">
-                                    <p class="inte"><i class="fas fa-utensils colorletter" ></i>
-                                        Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.
-                                    </p><br>
-                                    <p class="inte"><i class="fas fa-suitcase-rolling colorletter"></i>
-                                        Otro pecado culposo es el viajar y conocer nuevas culturas en compañía de mi esposa, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.
-                                    </p><br>
-                                    <p class="inte"><i class="fas fa-video colorletter"></i>
-                                        Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis.
-                                    </p>
+                                    <div class="container_interest">
+                                        <i class="fas fa-utensils colorletter iconInterest"></i>
+                                        <p class="inte" data-section="about-me" data-value="interests1">
+                                            Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class="fas fa-suitcase-rolling colorletter iconInterest"></i>
+                                        <p class="inte" data-section="about-me" data-value="interests2">
+                                            Otro pecado culposo es el viajar y conocer nuevas culturas en compañía de mi esposa, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.
+                                        </p>
+                                    </div><br>
+                                    <div class="container_interest">
+                                        <i class="fas fa-video colorletter iconInterest"></i>
+                                        <p class="inte" data-section="about-me" data-value="interests3">
+                                            Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis.
+                                        </p>
+                                    </div>
                                 </ul>
                             </div>
                         </div><br><br>
