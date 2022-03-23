@@ -14,6 +14,10 @@
     margin-top: 2rem;
 }
 
+.text-about .descriptionAboutme span {
+    color: var(--color-primary);
+}
+
 .container_interest {
     display: flex;
     /* justify-content: space-between; */
@@ -28,7 +32,7 @@
 }
 
 .inte {
-    width: 80%;
+    width: 100%;
 }
 
 .box-information {
@@ -44,4 +48,8 @@
 
 .information-aboutme {
     line-height: 3rem;
+}
+
+.information-aboutme p {
+    color: var(--color-font-dark);
 }
