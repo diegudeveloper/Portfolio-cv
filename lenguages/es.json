@@ -43,6 +43,16 @@
       "webname3": "Portafolio - Maquetación",
       "webname4": "Proyecto API",
       "webname5": "Web Coffe - Maquetación"
+   },
+
+   "blog": {
+      "textBlog": "Blog",
+      "articuleText": "Mi Interes por el Desarrollo Web.",
+      "text": "La web está quebrada y por ende no existe control ni camino alguno de...",
+      "articuleText2": "Mis primeros 3 proyectos despues de mis 12 proyectos.",
+      "text2": "Cuando comencé hacer cursos de programación lo...",
+      "articuleText3": "¿Qué harías de tu vida si el dinero no importara?",
+      "text3": "¿Nunca te has hecho esa pregunta? debo confesar que..."
    }
    
 }
