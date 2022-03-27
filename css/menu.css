@@ -6,21 +6,65 @@
 .container-menu .spa {
     color: white;
 }
+.en {
+    color: var(--color-font);
+}
+.es {
+    color: var(--color-font);
+}
+/* .check {
+    position: relative;
+    width: 50px;
+}
+.check::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: rgb(170, 169, 169);
+    border-radius: 25px;
+}
+.check::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid var(--color-font-dark);
+    box-sizing: border-box;
+}
+.check:checked::after {
+    left: 25px;
+    border: 2px sol #00a1ff;
+}
+.check:checked::before {
+    background: var(--color-primary);
+}  */
+
 .flags {
     width: 74px;
-    height: 70px;
+    /* width: 200px; */
+    height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 0.5rem;
     background-color: var(--color-bg);
 }
 .flags_item {
     width: 30px;
+    height: 30px;
+    object-fit: cover;
 }
 .flags_img {
+    width: 30px;
+    height: 30px;
     display: block;
     cursor: pointer;
+    /* border-radius: 50%; */
 }
 .menu-container {
     width: 74px;

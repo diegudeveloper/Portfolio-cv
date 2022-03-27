@@ -46,12 +46,16 @@
    },
 
    "blog": {
-    "textBlog": "Blog",
+      "textBlog": "Blog",
       "articuleText": "My Interest in Web Development.",
       "text": "The web is broken and therefore there is no control and no way of...",
       "articuleText2": "My first 3 projects after my 12 projects.",
       "text2": "When I started doing programming courses, what I liked the most were...",
       "articuleText3": "What would you do with your life if money didn't matter?",
       "text3": "Have you never asked yourself that..."
+    },
+
+    "contactMe": {
+      "contact": "Write me"
     }
  }

@@ -53,6 +53,10 @@
       "text2": "Cuando comencé hacer cursos de programación lo...",
       "articuleText3": "¿Qué harías de tu vida si el dinero no importara?",
       "text3": "¿Nunca te has hecho esa pregunta? debo confesar que..."
-   }
+   },
+
+   "contactMe": {
+      "contact": "Escríbeme"
+    }
    
 }
