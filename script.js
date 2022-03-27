@@ -2,6 +2,13 @@
 
 	const flagsElement = document.getElementById("flags");
 	const textsToChange = document.querySelectorAll("[data-section]");
+	const toggle = document.getElementById("toggle");
+	const conatinerMain = document.querySelector(".container-main");
+
+	toggle.onclick = function() {
+		toggle.classList.toggle("active"),
+		conatinerMain.classList.toggle("active");
+	}
 
 	const changeLanguage = async (language) => {
 		const requestJson = await fetch(`./lenguages/${language}.json`);
