@@ -13,7 +13,6 @@
 
 			textToChange.innerHTML = texts[section][value];
 
-			//console.log(section, value);
 		}
 	};
 
