@@ -54,13 +54,13 @@ body {
     background: rgba(80, 80, 80, 0.300) !important;
 }
 
-.btn-flotante {
-    position: absolute;
+ .btn-flotante {
+    /* position: absolute; */
     top: 5rem;
 }
 
 #toggle {
-    position: relative;
+    position: relative; 
     display: block;
     width: 60px;
     height: 30px;
