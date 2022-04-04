@@ -6,6 +6,8 @@
 @import "/css/portafolio.css";
 @import "/css/blog.css";
 @import "/css/contact.css";
+@import "/css/burbujas.css";
+
 /* @import "/css/mediaqueri.css"; */
 
 
@@ -242,3 +244,6 @@ body {
 .title::first-letter {
     color: var(--color-primary);
 }
+
+/******burbujas*/
+
