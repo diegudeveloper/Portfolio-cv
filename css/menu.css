@@ -54,38 +54,37 @@
     align-items: center;
     justify-content: center;
     color: var(--color-font);
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
     flex: 1;
     border-bottom: 1px solid var(--color-line);
 }
-/* .menu-container button:nth-child(6) {
-    border-bottom: none;
-} */
+
+
 .menu-btn{
     cursor: pointer;
-    transition: all ease 0.15s;
+    transition: all ease 0.5s
 }
-.menu-btn:hover > .mhome {
-    transform: scale(1.2);
-    color: var(--color-primary);
-}
+
 .menu-btn:hover,
 .menu-btn:focus {
     color: #aaa !important;
 
 }
 .menu-btn .mhome {
-    transition: ease 0.3s all;
+    transition: ease 0.2s all;
 }
-.menu-btn .mhome:hover {
-    transform: scale(1.2);
-    color: var(--color-primary);
+.menu-btn:hover {
+    border: 1px solid var(--color-primary);
+    
 } 
 
+.menu-btn:hover > .mhome {
+    transform: scale(1.2);
+    color: var(--color-primary);
+}
+
 /*mediaqueri*/
-
-
 
 @media screen and (max-width: 1024px) {
     .menu-container {
