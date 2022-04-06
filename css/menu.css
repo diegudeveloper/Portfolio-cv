@@ -17,6 +17,7 @@
     width: 74px;
     height: 60px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--color-bg);
@@ -82,6 +83,14 @@
 .menu-btn:hover > .mhome {
     transform: scale(1.2);
     color: var(--color-primary);
+}
+
+.btn-flotante {
+    width: 74px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*mediaqueri*/
