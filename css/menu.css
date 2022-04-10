@@ -119,6 +119,7 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .menu-container button {
         padding: 0 5px;
         flex: 1;
@@ -126,7 +127,16 @@
         border: none;
     }
     .flags {
+        height: 80px;
         width: 50px;
         flex-direction: column;
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        position: fixed;
+        border-radius: 0 5px 5px 0;
+        z-index: 10000;
+        border: 1px solid var(--color-line);
+        opacity: 0.8;
     }
 }
