@@ -78,8 +78,8 @@
     .container-main .container-full .container-menu {
         width: 100%;
         max-width: 580px;
-        height: 72px;
-        margin: 0 auto 2rem auto;
+        height: 90px;
+        margin: 0 auto 5rem auto;
     }
 
     .container-main .container-full .container-header {
