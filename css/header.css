@@ -71,31 +71,13 @@
 }
 
 .me .ocupation {
-    width: 160px;
+    width: 100%;
     height: auto;
     font-size: 16px;
     color: var(--color-primary);
     font-weight: 100;
     margin: 1rem auto;
     position: relative;
-}
-
-.me .ocupation span {
-    width: 0;
-    position: absolute;
-    right: 0;
-    background: var(--color-bg);
-    border-left: 1px solid #000 ;
-    animation: maquina 3s infinite alternate steps(20);
-}
-
-@keyframes maquina {
-    from {
-        width: 100%;
-    }
-    to {
-        width: 0;
-    }
 }
 
 .me .social-media {
@@ -158,7 +140,7 @@
 }
 
 .cvdownload, .contactme {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
 }
@@ -193,4 +175,19 @@
     color: #EEEEEE;
     font-size: 1.5rem;
     padding-left: 5rem;
+}
+
+/*media queri*/
+
+@media screen and (max-width: 768px) {
+    .cvdownload, .contactme {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .cvdownload, .contactme {
+        width: 100%;
+    }
 }
