@@ -71,12 +71,31 @@
 }
 
 .me .ocupation {
-    width: 100%;
+    width: 160px;
     height: auto;
     font-size: 16px;
     color: var(--color-primary);
     font-weight: 100;
-    margin-top: 1rem;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.me .ocupation span {
+    width: 0;
+    position: absolute;
+    right: 0;
+    background: var(--color-bg);
+    border-left: 1px solid #000 ;
+    animation: maquina 3s infinite alternate steps(20);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
 }
 
 .me .social-media {
