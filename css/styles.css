@@ -43,6 +43,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
     
 
     background: #17171b !important;
@@ -52,11 +53,6 @@ body {
 
 .container-main.active {
     background: rgba(80, 80, 80, 0.300) !important;
-}
-
- .btn-flotante {
-    /* position: absolute; */
-    top: 5rem;
 }
 
 #toggle {
