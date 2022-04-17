@@ -3,11 +3,20 @@
 	const flagsElement = document.getElementById("flags");
 	const textsToChange = document.querySelectorAll("[data-section]");
 	const toggle = document.getElementById("toggle");
-	const conatinerMain = document.querySelector(".container-main");
+	const containerMain = document.querySelector(".container-main");
+	const containerabout = document.getElementById("content-about");
+	const title = document.querySelector("#title");
+	const textAbout = document.querySelector(".text-about");
+	const informationAboutme = document.querySelector(".information-aboutme");
+
 
 	toggle.onclick = function() {
 		toggle.classList.toggle("active"),
-		conatinerMain.classList.toggle("active");
+		containerMain.classList.toggle("active");
+		containerabout.classList.toggle("active");
+		title.classList.toggle("active");
+		textAbout.classList.toggle("active");
+		informationAboutme.classList.toggle("active");
 	}
 
 	const changeLanguage = async (language) => {

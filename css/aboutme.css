@@ -14,6 +14,10 @@
     margin-top: 2rem;
 }
 
+.text-about.active {
+    color: var(--color-bg);
+}
+
 .text-about .descriptionAboutme span {
     color: var(--color-primary);
 }
@@ -44,6 +48,10 @@
     text-align: initial;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.information-aboutme.active {
+    color: var(--color-bg);
 }
 
 .information-aboutme {
