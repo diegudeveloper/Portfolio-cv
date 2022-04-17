@@ -140,54 +140,63 @@
 }
 
 .cvdownload, .contactme {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
 .cvdownload a {
-    width: 50%;
-    color: #EEEEEE;
-    text-decoration: none;
-    font-size: 1.3rem;
-    flex: 1;
-}
-
-.cvdownload i {
-    width: 20%;
-    color: #EEEEEE;
-    font-size: 1.5rem;
-    padding-left: 3rem;
-}
-
-
-.contactme a {
+    /* display: block; */
     width: 50%;
     color: #EEEEEE;
     text-decoration: none;
     font-size: 1.3rem;
     flex: initial;
-    flex: 1;
+    /* flex: 1; */
 }
 
-.contactme i {
+.cvdownload i {
+    display: block;
     width: 20%;
     color: #EEEEEE;
     font-size: 1.5rem;
-    padding-left: 5rem;
+    /* padding-left: 8rem; */
+}
+
+
+.contactme a {
+    /* display: block; */
+    width: 50%;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 1.3rem;
+    flex: initial;
+    /* flex: 1; */
+}
+
+.contactme i {
+    display: block;
+    width: 20%;
+    color: #EEEEEE;
+    font-size: 1.5rem;
 }
 
 /*media queri*/
 
 @media screen and (max-width: 768px) {
     .cvdownload, .contactme {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 450px) {
     .cvdownload, .contactme {
         width: 100%;
     }
-}
+
+    .cvdownload a {
+        width: 60%;
+    }
+} 
