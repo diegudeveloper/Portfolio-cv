@@ -5,18 +5,33 @@
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
 	const containerabout = document.getElementById("content-about");
+	const containerLine = document.getElementById("container_title");
+
+	const containerResumen = document.getElementById("content-resumen");
+	const containerPortafolio = document.getElementById("content-portfolio");
+	const containerBlog = document.getElementById("content-blog");
+	const containerContact = document.getElementById("content-contact");
 	const title = document.querySelector("#title");
 	const textAbout = document.querySelector(".text-about");
-	const informationAboutme = document.querySelector(".information-aboutme");
-
-
+	const infMe = document.querySelector(".infMe");
+	const infMe1 = document.querySelector(".infMe1");
+	const infMe2 = document.querySelector(".infMe2");
+	
 	toggle.onclick = function() {
 		toggle.classList.toggle("active"),
 		containerMain.classList.toggle("active");
 		containerabout.classList.toggle("active");
+		containerLine.classList.toggle("active");
+		containerResumen.classList.toggle("active");
+		containerPortafolio.classList.toggle("active");
+		containerBlog.classList.toggle("active");
+		containerContact.classList.toggle("active");
 		title.classList.toggle("active");
 		textAbout.classList.toggle("active");
-		informationAboutme.classList.toggle("active");
+		infMe.classList.toggle("active");
+		infMe1.classList.toggle("active");
+		infMe2.classList.toggle("active");
+		
 	}
 
 	const changeLanguage = async (language) => {

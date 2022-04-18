@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     color: #EEEEEE;
-    text-align: justify;
+    text-align: initial;
     margin-top: 2rem;
 }
 
@@ -50,7 +50,7 @@
     margin-bottom: 2rem;
 }
 
-.information-aboutme.active {
+.box-information.active {
     color: var(--color-bg);
 }
 
@@ -60,4 +60,16 @@
 
 .information-aboutme p {
     color: var(--color-font-dark);
+}
+
+.infMe.active {
+    color: var(--color-bg);
+}
+
+.infMe1.active {
+    color: var(--color-bg);
+}
+
+.infMe2.active {
+    color: var(--color-bg);
 }
