@@ -4,18 +4,25 @@
 	const textsToChange = document.querySelectorAll("[data-section]");
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
+
 	const containerabout = document.getElementById("content-about");
 	const containerLine = document.getElementById("container_title");
 	const interes = document.querySelector(".interes");
 	const interesLine = document.querySelector(".titleLine");
-	
-
 	const inte = document.querySelector(".inte");
 	const inte1 = document.querySelector(".inte1");
 	const inte2 = document.querySelector(".inte2");
 
-
 	const containerResumen = document.getElementById("content-resumen");
+	const titleLineEstudios = document.querySelector(".titleLineEstudios");
+	const titleEstudios = document.querySelector(".titleEstudios");
+	const titleCursos = document.querySelector(".titleCursos");
+	const titleLineCursos = document.querySelector(".titleLineCursos");
+	const university = document.querySelector(".university");
+	
+
+
+	
 	const containerPortafolio = document.getElementById("content-portfolio");
 	const containerBlog = document.getElementById("content-blog");
 	const containerContact = document.getElementById("content-contact");
@@ -32,14 +39,18 @@
 			containerLine.classList.toggle("active");
 			interes.classList.toggle("active");
 			interesLine.classList.toggle("active");
-			
 			inte.classList.toggle("active");
 			inte1.classList.toggle("active");
 			inte2.classList.toggle("active");
 			
-
-
 		containerResumen.classList.toggle("active");
+			titleLineEstudios.classList.toggle("active");
+			titleEstudios.classList.toggle("active");
+			titleCursos.classList.toggle("active");
+			titleLineCursos.classList.toggle("active");
+			university.classList.toggle("active");
+			
+
 		containerPortafolio.classList.toggle("active");
 		containerBlog.classList.toggle("active");
 		containerContact.classList.toggle("active");
