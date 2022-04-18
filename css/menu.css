@@ -139,11 +139,12 @@
         flex-direction: column;
         position: absolute;
         top: 160px;
-        left: 0px;
+        right: 0px;
         position: fixed;
-        border-radius: 0 5px 5px 0;
+        border-radius: 5px 0 0 5px;
         z-index: 10000;
         opacity: 0.8;
+        background-color: var(--color-line);
     }
     .btn-flotante {
         width: 50%;
