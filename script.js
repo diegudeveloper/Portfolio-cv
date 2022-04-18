@@ -6,6 +6,14 @@
 	const containerMain = document.querySelector(".container-main");
 	const containerabout = document.getElementById("content-about");
 	const containerLine = document.getElementById("container_title");
+	const interes = document.querySelector(".interes");
+	const interesLine = document.querySelector(".titleLine");
+	
+
+	const inte = document.querySelector(".inte");
+	const inte1 = document.querySelector(".inte1");
+	const inte2 = document.querySelector(".inte2");
+
 
 	const containerResumen = document.getElementById("content-resumen");
 	const containerPortafolio = document.getElementById("content-portfolio");
@@ -21,7 +29,16 @@
 		toggle.classList.toggle("active"),
 		containerMain.classList.toggle("active");
 		containerabout.classList.toggle("active");
-		containerLine.classList.toggle("active");
+			containerLine.classList.toggle("active");
+			interes.classList.toggle("active");
+			interesLine.classList.toggle("active");
+			
+			inte.classList.toggle("active");
+			inte1.classList.toggle("active");
+			inte2.classList.toggle("active");
+			
+
+
 		containerResumen.classList.toggle("active");
 		containerPortafolio.classList.toggle("active");
 		containerBlog.classList.toggle("active");

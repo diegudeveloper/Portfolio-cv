@@ -39,6 +39,16 @@
     width: 100%;
 }
 
+.inte.active {
+    color: var(--color-bg);
+}
+.inte1.active {
+    color: var(--color-bg);
+}
+.inte2.active {
+    color: var(--color-bg);
+}
+
 .box-information {
     width: 100%;
     height: auto;
@@ -61,6 +71,11 @@
 .information-aboutme p {
     color: var(--color-font-dark);
 }
+
+.interes.active {
+    color: var(--color-bg);
+}
+
 
 .infMe.active {
     color: var(--color-bg);
