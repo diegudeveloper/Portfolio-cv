@@ -25,6 +25,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 3rem;
 }
 
 .containerResumen ul {
@@ -116,6 +117,27 @@
     color: var(--color-primary);
     text-align: start;
     margin-top: 1rem;
+}
+
+
+/*modo ligth*/
+
+.titleEstudios {
+    color: var(--color-bg);
+}
+.titleLineEstudios.active {
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.titleCursos {
+    color: var(--color-bg);
+}
+.titleLineCursos.active {
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.university.active {
+    color: var(--color-bg);
 }
 
 @media screen and (min-width: 1024px) {
