@@ -139,6 +139,34 @@
 .university.active {
     color: var(--color-bg);
 }
+.university1.active {
+    color: var(--color-bg);
+}
+.university2.active {
+    color: var(--color-bg);
+}
+.university3.active {
+    color: var(--color-bg);
+}
+.university4.active {
+    color: var(--color-bg);
+}
+.university5.active {
+    color: var(--color-bg);
+}
+.university6.active {
+    color: var(--color-bg);
+}
+
+.where.active {
+    color: var(--color-bg);
+}
+.description.active {
+    color: var(--color-bg);
+}
+.certifi.active {
+    color: var(--color-bg);
+}
 
 @media screen and (min-width: 1024px) {
     .resumen_education {

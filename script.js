@@ -19,6 +19,16 @@
 	const titleCursos = document.querySelector(".titleCursos");
 	const titleLineCursos = document.querySelector(".titleLineCursos");
 	const university = document.querySelector(".university");
+	const university1 = document.querySelector(".university1");
+	const university2 = document.querySelector(".university2");
+	const university3 = document.querySelector(".university3");
+	const university4 = document.querySelector(".university4");
+	const university5 = document.querySelector(".university5");
+	const university6 = document.querySelector(".university6");
+	const where = document.querySelector(".where");
+	const description = document.querySelector(".description");
+	const certifi = document.querySelector(".certifi");
+	
 	
 
 
@@ -49,6 +59,16 @@
 			titleCursos.classList.toggle("active");
 			titleLineCursos.classList.toggle("active");
 			university.classList.toggle("active");
+			where.classList.toggle("active");
+			description.classList.toggle("active");
+			certifi.classList.toggle("active");
+			university.classList.toggle("active");
+			university1.classList.toggle("active");
+			university2.classList.toggle("active");
+			university3.classList.toggle("active");
+			university4.classList.toggle("active");
+			university5.classList.toggle("active");
+			university6.classList.toggle("active");
 			
 
 		containerPortafolio.classList.toggle("active");
