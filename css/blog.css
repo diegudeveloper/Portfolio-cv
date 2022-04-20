@@ -90,3 +90,13 @@
 .lineBlog.active {
     border-bottom: 1px solid var(--color-primary);
 }
+
+.link_card.active {
+    background-color: #fff;
+}
+.title-blog.active {
+    color: var(--color-primary);
+}
+.text_blog.active {
+    color: var(--color-bg);
+}

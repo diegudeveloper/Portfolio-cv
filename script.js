@@ -65,6 +65,9 @@
 	const containerBlog = document.getElementById("content-blog");
 	const titleBlog = document.querySelector(".titleBlog");
 	const lineBlog = document.querySelector(".lineBlog");
+	const linkcard = document.querySelector(".link_card");
+	const blogTitle = document.querySelector(".title-blog");
+	const textBlog = document.querySelector(".text_blog");
 	
 
 
@@ -143,6 +146,9 @@
 		containerBlog.classList.toggle("active");
 			titleBlog.classList.toggle("active");
 			lineBlog.classList.toggle("active");
+			linkcard.classList.toggle("active");
+			blogTitle.classList.toggle("active");
+			textBlog.classList.toggle("active");
 			
 
 
