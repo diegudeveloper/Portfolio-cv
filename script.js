@@ -66,8 +66,14 @@
 	const titleBlog = document.querySelector(".titleBlog");
 	const lineBlog = document.querySelector(".lineBlog");
 	const linkcard = document.querySelector(".link_card");
+	const linkcard1 = document.querySelector(".link_card1");
+	const linkcard2 = document.querySelector(".link_card2");
 	const blogTitle = document.querySelector(".title-blog");
+	const blogTitle1 = document.querySelector(".title-blog1");
+	const blogTitle2 = document.querySelector(".title-blog2");
 	const textBlog = document.querySelector(".text_blog");
+	const textBlog1 = document.querySelector(".text_blog1");
+	const textBlog2 = document.querySelector(".text_blog2");
 	
 
 
@@ -147,8 +153,14 @@
 			titleBlog.classList.toggle("active");
 			lineBlog.classList.toggle("active");
 			linkcard.classList.toggle("active");
+			linkcard1.classList.toggle("active");
+			linkcard2.classList.toggle("active");
 			blogTitle.classList.toggle("active");
+			blogTitle1.classList.toggle("active");
+			blogTitle2.classList.toggle("active");
 			textBlog.classList.toggle("active");
+			textBlog1.classList.toggle("active");
+			textBlog2.classList.toggle("active");
 			
 
 

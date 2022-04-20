@@ -94,9 +94,29 @@
 .link_card.active {
     background-color: #fff;
 }
+.link_card1.active {
+    background-color: #fff;
+}
+.link_card2.active {
+    background-color: #fff;
+}
+
 .title-blog.active {
     color: var(--color-primary);
 }
+.title-blog1.active {
+    color: var(--color-primary);
+}
+.title-blog2.active {
+    color: var(--color-primary);
+}
+
 .text_blog.active {
+    color: var(--color-bg);
+}
+.text_blog1.active {
+    color: var(--color-bg);
+}
+.text_blog2.active {
     color: var(--color-bg);
 }
