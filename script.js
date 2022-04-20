@@ -46,11 +46,12 @@
 	const certifi4 = document.querySelector(".certifi4");
 	const certifi5 = document.querySelector(".certifi5");
 	
-	
-
-
-	
 	const containerPortafolio = document.getElementById("content-portfolio");
+	const titlePorfo = document.querySelector(".titlePorfo");
+	const container_main = document.querySelector(".container_main");
+	const namePorta = document.querySelector(".namePorta");
+
+
 	const containerBlog = document.getElementById("content-blog");
 	const containerContact = document.getElementById("content-contact");
 	const title = document.querySelector("#title");
@@ -75,9 +76,6 @@
 			titleEstudios.classList.toggle("active");
 			titleCursos.classList.toggle("active");
 			titleLineCursos.classList.toggle("active");
-			
-			
-			
 			
 			university.classList.toggle("active");
 			university1.classList.toggle("active");
@@ -111,6 +109,13 @@
 			certifi5.classList.toggle("active");
 
 		containerPortafolio.classList.toggle("active");
+			titlePorfo.classList.toggle("active");
+			container_main.classList.toggle("active");
+			namePorta.classList.toggle("active");
+
+
+
+
 		containerBlog.classList.toggle("active");
 		containerContact.classList.toggle("active");
 		title.classList.toggle("active");
