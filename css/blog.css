@@ -1,6 +1,6 @@
 .containerFullBlog {
     width: 100%;
-    margin-top: 20px;
+    padding-top: 3rem;
     display: flex;
 }
 
@@ -80,4 +80,13 @@
     margin: 0 auto;
     font-size: 1.3rem;
     color: #FFFFFF8C;
+}
+
+/* modo ligth */
+
+.titleBlog.active {
+    color: var(--color-bg);
+}
+.lineBlog.active {
+    border-bottom: 1px solid var(--color-primary);
 }

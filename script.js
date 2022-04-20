@@ -62,8 +62,13 @@
 	const fas4 = document.querySelector(".iconofas4");
 	const fas5 = document.querySelector(".iconofas5");
 
-
 	const containerBlog = document.getElementById("content-blog");
+	const titleBlog = document.querySelector(".titleBlog");
+	const lineBlog = document.querySelector(".lineBlog");
+	
+
+
+
 	const containerContact = document.getElementById("content-contact");
 	const title = document.querySelector("#title");
 	const textAbout = document.querySelector(".text-about");
@@ -135,10 +140,12 @@
 			fas4.classList.toggle("active");
 			fas5.classList.toggle("active");
 
-
-
-
 		containerBlog.classList.toggle("active");
+			titleBlog.classList.toggle("active");
+			lineBlog.classList.toggle("active");
+			
+
+
 		containerContact.classList.toggle("active");
 		title.classList.toggle("active");
 		textAbout.classList.toggle("active");
