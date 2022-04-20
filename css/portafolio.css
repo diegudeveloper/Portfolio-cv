@@ -83,3 +83,37 @@
 .namePorta.active {
     color: var(--color-bg);
 }
+.namePorta1.active {
+    color: var(--color-bg);
+}
+.namePorta2.active {
+    color: var(--color-bg);
+}
+.namePorta3.active {
+    color: var(--color-bg);
+}
+.namePorta4.active {
+    color: var(--color-bg);
+}
+.namePorta5.active {
+    color: var(--color-bg);
+}
+
+.iconofas.active {
+    color: var(--color-primary);
+}
+.iconofas1.active {
+    color: var(--color-primary);
+}
+.iconofas2.active {
+    color: var(--color-primary);
+}
+.iconofas3.active {
+    color: var(--color-primary);
+}
+.iconofas4.active {
+    color: var(--color-primary);
+}
+.iconofas5.active {
+    color: var(--color-primary);
+}

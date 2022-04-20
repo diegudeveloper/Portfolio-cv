@@ -50,6 +50,17 @@
 	const titlePorfo = document.querySelector(".titlePorfo");
 	const container_main = document.querySelector(".container_main");
 	const namePorta = document.querySelector(".namePorta");
+	const namePorta1 = document.querySelector(".namePorta1");
+	const namePorta2 = document.querySelector(".namePorta2");
+	const namePorta3 = document.querySelector(".namePorta3");
+	const namePorta4 = document.querySelector(".namePorta4");
+	const namePorta5 = document.querySelector(".namePorta5");
+	const fas = document.querySelector(".iconofas");
+	const fas1 = document.querySelector(".iconofas1");
+	const fas2 = document.querySelector(".iconofas2");
+	const fas3 = document.querySelector(".iconofas3");
+	const fas4 = document.querySelector(".iconofas4");
+	const fas5 = document.querySelector(".iconofas5");
 
 
 	const containerBlog = document.getElementById("content-blog");
@@ -112,6 +123,17 @@
 			titlePorfo.classList.toggle("active");
 			container_main.classList.toggle("active");
 			namePorta.classList.toggle("active");
+			namePorta1.classList.toggle("active");
+			namePorta2.classList.toggle("active");
+			namePorta3.classList.toggle("active");
+			namePorta4.classList.toggle("active");
+			namePorta5.classList.toggle("active");
+			fas.classList.toggle("active");
+			fas1.classList.toggle("active");
+			fas2.classList.toggle("active");
+			fas3.classList.toggle("active");
+			fas4.classList.toggle("active");
+			fas5.classList.toggle("active");
 
 
 
