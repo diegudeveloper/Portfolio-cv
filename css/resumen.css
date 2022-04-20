@@ -161,7 +161,44 @@
 .where.active {
     color: var(--color-bg);
 }
+.where1.active {
+    color: var(--color-bg);
+}
+.where2.active {
+    color: var(--color-bg);
+}
+.where3.active {
+    color: var(--color-bg);
+}
+.where4.active {
+    color: var(--color-bg);
+}
+.where5.active {
+    color: var(--color-bg);
+}
+.where6.active {
+    color: var(--color-bg);
+}
+
 .description.active {
+    color: var(--color-bg);
+}
+.description1.active {
+    color: var(--color-bg);
+}
+.description2.active {
+    color: var(--color-bg);
+}
+.description3.active {
+    color: var(--color-bg);
+}
+.description4.active {
+    color: var(--color-bg);
+}
+.description5.active {
+    color: var(--color-bg);
+}
+.description6.active {
     color: var(--color-bg);
 }
 .certifi.active {

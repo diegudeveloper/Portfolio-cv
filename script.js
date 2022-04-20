@@ -26,7 +26,19 @@
 	const university5 = document.querySelector(".university5");
 	const university6 = document.querySelector(".university6");
 	const where = document.querySelector(".where");
+	const where1 = document.querySelector(".where1");
+	const where2 = document.querySelector(".where2");
+	const where3 = document.querySelector(".where3");
+	const where4 = document.querySelector(".where4");
+	const where5 = document.querySelector(".where5");
+	const where6 = document.querySelector(".where6");
 	const description = document.querySelector(".description");
+	const description1 = document.querySelector(".description1");
+	const description2 = document.querySelector(".description2");
+	const description3 = document.querySelector(".description3");
+	const description4 = document.querySelector(".description4");
+	const description5 = document.querySelector(".description5");
+	const description6 = document.querySelector(".description6");
 	const certifi = document.querySelector(".certifi");
 	
 	
@@ -58,9 +70,9 @@
 			titleEstudios.classList.toggle("active");
 			titleCursos.classList.toggle("active");
 			titleLineCursos.classList.toggle("active");
-			university.classList.toggle("active");
-			where.classList.toggle("active");
-			description.classList.toggle("active");
+			
+			
+			
 			certifi.classList.toggle("active");
 			university.classList.toggle("active");
 			university1.classList.toggle("active");
@@ -69,7 +81,22 @@
 			university4.classList.toggle("active");
 			university5.classList.toggle("active");
 			university6.classList.toggle("active");
+
+			where.classList.toggle("active");
+			where1.classList.toggle("active");
+			where2.classList.toggle("active");
+			where3.classList.toggle("active");
+			where4.classList.toggle("active");
+			where5.classList.toggle("active");
+			where6.classList.toggle("active");
 			
+			description.classList.toggle("active");
+			description1.classList.toggle("active");
+			description2.classList.toggle("active");
+			description3.classList.toggle("active");
+			description4.classList.toggle("active");
+			description5.classList.toggle("active");
+			description6.classList.toggle("active");
 
 		containerPortafolio.classList.toggle("active");
 		containerBlog.classList.toggle("active");
