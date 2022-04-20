@@ -40,6 +40,11 @@
 	const description5 = document.querySelector(".description5");
 	const description6 = document.querySelector(".description6");
 	const certifi = document.querySelector(".certifi");
+	const certifi1 = document.querySelector(".certifi1");
+	const certifi2 = document.querySelector(".certifi2");
+	const certifi3 = document.querySelector(".certifi3");
+	const certifi4 = document.querySelector(".certifi4");
+	const certifi5 = document.querySelector(".certifi5");
 	
 	
 
@@ -73,7 +78,7 @@
 			
 			
 			
-			certifi.classList.toggle("active");
+			
 			university.classList.toggle("active");
 			university1.classList.toggle("active");
 			university2.classList.toggle("active");
@@ -97,6 +102,13 @@
 			description4.classList.toggle("active");
 			description5.classList.toggle("active");
 			description6.classList.toggle("active");
+
+			certifi.classList.toggle("active");
+			certifi1.classList.toggle("active");
+			certifi2.classList.toggle("active");
+			certifi3.classList.toggle("active");
+			certifi4.classList.toggle("active");
+			certifi5.classList.toggle("active");
 
 		containerPortafolio.classList.toggle("active");
 		containerBlog.classList.toggle("active");

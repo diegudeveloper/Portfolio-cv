@@ -201,7 +201,23 @@
 .description6.active {
     color: var(--color-bg);
 }
+
 .certifi.active {
+    color: var(--color-bg);
+}
+.certifi1.active {
+    color: var(--color-bg);
+}
+.certifi2.active {
+    color: var(--color-bg);
+}
+.certifi3.active {
+    color: var(--color-bg);
+}
+.certifi4.active {
+    color: var(--color-bg);
+}
+.certifi5.active {
     color: var(--color-bg);
 }
 
