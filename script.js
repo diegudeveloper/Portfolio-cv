@@ -4,12 +4,15 @@
 	const textsToChange = document.querySelectorAll("[data-section]");
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
+	const containerInformations = document.querySelectorAll('div .content')
 
 	
 	
 	toggle.onclick = function() {
 		toggle.classList.toggle("active"),
 		containerMain.classList.toggle("active");
+		containerInformations.classList.toggle("active");
+
 		
 	}
 

@@ -131,6 +131,9 @@ body {
 	position: absolute;
 	transition: all 1s ease-out;
 }
+.content.active {
+    background-color: var(--color-font);
+}
 .content.open{
 	right: 0 !important;
 	opacity: 1;
