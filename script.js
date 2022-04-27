@@ -4,17 +4,13 @@
 	const textsToChange = document.querySelectorAll("[data-section]");
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
-	const containerInformations = document.querySelectorAll('div .content')
+	const btnswitch = document.querySelector('#switch');
 
-	
-	
-	toggle.onclick = function() {
-		toggle.classList.toggle("active"),
-		containerMain.classList.toggle("active");
-		containerInformations.classList.toggle("active");
+	btnswitch.addEventListener('click', () => {
+		document.body.classList.toggle('ligth');
+		btnswitch.classList.toggle('active')
+	})
 
-		
-	}
 
 	const changeLanguage = async (language) => {
 		const requestJson = await fetch(`./lenguages/${language}.json`);
@@ -34,11 +30,6 @@
 	});
 
 	
-
-	
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
 	const btnHome = document.getElementById('btn-home');
 	const btnAbout = document.getElementById('btn-about');
