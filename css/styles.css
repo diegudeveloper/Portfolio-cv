@@ -275,6 +275,29 @@ body.ligth #content-contact {
 body.ligth #title {
     color: var(--color-bg);
 }
+body.ligth #container_title {
+    border-bottom: 1px solid var(--color-primary);
+}
+
+body.ligth .text-about {
+    color: var(--color-bg);
+}
+body.ligth .information-aboutme p {
+    color: var(--color-bg);
+}
+body.ligth .containerResumen ul li {
+    border: 1px solid var(--color-primary);
+}
+body.ligth .containerResumen ul li p, .university {
+    color: var(--color-bg);
+}
+body.ligth .namePorta {
+    color: var(--color-bg);
+}
+body.ligth .codigo a {
+    color: var(--color-primary);
+}
+
 
 .colorletter {
     color: var(--color-primary);
