@@ -59,6 +59,11 @@
 
 @media screen and (max-width: 768px) {
 
+    .container_switch {
+        width: 50%;
+        height: 54px;
+    }
+
     .linea_horizontal {
         display: none;
     }
