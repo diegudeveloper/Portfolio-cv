@@ -243,6 +243,9 @@ body.ligth {
     background-color: var( --color-font-dark);
     border-radius: 5px;
 }
+body.ligth #content-home {
+    background:#fff;
+}
 body.ligth #content-about {
     background:#fff;
 }
@@ -279,6 +282,39 @@ body.ligth #container_title {
     border-bottom: 1px solid var(--color-primary);
 }
 
+body.ligth .me::after {
+    background-color: var(--color-font);
+}
+body.ligth .pictureMe {
+    background-color: var(--color-font);
+}
+body.ligth .footer-header {
+    background-color: var(--color-font);
+}
+body.ligth .name-me {
+    color: var(--color-bg);
+}
+body.ligth .social-media a .colorletter {
+    color: var(--color-bg);
+}
+body.ligth .footer-header {
+    border-top: 1px solid var(--color-primary);
+}
+body.ligth .download {
+    border-right: 1px solid var(--color-primary);
+}
+body.ligth .cvdownload i {
+    color: var(--color-bg);
+}
+body.ligth .cvdownload .descv {
+    color: var(--color-bg);
+}
+body.ligth .contact-me i {
+    color: var(--color-bg);
+}
+body.ligth .contact-me .descv {
+    color: var(--color-bg);
+}
 body.ligth .text-about {
     color: var(--color-bg);
 }
@@ -291,11 +327,30 @@ body.ligth .containerResumen ul li {
 body.ligth .containerResumen ul li p, .university {
     color: var(--color-bg);
 }
+body.ligth .link_card {
+    background-color: var(--color-font);
+}
+
 body.ligth .namePorta {
     color: var(--color-bg);
 }
 body.ligth .codigo a {
     color: var(--color-primary);
+}
+body.ligth .containerImg-blog {
+    background: var(--color-font);
+}
+body.ligth .containerText-blog {
+    background: var(--color-font);
+}
+body.ligth .containerText-blog .text_blog {
+    color: var(--color-bg);
+}
+body.ligth .containerText-blog .title-blog {
+    color: var(--color-primary);
+}
+body.ligth .main_btn .btn_contact {
+    color: var(--color-bg);
 }
 
 

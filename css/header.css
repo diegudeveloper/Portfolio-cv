@@ -38,6 +38,7 @@
     height: 50%;
     text-align: center;
     background-color: var(--color-bg);
+    transition: 0.3s ease all;
 }
 
 .me {
@@ -58,6 +59,7 @@
     background-color:var(--color-bg);
     z-index: 0;
     clip-path: polygon(50% 80%, 100% 0, 100% 80%, 50% 80%, 0 80%, 0 0);
+    transition: 0.3s ease all;
 }
 
 .name-me {
@@ -125,6 +127,7 @@
     justify-content: center;
     align-items: center;
     border-top: 1px solid var(--color-line);
+    transition: 0.3s ease all;
 }
 
 .download, .contact-me {

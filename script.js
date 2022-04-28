@@ -5,10 +5,12 @@
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
 	const btnswitch = document.querySelector('#switch');
+	
 
 	btnswitch.addEventListener('click', () => {
 		document.body.classList.toggle('ligth');
 		btnswitch.classList.toggle('active')
+		
 	})
 
 
