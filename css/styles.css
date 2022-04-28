@@ -283,13 +283,13 @@ body.ligth #container_title {
 }
 
 body.ligth .me::after {
-    background-color: var(--color-font);
+    background-color: #fff;
 }
 body.ligth .pictureMe {
-    background-color: var(--color-font);
+    background-color: #fff;
 }
 body.ligth .footer-header {
-    background-color: var(--color-font);
+    background-color: #fff;
 }
 body.ligth .name-me {
     color: var(--color-bg);
