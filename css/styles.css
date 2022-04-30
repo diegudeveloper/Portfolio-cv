@@ -258,6 +258,9 @@ body.ligth .menu-container button {
 body.ligth .menu-container button i, .textmenu {
     color: var(--color-bg);
 }
+body.ligth .menu-container button .textmenu {
+    color: var(--color-bg);
+}
 body.ligth .menu-container .flags {
     background:#fff;
 }
