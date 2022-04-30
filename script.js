@@ -5,13 +5,21 @@
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
 	const btnswitch = document.querySelector('#switch');
+	const imagenDark = "/assets/logo/Recurso 33.svg"
 	
 
 	btnswitch.addEventListener('click', () => {
 		document.body.classList.toggle('ligth');
 		btnswitch.classList.toggle('active')
 		
-	})
+		const imagenLigth = document.querySelector('.logo');
+		if (imagenLigth.src.match("on")) {
+			imagenLigth.src = '/assets/logo/Recurso33off.svg';
+		} else {
+			imagenLigth.src = '/assets/logo/Recurso35on.svg';
+		};
+
+	});
 
 
 	const changeLanguage = async (language) => {
