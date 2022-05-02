@@ -345,7 +345,10 @@ body.ligth .information-aboutme p {
 body.ligth .containerResumen ul li {
     border: 1px solid var(--color-primary);
 }
-body.ligth .containerResumen ul li p, .university {
+body.ligth .containerResumen ul li p {
+    color: var(--color-bg);
+}
+body.ligth .containerResumen ul li .university {
     color: var(--color-bg);
 }
 body.ligth .link_card {

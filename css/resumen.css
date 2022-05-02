@@ -137,102 +137,31 @@
 }
 
 .university.active {
-    color: var(--color-bg);
+    color: var(--color-font);
 }
-.university1.active {
-    color: var(--color-bg);
-}
-.university2.active {
-    color: var(--color-bg);
-}
-.university3.active {
-    color: var(--color-bg);
-}
-.university4.active {
-    color: var(--color-bg);
-}
-.university5.active {
-    color: var(--color-bg);
-}
-.university6.active {
-    color: var(--color-bg);
-}
+
 
 .where.active {
     color: var(--color-bg);
 }
-.where1.active {
-    color: var(--color-bg);
-}
-.where2.active {
-    color: var(--color-bg);
-}
-.where3.active {
-    color: var(--color-bg);
-}
-.where4.active {
-    color: var(--color-bg);
-}
-.where5.active {
-    color: var(--color-bg);
-}
-.where6.active {
-    color: var(--color-bg);
-}
+
 
 .description.active {
     color: var(--color-bg);
 }
-.description1.active {
-    color: var(--color-bg);
-}
-.description2.active {
-    color: var(--color-bg);
-}
-.description3.active {
-    color: var(--color-bg);
-}
-.description4.active {
-    color: var(--color-bg);
-}
-.description5.active {
-    color: var(--color-bg);
-}
-.description6.active {
-    color: var(--color-bg);
-}
+
 
 .certifi.active {
     color: var(--color-bg);
 }
-.certifi1.active {
-    color: var(--color-bg);
-}
-.certifi2.active {
-    color: var(--color-bg);
-}
-.certifi3.active {
-    color: var(--color-bg);
-}
-.certifi4.active {
-    color: var(--color-bg);
-}
-.certifi5.active {
-    color: var(--color-bg);
-}
+
 
 @media screen and (min-width: 1024px) {
     .resumen_education {
         width: 75%;
     }
     .date {
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .date {
-        width: 30%;
+        width: 45%;
     }
 }
 
