@@ -140,16 +140,13 @@
     color: var(--color-font);
 }
 
-
 .where.active {
     color: var(--color-bg);
 }
 
-
 .description.active {
     color: var(--color-bg);
 }
-
 
 .certifi.active {
     color: var(--color-bg);

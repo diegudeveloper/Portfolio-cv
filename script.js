@@ -5,7 +5,7 @@
 	const toggle = document.getElementById("toggle");
 	const containerMain = document.querySelector(".container-main");
 	const btnswitch = document.querySelector('#switch');
-	const imagenDark = "/assets/logo/Recurso 33.svg"
+	
 	
 
 	btnswitch.addEventListener('click', () => {
@@ -13,11 +13,21 @@
 		btnswitch.classList.toggle('active')
 		
 		const imagenLigth = document.querySelector('.logo');
+		const imagenDark = document.querySelector('.logoDark')
+
 		if (imagenLigth.src.match("on")) {
 			imagenLigth.src = '/assets/logo/Recurso33off.svg';
 		} else {
 			imagenLigth.src = '/assets/logo/Recurso35on.svg';
+		}
+
+		if (imagenDark.src.match("on")) {
+			imagenDark.src = '/assets/logo/Recurso32off.png';
+		} else {
+			imagenDark.src = '/assets/logo/Recurso30on.png';
 		};
+
+
 
 	});
 
