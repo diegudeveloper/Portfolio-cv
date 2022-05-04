@@ -62,6 +62,7 @@
     .container_switch {
         width: 50%;
         height: 54px;
+        border-bottom: 1px solid var(--color-line);
     }
 
     .linea_horizontal {

@@ -296,6 +296,12 @@ body.ligth #content-contact {
     color: var(--color-font);
     text-align: left;
 }
+body.ligth .menu-picture {
+    border-bottom: 1px solid var(--color-primary);
+}
+body.ligth .container_switch {
+    border-bottom: 1px solid var(--color-primary);
+}
 body.ligth #title {
     color: var(--color-bg);
 }

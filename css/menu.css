@@ -169,6 +169,13 @@
         border-bottom: 1px solid var(--color-line);
     } 
     .menu-picture img {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu-picture img {
         width: 40%;
     }
 }
+
