@@ -10,7 +10,7 @@
 
 	btnswitch.addEventListener('click', () => {
 		document.body.classList.toggle('ligth');
-		btnswitch.classList.toggle('active')
+		btnswitch.classList.toggle('activo')
 		
 		const imagenLigth = document.querySelector('.logo');
 		const imagenDark = document.querySelector('.logoDark')
