@@ -1,13 +1,13 @@
-@import "css/menu.css";
-@import "css/header.css";
-@import "css/information.css";
-@import "css/aboutme.css";
-@import "css/resumen.css";
-@import "css/portafolio.css";
-@import "css/blog.css";
-@import "css/contact.css";
-@import "css/burbujas.css";
-@import "css/juego.css";
+@import "/css/menu.css";
+@import "/css/header.css";
+@import "/css/information.css";
+@import "/css/aboutme.css";
+@import "/css/resumen.css";
+@import "/css/portafolio.css";
+@import "/css/blog.css";
+@import "/css/contact.css";
+@import "/css/burbujas.css";
+@import "/css/juego.css";
 
 /* @import "/css/mediaqueri.css"; */
 
