@@ -160,7 +160,7 @@ body.ligth {
     width: 100%;
     height: 100%;
     background-color: var(--color-bg);
-    transition: 0.3s ease all;
+    transition: 1s ease all;
 }
 #content-about{
     width: 100%;
@@ -168,7 +168,7 @@ body.ligth {
     background-color: var(--color-bg);
     overflow-y: scroll;
     margin-bottom: 2rem;
-    transition: 0.3s ease all;
+    transition: 1s ease all;
 }
 #content-about::-webkit-scrollbar {
     width: 5px;
@@ -186,7 +186,7 @@ body.ligth #content-about::-webkit-scrollbar-thumb {
 	background-color: var(--color-bg);
     overflow-y: scroll;
     margin-bottom: 2rem;
-    transition: 0.3s ease all;
+    transition: 1s ease all;
 }
 #content-resumen::-webkit-scrollbar {
     width: 5px;
@@ -204,7 +204,7 @@ body.ligth #content-resumen::-webkit-scrollbar-thumb {
 	background-color: var(--color-bg);
     overflow-y: scroll;
     margin-bottom: 2rem;
-    transition: 0.3s ease all;
+    transition: 1s ease all;
 }
 #content-portfolio::-webkit-scrollbar {
     width: 5px;
@@ -222,13 +222,13 @@ body.ligth #content-portfolio::-webkit-scrollbar-thumb  {
 	background-color: var(--color-bg);
     overflow-y: scroll;
     margin-bottom: 2rem;
-    transition: 0.3s ease all;
+    transition: 1s ease all;
 }
 #content-contact{
     width: 100%;
     height: 100%;
     background-color: var(--color-bg);
-    transition: 0.3s ease all;
+    transition: 1s ease all;
 }
 #content-contact::-webkit-scrollbar {
     width: 5px;

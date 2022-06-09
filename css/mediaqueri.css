@@ -11,7 +11,7 @@
         display: block;
         overflow:initial;
         position: absolute;
-        top: 0;
+        top: 5rem;
     }
 
     .container-main .container-full .container-menu {
