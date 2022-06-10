@@ -117,9 +117,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // juego
 document.getElementById('player').addEventListener("mouseover",sumarPuntos);
 
-puntos = 0;
-tiempo = 60;
-necesarios = 30;
+let puntos = 0;
+let tiempo = 60;
+let necesarios = 30;
 function sumarPuntos(){
     puntos++;
     document.getElementById("puntos").innerHTML = "Puntos: <b>" + puntos + "/" + necesarios + "  </b>";
