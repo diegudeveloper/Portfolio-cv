@@ -29,7 +29,7 @@
 	});
 
 	const changeLanguage = async (language) => {
-		const requestJson = await fetch(`/lenguages/${language}.json`);
+		const requestJson = await fetch(`lenguages/${language}.json`);
 		const texts = await requestJson.json();
 
 		for(const textToChange of textsToChange) {

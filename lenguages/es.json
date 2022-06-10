@@ -4,12 +4,12 @@
       "about": "Sobre Mi",
       "resumen": "Estudios",
       "portfolio": "Portafolio",
-      "blog": "blog",
+      "blog": "Blog",
       "contact": "Contáctame"
    },
 
     "header": {
-      "ocupation": "Desarrollador Web"
+      "ocupation": "Desarrollador Web."
    },
 
     "footer-header": {
