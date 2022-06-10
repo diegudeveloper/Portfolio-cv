@@ -15,15 +15,15 @@
 		const imagenDark = document.querySelector('.logoDark')
 
 		if (imagenLigth.src.match("on")) {
-			imagenLigth.src = '/assets/logo/Recurso33off.svg';
+			imagenLigth.src = 'assets/logo/Recurso33off.svg';
 		} else {
-			imagenLigth.src = '/assets/logo/Recurso35on.svg';
+			imagenLigth.src = 'assets/logo/Recurso35on.svg';
 		}
 
 		if (imagenDark.src.match("on")) {
-			imagenDark.src = '/assets/logo/Recurso32off.png';
+			imagenDark.src = 'assets/logo/Recurso32off.png';
 		} else {
-			imagenDark.src = '/assets/logo/Recurso30on.png';
+			imagenDark.src = 'assets/logo/Recurso30on.png';
 		};
 
 	});
