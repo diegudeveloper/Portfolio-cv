@@ -120,6 +120,10 @@ document.getElementById('player').addEventListener("mouseover",sumarPuntos);
 let puntos = 0;
 let tiempo = 60;
 let necesarios = 30;
+let iniciar = document.getElementById("btn-juego");
+
+
+
 function sumarPuntos(){
 
     puntos++;
@@ -134,7 +138,13 @@ function sumarPuntos(){
 }
 
 
- function restarTiempo() {
+init();
+
+function init() {
+	iniciar.addEventListener("click", restarTiempo);
+}
+
+function restarTiempo() {
  	tiempo--;
  	document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: "+tiempo; 
  	if (tiempo == 0) {
