@@ -1,4 +1,52 @@
 "use strict";
+
+	const flagsElement = document.getElementById("flags");
+	const textsToChange = document.querySelectorAll("[data-section]");
+	const toggle = document.getElementById("toggle");
+	const containerMain = document.querySelector(".container-main");
+	const btnswitch = document.querySelector('#switch');
+	
+	
+	btnswitch.addEventListener('click', () => {
+		document.body.classList.toggle('ligth');
+		btnswitch.classList.toggle('activo')
+		
+		const imagenLigth = document.querySelector('.logo');
+		const imagenDark = document.querySelector('.logoDark')
+
+		if (imagenLigth.src.match("on")) {
+			imagenLigth.src = 'assets/logo/Recurso33off.svg';
+		} else {
+			imagenLigth.src = 'assets/logo/Recurso35on.svg';
+		}
+
+		if (imagenDark.src.match("on")) {
+			imagenDark.src = 'assets/logo/Recurso32off.png';
+		} else {
+			imagenDark.src = 'assets/logo/Recurso30on.png';
+		};
+
+	});
+
+	const changeLanguage = async (language) => {
+		const requestJson = await fetch(`lenguages/${language}.json`);
+		const texts = await requestJson.json();
+
+		for(const textToChange of textsToChange) {
+			const section = textToChange.dataset.section;
+			const value = textToChange.dataset.value;
+
+			textToChange.innerHTML = texts[section][value];
+
+		}
+	};
+
+	flagsElement.addEventListener("click", (e) => {
+		changeLanguage(e.target.parentElement.dataset.language);
+	});
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
 	const btnHome = document.getElementById('btn-home');
 	const btnAbout = document.getElementById('btn-about');
@@ -13,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const divPortfolio = document.getElementById('content-portfolio');
 	const divContact = document.getElementById('content-contact');
 
+	
 	function checkIfOpen() {
 		let btnActive = document.querySelector('.active');
 		if (btnActive) {
@@ -63,3 +112,47 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 });
+
+
+// juego
+document.getElementById('player').addEventListener("mouseover",sumarPuntos);
+
+let puntos = 0;
+let tiempo = 60;
+let necesarios = 30;
+let iniciar = document.getElementById("btn-juego");
+
+
+
+function sumarPuntos(){
+
+    puntos++;
+    document.getElementById("puntos").innerHTML = "Puntos: <b>" + puntos + "/" + necesarios + "  </b>";
+    let randNum =  Math.round(Math.random()*500);
+    let  randNum2 =  Math.round(Math.random()*500);
+    document.getElementById("player").style.marginTop =randNum + "px";
+    document.getElementById("player").style.marginLeft =randNum2 + "px";
+    if (puntos == 30) {
+ 	   alert("ganaste");
+    }
+}
+
+
+init();
+
+function init() {
+	iniciar.addEventListener("click", restarTiempo);
+}
+
+function restarTiempo() {
+ 	tiempo--;
+ 	document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: "+tiempo; 
+ 	if (tiempo == 0) {
+ 		alert("perdiste maestro");
+ 		tiempo = 0;
+ 		puntos = 0;
+ 	}
+}
+
+setInterval(restarTiempo,1000);
+// juego

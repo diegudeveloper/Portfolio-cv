@@ -1,6 +1,5 @@
 .aboutme {
     width: 100%;
-    font-size: 2rem;
     color: #EEEEEE;
     text-align: left;
 }
@@ -10,11 +9,44 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
     color: #EEEEEE;
-    text-align: justify;
-    font-size: 1.3rem;
+    text-align: initial;
     margin-top: 2rem;
+}
+
+.text-about.active {
+    color: var(--color-bg);
+}
+
+.text-about .descriptionAboutme span {
+    color: var(--color-primary);
+}
+
+.container_interest {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.iconInterest {
+    /* width: 20%; */
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+
+.inte {
+    width: 100%;
+}
+
+.inte.active {
+    color: var(--color-bg);
+}
+.inte1.active {
+    color: var(--color-bg);
+}
+.inte2.active {
+    color: var(--color-bg);
 }
 
 .box-information {
@@ -22,13 +54,37 @@
     height: auto;
     display: flex;
     padding-top: 10px;
-    font-size: 1.4rem;
     color: #FFFFFF8C;
     text-align: initial;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
+.box-information.active {
+    color: var(--color-bg);
+}
+
 .information-aboutme {
     line-height: 3rem;
+}
+
+.information-aboutme p {
+    color: var(--color-font-dark);
+}
+
+.interes.active {
+    color: var(--color-bg);
+}
+
+
+.infMe.active {
+    color: var(--color-bg);
+}
+
+.infMe1.active {
+    color: var(--color-bg);
+}
+
+.infMe2.active {
+    color: var(--color-bg);
 }

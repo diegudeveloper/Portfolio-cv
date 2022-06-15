@@ -1,6 +1,6 @@
 .containerFullBlog {
     width: 100%;
-    margin-top: 20px;
+    padding-top: 3rem;
     display: flex;
 }
 
@@ -80,4 +80,43 @@
     margin: 0 auto;
     font-size: 1.3rem;
     color: #FFFFFF8C;
+}
+
+/* modo ligth */
+
+.titleBlog.active {
+    color: var(--color-bg);
+}
+.lineBlog.active {
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.link_card.active {
+    background-color: #fff;
+}
+.link_card1.active {
+    background-color: #fff;
+}
+.link_card2.active {
+    background-color: #fff;
+}
+
+.title-blog.active {
+    color: var(--color-primary);
+}
+.title-blog1.active {
+    color: var(--color-primary);
+}
+.title-blog2.active {
+    color: var(--color-primary);
+}
+
+.text_blog.active {
+    color: var(--color-bg);
+}
+.text_blog1.active {
+    color: var(--color-bg);
+}
+.text_blog2.active {
+    color: var(--color-bg);
 }

@@ -7,6 +7,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 3rem;
 }
 .card {
     width: 100%;
@@ -29,6 +30,7 @@
 }
 .img_card img {
     width: 100%;
+    height: 100%;
     transition: all .9s ease;   
 }
 .img_card img:hover {
@@ -39,7 +41,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.card h3 {
+.card .namePorta {
     width: 100%;
     padding: 10px 0;
     color: var(--color-font);
@@ -68,4 +70,50 @@
     text-decoration: none;
     color: #EEEEEE;
     font-weight: 100
+}
+
+/* modo ligth*/
+
+.titlePorfo.active {
+    color: var(--color-bg);
+}
+.container_main.active {
+    border-bottom: 1px solid var(--color-primary);
+}
+.namePorta.active {
+    color: var(--color-bg);
+}
+.namePorta1.active {
+    color: var(--color-bg);
+}
+.namePorta2.active {
+    color: var(--color-bg);
+}
+.namePorta3.active {
+    color: var(--color-bg);
+}
+.namePorta4.active {
+    color: var(--color-bg);
+}
+.namePorta5.active {
+    color: var(--color-bg);
+}
+
+.iconofas.active {
+    color: var(--color-primary);
+}
+.iconofas1.active {
+    color: var(--color-primary);
+}
+.iconofas2.active {
+    color: var(--color-primary);
+}
+.iconofas3.active {
+    color: var(--color-primary);
+}
+.iconofas4.active {
+    color: var(--color-primary);
+}
+.iconofas5.active {
+    color: var(--color-primary);
 }

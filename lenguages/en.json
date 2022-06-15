@@ -1,0 +1,61 @@
+{
+    "menu": {
+       "home": "Home",
+       "about": "About Me",
+       "resumen": "Resume",
+       "portfolio": "Portfolio",
+       "blog": "Blog",
+       "contact": "Contact"
+    }, 
+
+    "header": {
+      "ocupation": "Frontend - Developer"
+    },
+
+    "footer-header": {
+      "download": "Download",
+      "contact": "Contact Me"
+    },
+
+    "about-me": {
+      "aboutme":"About Me",
+      "name": "Name",
+      "description": "Apprentice Fronten Developer, Making it happen is my thing. <br><br> Self-taught and knowledgeable in Html, Css, Sass, Bootstrap, Gig and Github. Currently learning Javascript and React to carry out more professional projects. <br><br> True to my core value: #MakeItHappen and convinced that we are part of the community that changes the world, the people who create technology, the people we have always wanted to be but above all becoming the best version of us. <br><br> Currently learning Javascript and React to make more professional and more complete projects, so since my beginnings I have created more than 20 personal projects without wanting to stop. <br><br> True to my core value: #MakeItHappen and convinced that we are part of the community that changes the world, the people who create technology, the people we have always wanted to be, but above all becoming the best version of us.",
+      "residence": "Residence: Malta",
+      "adress": "Adress: Sliema",
+      "E-mail": "E-mail: diegudeveloper@gmail.com",
+      "interests": "Interests",
+      "interests1": "One of the things I enjoy the most is the fact of exploring new gastronomic flavors, it is not the simple fact of eating, it is enjoying the explosion of flavors that you have on your palate, which added to a good drink is a priceless experience.",
+      "interests2": "Another guilty sin is traveling and getting to know new cultures with my wife, adding new knowledge and experiences to our lives is a learning experience that is never forgotten.",
+      "interests3": "As a very visual person I love series and movies, I can spend a whole weekend in my pajamas and ordering take-out so as not to leave the house if I'm in movie onfire mode."
+   },
+
+   "resumen": {
+      "resume": "Resume",
+      "educaction": "Education",
+      "date": "2021 - Currently",
+      "certificates": "Certificates"
+    },
+
+    "portfolio": {
+      "portfolio": "Projects",
+      "webname1": "Travel Agency - Layout",
+      "webname3": "Portfolio - Layout",
+      "webname4": "Project API",
+      "webname5": "Coffe Web - Layout"
+   },
+
+   "blog": {
+      "textBlog": "Blog",
+      "articuleText": "My Interest in Web Development.",
+      "text": "The web is broken and therefore there is no control and no way of...",
+      "articuleText2": "My first 3 projects after my 12 projects.",
+      "text2": "When I started doing programming courses, what I liked the most were...",
+      "articuleText3": "What would you do with your life if money didn't matter?",
+      "text3": "Have you never asked yourself that..."
+    },
+
+    "contactMe": {
+      "contact": "Write me"
+    }
+ }

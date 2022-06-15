@@ -1,0 +1,62 @@
+{
+   "menu": {
+      "home": "Inicio",
+      "about": "Sobre Mi",
+      "resumen": "Estudios",
+      "portfolio": "Portafolio",
+      "blog": "Blog",
+      "contact": "Contáctame"
+   },
+
+    "header": {
+      "ocupation": "Desarrollador Web."
+   },
+
+    "footer-header": {
+      "download": "Descargar CV",
+      "contact": "Contáctame"
+   },
+
+   "about-me": {
+      "aboutme":"Sobre Mí",
+      "name": "Nombre",
+      "description": "Aprendiz Fronten Developer, “Hacer que Suceda” es lo mío. <br><br> Desde el 2019 comienzo en el mundo TECH como frontend developer y aunque suene a cliché, soy amante de la tecnología, pero no de la que se consume, sino de la que se crea.  <br><br> Lo que sé, lo he aprendido por ser autodidacta y poseo conocimientos en Html, Css, Sass, Bootstrap, Gig y Github. <br><br> Actualmente aprendiendo de Javascript y React para llevar a cabo proyectos más profesionales y más completos, es por eso que desde mis inicios he creado más de 20 proyectos personales y sin ánimos de parar. <br><br> Fiel a mi valor principal: #HazQueSuceda y convencido de que seamos parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, pero sobre todo convirtiéndonos en la mejor versión de nosotros.",
+      "residence": "Residencia: Malta",
+      "adress": "Dirección: Sliema",
+      "E-mail": "Correo: diegudeveloper@gmail.com",
+      "interests": "Intereses", 
+      "interests1": "Una de las cosas que más disfruto es el hecho de explorar nuevos sabores gastronómicos, no es el simple hecho de comer, es disfrutar la explosión de sabores que tienes en tu paladar, que  sumado a un buen acompañante de bebida es una experiencia que no tiene precio.",
+      "interests2": "Otro pecado culposo es el viajar y conocer nuevas culturas en compañía de mi esposa, el agregar nuevos conocimientos y experiencias a nuestras vidas es un aprendizaje que nunca se olvida.",
+      "interests3": "Como soy muy visual me encantan las series y películas, puedo pasar todo un fin de semana en pijama y pidiendo comida para llevar con tal de no salir de la casa si es que estoy en modo onfire de pelis."
+   },
+
+   "resumen": {
+      "resume": "Estudios",
+      "educaction": "Cursos",
+      "date": "2021 - Actualmente",
+      "certificates": "Certificados"
+   },
+
+   "portfolio": {
+      "portfolio": "Proyectos",
+      "webname1": "Agencia de Viaje - Maquetación",
+      "webname3": "Portafolio - Maquetación",
+      "webname4": "Proyecto API",
+      "webname5": "Web Coffe - Maquetación"
+   },
+
+   "blog": {
+      "textBlog": "Blog",
+      "articuleText": "Mi Interes por el Desarrollo Web.",
+      "text": "La web está quebrada y por ende no existe control ni camino alguno de...",
+      "articuleText2": "Mis primeros 3 proyectos despues de mis 12 proyectos.",
+      "text2": "Cuando comencé hacer cursos de programación lo...",
+      "articuleText3": "¿Qué harías de tu vida si el dinero no importara?",
+      "text3": "¿Nunca te has hecho esa pregunta? debo confesar que..."
+   },
+
+   "contactMe": {
+      "contact": "Escríbeme"
+    }
+   
+}
