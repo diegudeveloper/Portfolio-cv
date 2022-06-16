@@ -121,7 +121,8 @@ const iniciar = document.getElementById("btn-juego"),
 	player = document.getElementById('player'),
 	points = document.getElementById("puntos"),
 	timer = document.getElementById("tiempo"),
-	closeGame = document.getElementById('close-game')
+	closeGame = document.getElementById('close-game'),
+	gameContainer = document.querySelector('.contenedorGame')
 // VARIABLES
 let puntos = 0,
 	tiempo = 0,
@@ -141,6 +142,12 @@ gamePlayButton.addEventListener('pointerdown', () => {
 	}
 	// comenzar el juego
 	gameRunning = true
+	// chequear que no haya un cartel existente
+	gameContainer.childNodes.forEach(node => {
+		if (node.classList?.contains('message-container')) {
+			gameContainer.removeChild(node)
+		}
+	})
 	StartTimer()
 	puntos = 0
 	tiempo = 60
@@ -153,32 +160,59 @@ closeGame.addEventListener('pointerdown', e => {
 	GameOver()
 })
 
+const gameMessage = (message, type) => {
+	const container = document.createElement('div')
+	container.classList.add('message-container', type == 'win' ? 'win-message' : 'gameover-message')
+	const text = document.createElement('h1')
+	text.innerText = message
+	container.appendChild(text)
+	gameContainer.appendChild(container)
+	const removeMessage = () => {
+		container.removeEventListener('pointerdown', removeMessage, false)
+		clearTimeout(msgTimer)
+		if (gameContainer.contains(container)) {
+			gameContainer.removeChild(container)
+		}
+	}
+	container.addEventListener('pointerdown', removeMessage)
+	const msgTimer = setTimeout(() => {
+		removeMessage()
+	}, 10000);
+}
+
 function sumarPuntos() {
-	if (puntos >= 30) {
-		console.log("ganaste");
-		GameOver()
+	if (!gameRunning) {
 		return
 	}
 	puntos++;
 	points.innerHTML = `Puntos: <b>${puntos}/ ${necesarios}</b>`;
-
+	if (puntos >= necesarios) {
+		console.log("ganaste");
+		gameMessage('ganaste', 'win')
+		GameOver()
+	}
 }
 
 function MoveObjective() {
-	// Todo change random variables to fit device width and height
-	const randNum = Math.round(Math.random() * 500);
-	const randNum2 = Math.round(Math.random() * 500);
-	player.style.marginTop = randNum + "px";
-	player.style.marginLeft = randNum2 + "px";
+	// resto 50 px de cada lado porque es el tamaño de la bola y no quiero que se salga del contenedor
+	const gameWidth = gameContainer.offsetWidth - 50
+	const gameHeight = gameContainer.offsetHeight - 50
+	const pos = {
+		x: Math.round(Math.random() * gameWidth),
+		y: Math.round(Math.random() * gameHeight)
+	}
+	player.style.marginLeft = `${pos.x}px`;
+	player.style.marginTop = `${pos.y}px`;
 }
 
 function StartTimer() {
 	gameClock = setInterval(() => {
 		if (tiempo <= 0) {
 			console.log("perdiste maestro");
+			gameMessage('Game Over', 'loose')
 			tiempo = 0;
 			puntos = 0;
-			GameOver(gameClock)
+			GameOver()
 			return
 		}
 		tiempo--;
