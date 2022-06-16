@@ -126,14 +126,21 @@ const iniciar = document.getElementById("btn-juego"),
 let puntos = 0,
 	tiempo = 0,
 	necesarios = 30,
-	gameClock
+	gameClock,
+	gameRunning = false
+
 // INICIALIZANDO TEXTOS
 points.innerHTML = `Puntos: <b>${puntos}/ ${necesarios}</b>`
 timer.innerHTML = `Tiempo: ${tiempo}`
 
 // PLAY BUTTON
 gamePlayButton.addEventListener('pointerdown', () => {
+	if (gameRunning) {
+		// si el juego ya esta corriendo no hacer nada
+		return
+	}
 	// comenzar el juego
+	gameRunning = true
 	StartTimer()
 	puntos = 0
 	tiempo = 60
@@ -158,8 +165,9 @@ function sumarPuntos() {
 }
 
 function MoveObjective() {
-	let randNum = Math.round(Math.random() * 500);
-	let randNum2 = Math.round(Math.random() * 500);
+	// Todo change random variables to fit device width and height
+	const randNum = Math.round(Math.random() * 500);
+	const randNum2 = Math.round(Math.random() * 500);
 	player.style.marginTop = randNum + "px";
 	player.style.marginLeft = randNum2 + "px";
 }
@@ -186,6 +194,7 @@ function StopTimer() {
 }
 
 function GameOver() {
+	gameRunning = false
 	player.removeEventListener('pointerdown', sumarPuntos, false)
 	StopTimer()
 }
