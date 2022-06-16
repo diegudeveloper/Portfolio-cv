@@ -1,32 +1,62 @@
 .contenedorGame {
-    padding: 0px;
-    margin: auto;
-    width: 80%;
-    height: 80%;
-	/* position: absolute; */
-	top: 300px;
-	left: 0;
-	
-    background-color: #ffb;
-    /* border: 8px dashed #993; */
+  padding: 0px;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  /* position: absolute; */
+  top: 300px;
+  left: 0;
+
+  /* background-color: #ffb; */
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+  /* border: 8px dashed #993; */
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 1px 2px rgba(0, 0, 0, 0.3),
+    0 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 #player {
-	background-color: #900;
-	border: 4px dashed #b22;
-	width: 50px;
-	height: 50px;
-	border-radius: 29px;
-	position: absolute;
-	transition: all 0.3s
+  background-color: #900;
+  border: 4px dashed #b22;
+  width: 50px;
+  height: 50px;
+  border-radius: 29px;
+  position: absolute;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 .pointer {
-	background-color: #444;
-	height: 60px;
-	margin-top: 15px;
-	border-bottom: 0px;
-	color: #fff;
-	font-size: 20px;
-	text-align: center;
-	padding: 10px 0px;
+  background-color: #444;
+  height: 60px;
+  margin-bottom: 15px;
+  border-bottom: 0px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.775);
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn-primary {
+  background: rgba(251, 176, 59);
+  color: #fff;
 }
