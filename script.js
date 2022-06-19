@@ -75,6 +75,12 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function open(btn, div) {
+		if (screen.width <= 1024) {
+			console.log("🚀 ~ file: script.js ~ line 79 ~ open ~ div", div)
+			// * es pantalla de telefono
+			div.scrollIntoView({ behavior: 'smooth' })
+			return
+		}
 		checkIfOpen();
 		btn.classList.add('active');
 		div.classList.remove('closed');
