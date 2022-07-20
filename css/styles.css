@@ -390,3 +390,7 @@ body.ligth .main_btn .btn_contact {
 .title::first-letter {
     color: var(--color-primary);
 }
+
+.diegoletter {
+    font-size: 2rem;
+}
