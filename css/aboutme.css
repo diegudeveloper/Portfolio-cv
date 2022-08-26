@@ -14,6 +14,29 @@
     margin-top: 2rem;
 }
 
+.text-about .svgIcon {
+    width: 15%;
+    /* fill: #EEEEEE; */
+}
+
+.svgIcon {
+    width: 80%;
+}
+
+
+/* .divIcons {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ////text-about
+} */
+
+.containerIconsTolls {
+    display: flex;
+    margin-top: 4rem;
+}
+
 .text-about.active {
     color: var(--color-bg);
 }
