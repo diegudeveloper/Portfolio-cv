@@ -141,4 +141,8 @@
     .container-main .container-full .container-menu .menu-container .menu-btn .textmenu  span {
         display: none;
     }
+    #content-about{
+        overflow-y: initial;
+        
+    }
 }
