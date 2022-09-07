@@ -88,3 +88,24 @@
 .infMe2.active {
     color: var(--color-bg);
 }
+
+/*container Tools*/
+
+.ContainerTools {
+    width: 100%;
+    height: auto;
+    margin-top: 6rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ContainerTools .dark {
+    width: 10%;
+    fill: #EEEEEE;
+    
+}
+
+
+
