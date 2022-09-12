@@ -51,7 +51,7 @@ btnswitch.addEventListener('click', () => {
 	if (logoGithubTools.src.match("on")) {
 		logoGithubTools.src = '/assets/tools/githuboff.png';
 	} else {
-		logoGithubTools.src = '/assets/tools/github.png';
+		logoGithubTools.src = '/assets/tools/githubon.png';
 	}
 	
 
