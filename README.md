@@ -58,16 +58,16 @@ Cada componente muestra la información requerida por el usuario. Adicionalmente
 - Blog
 - Contactame.
 
- Estos componentes mostraran la informacion segun su requerimiento. <br><br>
+ Estos componentes muestran la informacion segun su requerimiento. <br><br>
 
-🕹️ Dentro de su estructura posee un juego oculto el cual esta disponible en cada uno de los dispositivos que se quiera jugar. 
+🕹️ Dentro de su estructura posee un juego oculto el cual funciona a la perfeccion en cualquiera de los distintos dispositivos antes mencionados.
 
 <br><br>
 
 
-### **Clonar**
-
-Si desea ejecutar este proyecto en local, eche un vistazo a los siguientes pasos:
+### **Si deseas mejorar o arreglar este proyecto te invito a clonarlo.**>
+<br>
+Para ejecutar este proyecto en local, echa un vistazo a los siguientes pasos:
 <br><br>
 
 1. Clona el repostitorio
@@ -76,21 +76,12 @@ Si desea ejecutar este proyecto en local, eche un vistazo a los siguientes pasos
    ```
 <br><br>
 2. Mejora, agrega, daña, inventa pero sobre todo nunca dejes de intentarlo.
-   <br><br><br><br>
+   <br><br><br><br><br><br>
    
-
-## Portfolio-cv
- <a name="flowchart"></a>
-[**Open in Figma**](https://www.figma.com/file/fBCX1ahNBOFbPjSOtrPp8c/FlowChart-Studio-Ghibli?node-id=0%3A1)
-![image](https://user-images.githubusercontent.com/73669701/165537137-1b298af7-18e7-4d30-ba34-f35900aaf69a.png)
-
-
-##  🚀Desplegar <a name="deployed"></a>
+ 🚀Desplegar <a name="deployed"></a>
 [**Diegudeveloper**](https://diegudeveloper.github.io/Portfolio-cv/)
 
 ## 👍🏻 Agradecimientos <a name="acknowledgements"></a>
 
 - ✅ [Armando](https://github.com/Armando284)
-- ✅ [Liliana](https://github.com/LilianaRestrepoTorres)
-- ✅ [Guillermo](https://github.com/Hai5edfm)
-- ✅ [Ivan](https://github.com/AreYouIvan)
+- ✅ [David](https://github.com/david-villegas)
