@@ -51,6 +51,10 @@
     object-fit: cover;
 }
 
+.containerImg-blog .imgblog3 {
+    object-fit: contain;
+}
+
 .containerText-blog {
     height: 50%;
 }
