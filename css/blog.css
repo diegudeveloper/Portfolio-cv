@@ -29,7 +29,7 @@
     max-width: 230px;
     height: 350px;
     margin-bottom: 20px;
-    border: 1px solid rgba(251, 177, 59, 0.200);
+    /* border: 1px solid rgba(251, 177, 59, 0.200); */
     box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
     margin: 0px auto 40px;
     border-radius: 5px;
@@ -68,9 +68,10 @@
 .containerText-blog .title-blog {
     width: 100%;
     padding: 10px 0;
-    color: var(--color-font);
+    /* color: var(--color-font); */
+    color: #fff;
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 400;
     padding: 0 1rem;
     margin-bottom: 1rem;
 }
@@ -79,7 +80,8 @@
     width: 80%;
     margin: 0 auto;
     font-size: 1.3rem;
-    color: #FFFFFF8C;
+    /* color: #FFFFFF8C; */
+    color: #8e9ba4; 
 }
 
 /* modo ligth */
