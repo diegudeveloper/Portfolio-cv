@@ -24,34 +24,34 @@ btnswitch.addEventListener('click', () => {
 	const logoGithubTools = document.querySelector('.logoGithubTools');
 
 	if (imagenTools.src.match("on")) {
-		imagenTools.src = '/assets/tools/htmloff.png';
+		imagenTools.src = 'assets/tools/htmloff.png';
 	} else {
-		imagenTools.src = '/assets/tools/htmlon.png';
+		imagenTools.src = 'assets/tools/htmlon.png';
 	}
 	if (logoCssTools.src.match("on")) {
-		logoCssTools.src = '/assets/tools/cssoff.png';
+		logoCssTools.src = 'assets/tools/cssoff.png';
 	} else {
-		logoCssTools.src = '/assets/tools/csson.png';
+		logoCssTools.src = 'assets/tools/csson.png';
 	}
 	if (logoJavascriptTools.src.match("on")) {
-		logoJavascriptTools.src = '/assets/tools/javascriptoff.png';
+		logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
 	} else {
 		logoJavascriptTools.src = '/assets/tools/javascripton.png';
 	}
 	if (logoSassTools.src.match("on")) {
-		logoSassTools.src = '/assets/tools/sassoff.png';
+		logoSassTools.src = 'assets/tools/sassoff.png';
 	} else {
-		logoSassTools.src = '/assets/tools/sasson.png';
+		logoSassTools.src = 'assets/tools/sasson.png';
 	}
 	if (logoGitTools.src.match("on")) {
-		logoGitTools.src = '/assets/tools/gitoff.png';
+		logoGitTools.src = 'assets/tools/gitoff.png';
 	} else {
-		logoGitTools.src = '/assets/tools/giton.png';
+		logoGitTools.src = 'assets/tools/giton.png';
 	}
 	if (logoGithubTools.src.match("on")) {
-		logoGithubTools.src = '/assets/tools/githuboff.png';
+		logoGithubTools.src = 'assets/tools/githuboff.png';
 	} else {
-		logoGithubTools.src = '/assets/tools/githubon.png';
+		logoGithubTools.src = 'assets/tools/githubon.png';
 	}
 	
 
