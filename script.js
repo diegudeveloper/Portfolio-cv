@@ -36,7 +36,7 @@ btnswitch.addEventListener('click', () => {
 	if (logoJavascriptTools.src.match("on")) {
 		logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
 	} else {
-		logoJavascriptTools.src = '/assets/tools/javascripton.png';
+		logoJavascriptTools.src = 'assets/tools/javascripton.png';
 	}
 	if (logoSassTools.src.match("on")) {
 		logoSassTools.src = 'assets/tools/sassoff.png';
