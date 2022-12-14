@@ -142,6 +142,9 @@
         color: var(--color-font);
         /* padding: 3rem; */
     }
+    .container-menu .home {
+        display: none;
+    }
     .flags {
         height: 80px;
         width: 50px;
