@@ -17,9 +17,11 @@
     --color-bg:         #31313a;
     --bg-color:         rgba(251, 177, 59, 0.205);
 
+    --color-secunday:   #ffffff;
     --color-font:       #EEEEEE;
     --color-font-dark:  #FFFFFF8C;
     --color-line:       rgba(238, 238, 238, 0.300);
+    --color-font-normal: #8e9ba4;
 }
 
 * {
@@ -356,6 +358,9 @@ body.ligth .containerResumen ul li p {
     color: var(--color-bg);
 }
 body.ligth .containerResumen ul li .university {
+    color: var(--color-bg);
+}
+body.ligth .containerResumen ul li .ruta {
     color: var(--color-bg);
 }
 body.ligth .link_card {
