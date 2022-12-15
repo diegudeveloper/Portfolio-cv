@@ -200,6 +200,7 @@
 @media screen and (min-width: 1024px) {
     .resumen_education {
         width: 45%;
+        height: 310px;
     }
     /* .date {
         width: 55%;
@@ -208,7 +209,9 @@
 
 @media screen and (max-width: 768px) {
     .resumen_education {
-        height: 220px;
+        max-width: 250px;
+        height: 350px;
+        /* width: 75%; */
     }
     .date {
         width: 30%;
@@ -218,5 +221,6 @@
 @media screen and (max-width: 550px) {
     .date {
         width: 65%;
+        text-align: start;
     }
 }
