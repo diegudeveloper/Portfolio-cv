@@ -86,30 +86,21 @@
 }
 .card .codigo button:nth-child(1) {
     background-color: var(--color-primary);
+    color: var(--color-secundary);
+} 
+.card .codigo button:nth-child(2) {
+    /* background-color: var(--color-primary); */
+    color: var(--color-primary);
 } 
 .card .codigo button .fa-regular {
     color: var(--color-secundary);
+    /* margin-right: 1rem; */
     /* font-size: 2rem; */
 }
 
 .card .codigo button p {
     margin-left: 1rem;
 }
-
-
-/* .card .description_card .codigo a:hover {
-    color: var(--color-primary);
-}
-.card .description_card .link {
-    width: 50%;
-    padding: 5px 0;
-}
-.card .description_card .link a {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #EEEEEE;
-    font-weight: 100
-} */
 
 /* modo ligth*/
 
