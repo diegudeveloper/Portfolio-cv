@@ -371,7 +371,7 @@ body.ligth .namePorta {
     color: var(--color-bg);
 }
 body.ligth .codigo a {
-    color: var(--color-primary);
+    color: var(--color-bg);
 }
 body.ligth .containerImg-blog {
     background: var(--color-font);
@@ -388,6 +388,7 @@ body.ligth .containerText-blog .title-blog {
 body.ligth .main_btn .btn_contact {
     color: var(--color-bg);
 }
+
 .colorletter {
     color: var(--color-primary);
 }
