@@ -45,7 +45,8 @@
 }
 
 .description_card span {
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
+    background-color: mediumorchid;
     padding: 0.2rem;
     color: var(--color-secundary);
 }
@@ -69,7 +70,7 @@
     text-align: start;
 }
 .card .codigo {
-    width: 100%;
+    /* width: 100%; */
     padding: 5px 0;
 }
 .card .codigo button {
@@ -83,21 +84,40 @@
     align-items: center;
     padding: 5px 15px;
     font-size: 1.5rem;
+    transition: 0.2s all;
+}
+
+.card .codigo button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.card .codigo button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-bg);
 }
 .card .codigo button:nth-child(1) {
     background-color: var(--color-primary);
     color: var(--color-secundary);
 } 
-.card .codigo button:nth-child(2) {
-    /* background-color: var(--color-primary); */
+.card .codigo button:nth-child(2) > a {
     color: var(--color-primary);
-} 
-.card .codigo button .fa-regular {
-    color: var(--color-secundary);
-    /* margin-right: 1rem; */
-    /* font-size: 2rem; */
+    width: 100%;
+}
+.card .codigo button:nth-child(2) {
+    padding: 0;
+    height: 29px;
+    color: var(--color-primary);
 }
 
+.card .codigo button .fa-regular {
+    color: var(--color-secundary);
+}
 .card .codigo button p {
     margin-left: 1rem;
 }

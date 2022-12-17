@@ -56,7 +56,7 @@
     transition: all 0.5s ease;
     box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
     list-style: none;
-    
+    margin-bottom: 22px;
 }
 
 .containerEduca1 {
@@ -111,6 +111,8 @@
 }
 
 .btnRuta {
+    width: 167px;
+    height: 30px;
     padding: 5px 10px;
     border: none;
     margin: 1rem auto;
