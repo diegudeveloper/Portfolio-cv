@@ -26,7 +26,6 @@
     height: 60%;
     object-fit: cover;
     overflow: hidden;
-    cursor: pointer;
 }
 .img_card img {
     width: 100%;
@@ -49,6 +48,7 @@
     background-color: mediumorchid;
     padding: 0.2rem;
     color: var(--color-secundary);
+    border-radius: 5px;
 }
 
 .description_card p {
@@ -85,6 +85,7 @@
     padding: 5px 15px;
     font-size: 1.5rem;
     transition: 0.2s all;
+    cursor: pointer;
 }
 
 .card .codigo button:active {
