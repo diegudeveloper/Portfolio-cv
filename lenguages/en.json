@@ -41,6 +41,12 @@
       "certificates": "Certificates"
     },
 
+    "resumen1": {
+      "nameCurso": "Deep Javascript",
+      "cCantidad": "Courses",
+      "cHoras": "Hors"
+    },
+
     "portfolio": {
       "portfolio": "Projects",
       "webname1": "Travel Agency - Layout",

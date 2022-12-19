@@ -41,6 +41,12 @@
       "certificates": "Certificados"
    },
 
+   "resumen1": {
+      "nameCurso": "Javascript a Profundidad",
+      "cCantidad": "Cursos",
+      "cHoras": "Horas"
+   },
+
    "portfolio": {
       "portfolio": "Proyectos",
       "webname1": "Agencia de Viaje - Maquetación",
