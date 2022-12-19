@@ -42,10 +42,15 @@
     },
 
     "resumen1": {
+      
       "nameCurso": "Deep Javascript",
       "cCantidad": "Courses",
       "cHoras": "Hors"
     },
+    "resumen3": {
+      "nameCurso": "Modern JavaScript",
+      "cCantidad1": "Curso"
+   },
 
     "portfolio": {
       "portfolio": "Projects",

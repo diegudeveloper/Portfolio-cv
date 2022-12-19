@@ -42,9 +42,14 @@
    },
 
    "resumen1": {
+      
       "nameCurso": "Javascript a Profundidad",
       "cCantidad": "Cursos",
       "cHoras": "Horas"
+   },
+   "resumen3": {
+      "nameCurso": "JavaScript Moderno",
+      "cCantidad1": "Curso"
    },
 
    "portfolio": {
