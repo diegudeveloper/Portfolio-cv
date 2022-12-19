@@ -32,8 +32,12 @@
 
    "resumen": {
       "resume": "Resume",
-      "educaction": "Education",
+      "educaction": "Courses",
       "date": "2021 - Currently",
+      "educactionOnline": "Online Education",
+      "htmlCss": "HTML and CSS in Depth",
+      "cCantidad": "Courses",
+      "cHoras": "Hors",
       "certificates": "Certificates"
     },
 
