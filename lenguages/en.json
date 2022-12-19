@@ -49,8 +49,11 @@
     },
     "resumen3": {
       "nameCurso": "Modern JavaScript",
-      "cCantidad1": "Curso"
+      "cCantidad1": "Course"
    },
+   "resumen4": {
+    "nameCurso": "Web Bevelopment"
+  },
 
     "portfolio": {
       "portfolio": "Projects",
