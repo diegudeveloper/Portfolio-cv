@@ -39,21 +39,23 @@
       "cCantidad": "Courses",
       "cHoras": "Hors",
       "certificates": "Certificates",
-      "btnRuta": "Know route"
+      "btnRuta": "Know Course"
     },
 
     "resumen1": {
       
       "nameCurso": "Deep Javascript",
       "cCantidad": "Courses",
-      "cHoras": "Hors"
+      "cHoras": "Hors",
+      "btnRuta": "View Route"
     },
     "resumen3": {
       "nameCurso": "Modern JavaScript",
       "cCantidad1": "Course"
     },
     "resumen4": {
-      "nameCurso": "Web Bevelopment"
+      "nameCurso": "Web Bevelopment",
+      "btnRuta": "Know Courses"
     },
     "resumen5": {
       "nameCurso": "Introduction Web Development I"

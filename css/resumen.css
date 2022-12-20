@@ -95,7 +95,7 @@
 }
 
 .ruta {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     text-align: start;
     color: var(--color-secunday);
@@ -136,7 +136,7 @@
 .btnRuta a {
     text-decoration: none;
     color: var(--color-primary);
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
 }

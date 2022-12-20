@@ -39,21 +39,23 @@
       "cCantidad": "Cursos",
       "cHoras": "Horas",
       "certificates": "Certificados",
-      "btnRuta": "Conocer Ruta"
+      "btnRuta": "Conocer Curso"
    },
 
    "resumen1": {
       
       "nameCurso": "Javascript a Profundidad",
       "cCantidad": "Cursos",
-      "cHoras": "Horas"
+      "cHoras": "Horas",
+      "btnRuta": "Conocer Ruta"
    },
    "resumen3": {
       "nameCurso": "Javascript Moderno",
       "cCantidad1": "Curso"
    },
    "resumen4": {
-      "nameCurso": "Desarrollo Web"
+      "nameCurso": "Desarrollo Web",
+      "btnRuta": "Conocer Cursos"
    },
    "resumen5": {
       "nameCurso": "Introduccion Desarrollo Web I"
