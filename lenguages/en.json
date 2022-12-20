@@ -32,9 +32,34 @@
 
    "resumen": {
       "resume": "Resume",
-      "educaction": "Education",
+      "educaction": "Courses",
       "date": "2021 - Currently",
-      "certificates": "Certificates"
+      "educactionOnline": "Online Education",
+      "htmlCss": "HTML and CSS in Depth",
+      "cCantidad": "Courses",
+      "cHoras": "Hors",
+      "certificates": "Certificates",
+      "btnRuta": "Know route"
+    },
+
+    "resumen1": {
+      
+      "nameCurso": "Deep Javascript",
+      "cCantidad": "Courses",
+      "cHoras": "Hors"
+    },
+    "resumen3": {
+      "nameCurso": "Modern JavaScript",
+      "cCantidad1": "Course"
+    },
+    "resumen4": {
+      "nameCurso": "Web Bevelopment"
+    },
+    "resumen5": {
+      "nameCurso": "Introduction Web Development I"
+    },
+    "resumen6": {
+      "nameCurso": "Introduction Web Development II"
     },
 
     "portfolio": {
@@ -47,12 +72,12 @@
 
    "blog": {
       "textBlog": "Blog",
-      "articuleText": "My Interest in Web Development.",
-      "text": "The web is broken and therefore there is no control and no way of...",
-      "articuleText2": "My first 3 projects after my 12 projects.",
-      "text2": "When I started doing programming courses, what I liked the most were...",
-      "articuleText3": "What would you do with your life if money didn't matter?",
-      "text3": "Have you never asked yourself that..."
+      "articuleText": "Once upon a time there was a Web Developer Part I.",
+      "text": "TIf your dream is to be a web developer...",
+      "articuleText2": "Once upon a time there was a Web Developer Part II.",
+      "text2": "I invite you to read the second part of my story...",
+      "articuleText3": "My Personal Brand",
+      "text3": "COMING SOON"
     },
 
     "contactMe": {

@@ -9,7 +9,8 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    color: #EEEEEE;
+    /* color: #EEEEEE; */
+    color: #8e9ba4;
     text-align: initial;
     margin-top: 2rem;
 }
@@ -123,6 +124,3 @@
     width: 10%;
     height: 10%;
 }
-
-
-

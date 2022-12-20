@@ -34,7 +34,32 @@
       "resume": "Estudios",
       "educaction": "Cursos",
       "date": "2021 - Actualmente",
-      "certificates": "Certificados"
+      "educactionOnline": "Educacíon En Línea",
+      "htmlCss": "HTML y CSS a Profundidad",
+      "cCantidad": "Cursos",
+      "cHoras": "Horas",
+      "certificates": "Certificados",
+      "btnRuta": "Conocer Ruta"
+   },
+
+   "resumen1": {
+      
+      "nameCurso": "Javascript a Profundidad",
+      "cCantidad": "Cursos",
+      "cHoras": "Horas"
+   },
+   "resumen3": {
+      "nameCurso": "Javascript Moderno",
+      "cCantidad1": "Curso"
+   },
+   "resumen4": {
+      "nameCurso": "Desarrollo Web"
+   },
+   "resumen5": {
+      "nameCurso": "Introduccion Desarrollo Web I"
+   },
+   "resumen6": {
+      "nameCurso": "Introduccion Desarrollo Web II"
    },
 
    "portfolio": {
@@ -47,12 +72,12 @@
 
    "blog": {
       "textBlog": "Blog",
-      "articuleText": "Mi Interes por el Desarrollo Web.",
-      "text": "La web está quebrada y por ende no existe control ni camino alguno de...",
-      "articuleText2": "Mis primeros 3 proyectos despues de mis 12 proyectos.",
-      "text2": "Cuando comencé hacer cursos de programación lo...",
-      "articuleText3": "¿Qué harías de tu vida si el dinero no importara?",
-      "text3": "¿Nunca te has hecho esa pregunta? debo confesar que..."
+      "articuleText": "Érase una vez un desarrollador web Parte I.",
+      "text": "Si tu sueño es ser desarrollador web...",
+      "articuleText2": "Érase una vez un desarrollador web Parte II.",
+      "text2": "te invito a leer la segunda parte de mi historia, con la...",
+      "articuleText3": "Mi Marca Personal",
+      "text3": "PROXIMAMENTE"
    },
 
    "contactMe": {

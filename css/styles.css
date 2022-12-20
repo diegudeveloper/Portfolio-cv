@@ -17,9 +17,11 @@
     --color-bg:         #31313a;
     --bg-color:         rgba(251, 177, 59, 0.205);
 
+    --color-secunday:   #ffffff;
     --color-font:       #EEEEEE;
     --color-font-dark:  #FFFFFF8C;
     --color-line:       rgba(238, 238, 238, 0.300);
+    --color-font-normal: #8e9ba4;
 }
 
 * {
@@ -198,6 +200,9 @@ body.ligth #content-about::-webkit-scrollbar-thumb {
 body.ligth #content-resumen::-webkit-scrollbar-thumb {
     background: var(--color-secundary);
 }
+body.ligth .titleCursos {
+    color: var(--color-bg);
+}
 #content-portfolio{
     width: 100%;
     height: 100%;
@@ -297,6 +302,8 @@ body.ligth #content-contact {
     color: var(--color-font);
     text-align: left;
 }
+
+
 body.ligth .menu-picture {
     border-bottom: 1px solid var(--color-primary);
 }
@@ -358,6 +365,9 @@ body.ligth .containerResumen ul li p {
 body.ligth .containerResumen ul li .university {
     color: var(--color-bg);
 }
+body.ligth .containerResumen ul li .ruta {
+    color: var(--color-bg);
+}
 body.ligth .link_card {
     background-color: var(--color-font);
 }
@@ -366,7 +376,7 @@ body.ligth .namePorta {
     color: var(--color-bg);
 }
 body.ligth .codigo a {
-    color: var(--color-primary);
+    color: var(--color-bg);
 }
 body.ligth .containerImg-blog {
     background: var(--color-font);
@@ -383,6 +393,7 @@ body.ligth .containerText-blog .title-blog {
 body.ligth .main_btn .btn_contact {
     color: var(--color-bg);
 }
+
 .colorletter {
     color: var(--color-primary);
 }
