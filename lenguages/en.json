@@ -38,7 +38,8 @@
       "htmlCss": "HTML and CSS in Depth",
       "cCantidad": "Courses",
       "cHoras": "Hors",
-      "certificates": "Certificates"
+      "certificates": "Certificates",
+      "btnRuta": "Know route"
     },
 
     "resumen1": {
@@ -50,10 +51,16 @@
     "resumen3": {
       "nameCurso": "Modern JavaScript",
       "cCantidad1": "Course"
-   },
-   "resumen4": {
-    "nameCurso": "Web Bevelopment"
-  },
+    },
+    "resumen4": {
+      "nameCurso": "Web Bevelopment"
+    },
+    "resumen5": {
+      "nameCurso": "Introduction Web Development I"
+    },
+    "resumen6": {
+      "nameCurso": "Introduction Web Development II"
+    },
 
     "portfolio": {
       "portfolio": "Projects",
