@@ -67,8 +67,18 @@
     "portfolio": {
       "portfolio": "Projects",
       "webname1": "Travel Agency - Layout",
-      "webname3": "Portfolio - Layout",
-      "webname4": "Project API",
+      "description": "Agency web project where you can buy plane tickets, stay packages and lodging reservations.",
+      "btnsiew": "View Demo",
+      "btncode": "View Code",
+
+      "webname2": "Accommodation Rental - Maqueta",
+      "description2": "Web project on a digital platform dedicated to offering accommodation to individuals and tourists (vacation rental).",
+
+      "webname3": "Ecommerce Aguacate - Maqueta - API",
+      "description3": "Web project on Ecommerce with sale of Organic Products (Avocados) with recipes to prepare with said products.",
+
+
+
       "webname5": "Coffe Web - Layout"
    },
 

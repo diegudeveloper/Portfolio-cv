@@ -66,9 +66,18 @@
 
    "portfolio": {
       "portfolio": "Proyectos",
-      "webname1": "Agencia de Viaje - Maquetación",
-      "webname3": "Portafolio - Maquetación",
-      "webname4": "Proyecto API",
+      "webname1": "Agencia de Viaje - Maqueta",
+      "description": "Proyecto web sobre Agencia donde podrás comprar boletos de avión, paquetes de estadias y reservas de hospedaje.",
+      "btnsiew": "Ver Demo",
+      "btncode": "Ver Codigo",
+
+      "webname2": "Alquiler de Alojamiento - Maqueta",
+      "description2": "Proyecto web sobre una plataforma digital dedicada a la oferta de alojamientos a particulares y turísticos (alquiler vacacional) .",
+      
+      "webname3": "Ecommerce Aguacate - Maqueta - API",
+      "description3": "Proyecto web sobre Ecommerce con venta de Productos Organicos (Aguacates) con resetas para preparar con dichos productos. ",
+
+
       "webname5": "Web Coffe - Maquetación"
    },
 
