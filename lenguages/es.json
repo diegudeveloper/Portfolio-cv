@@ -89,9 +89,11 @@
    "blog": {
       "textBlog": "Blog",
       "articuleText": "Érase una vez un desarrollador web Parte I.",
-      "text": "Si tu sueño es ser desarrollador web...",
+      "text": "Si tu sueño es ser desarrollador web o ya emprendiste el camino y te sientes estancado, te invito a leer mi historia, con la que seguro te sentirás identificado...",
+
       "articuleText2": "Érase una vez un desarrollador web Parte II.",
-      "text2": "te invito a leer la segunda parte de mi historia, con la...",
+      "text2": "En mi último post te contaba que lo primordial para comenzar en el maravilloso mundo del desarrollo web es tener claro lo que más te gusta del área...",
+
       "articuleText3": "Mi Marca Personal",
       "text3": "PROXIMAMENTE"
    },
