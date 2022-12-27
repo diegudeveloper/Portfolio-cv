@@ -145,8 +145,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+}
+
+.certificate a {
+    display: flex;
 }
 
 .certificate .fa-award {
