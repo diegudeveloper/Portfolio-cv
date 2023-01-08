@@ -16,13 +16,13 @@ body {
 }
 
 .containerTexto h3{
-    font-size: 42px;
+    font-size: 34px;
     margin-bottom: 2rem;
     color: #EEEEEE;
 }
 
 .containerTexto h4 {
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 4rem;
     color: #EEEEEE;
 }
@@ -69,12 +69,12 @@ body {
 @media screen and (max-width: 425px) {
     
     .containerTexto h3{
-        width: 80%;
+        width: 90%;
         font-size: 26px;
     }
     
     .containerTexto h4{
-        width: 60%;
+        width: 70%;
         margin: 3rem auto;
         font-size: 20px;
     }
