@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaqueri.css">
     <link rel="stylesheet" href="font-family/Poppins-Black.ttf">
-   
+  
     <link rel="stylesheet" href=" assets/font-awesome/font-awesome/css/all.css">
+    <script src="https://kit.fontawesome.com/8df4f4125a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <title>Diego Gutiérrez | Frontend Developer</title>
@@ -51,10 +52,6 @@
                         <i class="fas fa-2x fa-user mhome"></i>
                         <span class="textmenu" data-section="menu" data-value="about"><span>Sobre</span> Mí</span>
                     </button>
-                    <button id="btn-resumen" class="menu-btn">
-                        <i class="fas fa-2x fa-graduation-cap mhome"></i>
-                        <span class="textmenu" data-section="menu" data-value="resumen">Estudios</span>
-                    </button>
                     <button id="btn-portfolio" class="menu-btn">
                         <i class="fas fa-2x fa-briefcase mhome"></i>
                         <span class="textmenu" data-section="menu" data-value="portfolio">Portafolio</span>
@@ -63,6 +60,10 @@
                         <i class="fas fa-2x fa-id-card mhome"></i>
                         <span class="textmenu" data-section="menu" data-value="blog">Blog</span>
                     </button>                    
+                    <button id="btn-resumen" class="menu-btn">
+                        <i class="fas fa-2x fa-graduation-cap mhome"></i>
+                        <span class="textmenu" data-section="menu" data-value="resumen">Estudios</span>
+                    </button>
                     <button id="btn-contact" class="menu-btn">
                         <i class="fas fa-2x fa-mail-bulk mhome"></i>
                         <span class="textmenu" data-section="menu" data-value="contact">Contáctame</span>
@@ -80,9 +81,7 @@
             </div>
             <div class="container-header">
                 <div class="bg-img">
-                    <picture class="picture-bg">
-                        <img src="assets/img/pexels-faik-akmd-1025469 (1).jpg" alt="Imagen background del header - skay">
-                    </picture>
+                    <picture class="picture-bg"></picture>
                 </div>
                 <div class="pictureMe">
                     <picture class="me">
@@ -121,7 +120,7 @@
                         <div class="download">
                             <div class="cvdownload">
                                 <i class="fas fa-download"></i>
-                                <a download="CV Diego Guterrez" class="descv" data-section="footer-header" data-value="download" href="./assets/CV/CV Diego Gutierrez.pdf">Descargar CV</a>
+                                <a download="CV Diego Guterrez" class="descv" data-section="footer-header" data-value="download" href="./assets/CV/CV Diego Gutiérrez.pdf">Descargar CV</a>
                             </div>
                         </div>
                         <div class="contact-me">
@@ -141,19 +140,38 @@
                         </picture>
                     </div>
                 </div>
-                <div id="content-about" class="content closed">
+                <article id="content-about" class="content closed">
                     <div class="inside-content">
                         <div class="about-title" id="container_title">
                             <h2 class="title" data-section="about-me" data-value="aboutme" id="title">Sobre mí</h2> 
                         </div>
-                        <div class="text-about"><span class="colorletter diegoletter"></span> <span class="colorletter diegoletter"></span></p>
+                        <div class="text-about" class="colorletter diegoletter">
                             <p class="descriptionAboutme" data-section="about-me" data-value="description">
+<<<<<<< HEAD
                                 ¿Que tal Mundo? mi nombre es Diego Gutiérrez, pero puedes llamarme Diegu. Soy aprendiz Fronten Developer, “Hacer que Suceda” es lo mío.<br><br>
                                 Desde el 2019 comienzo en el mundo TECH como frontend developer y, aunque suene a cliché, soy amante de la tecnología, pero no de la que se consume sino de la que se crea.<br><br>
                                 Lo que sé lo he aprendido por ser autodidacta: Poseo conocimientos en Html, Css, Sass, Bootstrap, Gig y Github.<br><br>
                                 Despues de aprender lo basico comencé a aprender de Javascript y React para realizar proyectos más profesionales y más completos. Desde que inicié este camino he creado más de 20 proyectos por mi cuenta y ¡quiero seguir adelante!<br><br>
                                 Fiel a mi valor principal: #HazQueSuceda, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, pero sobre todo ser mi mejor versión.
+=======
+                                ¿Que tal Mundo? mi nombre es <span> Diego Gutiérrez</span>, pero puedes llamarme  <span>Diegu.</span> Soy un Frontend Developer en formación con más de 20 proyectos personales y una actitud constante de crecimiento. Mi experiencia con <span>HTML</span> me ha
+                                permitido crear estructuras sólidas y bien formadas en mis proyectos, mientras que mis conocimientos en <span> CSS </span> me han ayudado a darles un aspecto atractivo y
+                                profesional. Además, el uso de <span> JavaScript</span> me ha permitido añadir interacción y funcionalidad a mis proyectos.<br><br>
+                                En mis proyectos anteriores, tuve la oportunidad de trabajar en equipo y en algunos casos como líder, lo que me permitió comprender mejor los objetivos y metas
+                                del proyecto y lograr resultados más satisfactorios de manera más eficiente y efectiva<br><br>
+                                Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, <span>pero sobre todo ser mi mejor versión.</span> <br><br>Herramientas que utilizo en mis Proyectos:
+
+>>>>>>> e30d19c2979166a144243f6d5f1713bb086dcfc0
                             </p>
+                            <div class="ContainerTools">
+                                <!-- <p class="toolsText">Herramientas que utilizo en mis Proyectos</p> -->
+                                <img class="logoTools tollsIcons" src="assets/tools/htmloff.png" alt="">
+                                <img class="logoCssTools tollsIcons" src="assets/tools/cssoff.png" alt="">
+                                <img class="logoJavascriptTools tollsIcons" src="./assets/tools/javascriptoff.png" alt="">
+                                <img class="logoSassTools tollsIcons" src="./assets/tools/sassoff.png" alt="">
+                                <img class="logoGitTools tollsIcons" src="./assets/tools/gitoff.png" alt="">
+                                <img class="logoGithubTools tollsIcons" src="./assets/tools/githuboff.png" alt="">
+                            </div>
                         </div>
                         <div class="box-information">
                             <div class="information-aboutme">
@@ -226,8 +244,8 @@
                             </div>
                         </div><br><br>
                     </div>
-                </div>
-                <div id="content-resumen" class="content closed">
+                </article>
+                <article id="content-resumen" class="content closed">
                     <div class="inside-content">
                         <div class="text_resumen titleLineEstudios" id="container_title">
                             <h2 class="title titleEstudios" data-section="resumen" data-value="resume" id="title">Estudios</h2>
@@ -241,172 +259,287 @@
                         <div class="containerResumenAll">
                             <div class="containerResumen">
                                 <ul>
-                                    <li class="resumen_education re1">
-                                        <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>
-                                        <h4 class="university">Platzi</h4>
-                                        <p class="where">On line</p>
-                                        <a class="link_certifi " href="https://platzi.com/web/" target="_blank">
-                                            <p class="description ">Arquitectura Frontend</p>
-                                        </a>
-                                        <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
-                                            <a href="https://platzi.com/p/gutierrez-diego/" target="_blank"><i class="fas fa-award"></i></a>
-                                        </div>   
-                                    </li>           
                                     <li class="resumen_education">
-                                        <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>
-                                        <h4 class="university university1">Platzi</h4>
-                                        <p class="where where1">On line</p>
-                                        <a class="link_certifi" href="https://platzi.com/escuela-javascript/" target="_blank">
-                                            <p class="description description1">Escuela de Javascript</p>
-                                        </a>
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Platzi</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación En Línea</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen" data-value="htmlCss">HTML y CSS a Profundidad</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">22 </span><span data-section="resumen" data-value="cCantidad">Cursos</span>  - <span class="horas">83 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://platzi.com/web-frontend/?school=_escuela_escuela-web_" target="_blank" data-section="resumen1" data-value="btnRuta">Conocer Ruta</a>
+                                        </button>
+
                                         <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates" class="certifi certifi1">Certificados</p>
-                                            <a href="https://platzi.com/p/gutierrez-diego/" class="certificado" target="_blank"><i class="fas fa-award"></i></a> 
-                                        </div>  
+                                            <a href="/estudios/certificados.html" target="_blank">
+                                                <i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
+                                        </div>   
                                     </li> 
                                     <li class="resumen_education">
-                                        <p class="date dateOld">2020</p>
-                                        <h4 class="university university2">Udemy</h4>
-                                        <p class="where where2">On line</p>
-                                        <p class="description description2">
-                                            Html y Css
-                                        </p>
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Platzi</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen1" data-value="nameCurso">JavaScript a Profundidad</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">21 </span><span data-section="resumen1" data-value="cCantidad">Cursos</span> - <span class="horas">73 </span><span data-section="resumen1" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://platzi.com/web-javascript/?school=_escuela_escuela-web_" target="_blank" data-section="resumen1" data-value="btnRuta">Conocer Ruta</a>
+                                        </button>
+
                                         <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates" class="certifi certifi2">Certificados</p>
-                                            <a href="" class="certificado"></a><i class="fas fa-award"></i></a>
+                                            <a href="/estudios/certificadosJavascript.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
                                         </div>   
-                                    </li>
-                                    <li class="resumen_education">
-                                        <p class="date dateOld">2019</p>
-                                        <h4 class="university university3">EDteam</h4>
-                                        <p class="where where3">On line</p>
-                                        <p class="description description3">
-                                            FlexBox y Grid
-                                        </p>
+                                    </li>    
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Udemy</h4>
+                                            <p class="date" data-section="resumen" data-value="date">2021 - Actualmente</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen3" data-value="nameCurso">JavaScript Moderno</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas">50 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://www.udemy.com/course/crea-una-pagina-web/" target="_blank" data-section="resumen" data-value="btnRuta">Conocer curso</a>
+                                        </button>
+
                                         <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates" class="certifi certifi3">Certificados</p>
-                                            <a href="" class="certificado"></a><i class="fas fa-award"></i></a>
+                                            <a href="/estudios/certificadosUdemy.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
                                         </div>   
-                                    </li>                
-                                    <li class="resumen_education">
-                                        <p class="date dateOld">2019</p>
-                                        <h4 class="university university4">EDteam</h4>
-                                        <p class="where where4">On line</p>
-                                        <p class="description description4">
-                                            Variables Css / Resp. Desing
-                                        </p>
+                                    </li>  
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Edteam</h4>
+                                            <p class="date">2019 - 2020</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen4" data-value="nameCurso">Desarrollo Web</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">07 </span><span data-section="resumen" data-value="cCantidad">Cursos</span> - <span class="horas">40 </span><span data-section="resumen1" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="https://ed.team/" target="_blank" data-section="resumen4" data-value="btnRuta">Conocer cursos</a>
+                                        </button>
+
                                         <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates" class="certifi certifi4">Certificados</p>
-                                            <a href="" class="certificado"></a><i class="fas fa-award"></i></a>
+                                            <a href="/estudios/certificadosEdteam.html" target="_blank"><i class="fas fa-award"></i>
+                                                <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                            </a>
                                         </div>   
-                                    </li>
-                                    <li class="resumen_education">
-                                        <p class="date dateOld">2019</p>
-                                        <h4 class="university university5">Google Active</h4>
-                                        <p class="where where5">On line</p>
-                                        <p class="description description5">
-                                            Desarrollo Web
-                                        </p>
+                                    </li>      
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Google Active</h4>
+                                            <p class="date">2019</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>          
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen5" data-value="nameCurso">Introduccion Desarrollo Web I</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas">05 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="#" target="_blank" data-section="resumen" data-value="btnRuta">Conocer curso</a>
+                                        </button>
+
                                         <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates" class="certifi certifi5">Certificados</p>
-                                            <a href="" class="certificado"></a><i class="fas fa-award"></i></a>
+                                            <a href="#"><i class="fas fa-award"></i></a>
+                                            <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
                                         </div>   
-                                    </li>
-                                    <li class="resumen_education">
-                                        <p class="date dateOld">2019</p>
-                                        <h4 class="university university6">Youtube</h4>
-                                        <p class="where where6">On line</p>
-                                        <p class="description description6">
-                                            Html y css
-                                        </p>
+                                    </li>    
+                                    <li class="resumen_education re1">
+                                        <div class="containerEduca1">
+                                            <h4 class="university">Google Active</h4>
+                                            <p class="date">2019</p>                                      
+                                            <p class="where" data-section="resumen" data-value="educactionOnline">Educación Online</p>
+                                        </div>
+                                        <div class="containerEduca1">
+                                            <h4 class="ruta" data-section="resumen6" data-value="nameCurso">Introduccion Desarrollo Web II</h4>
+                                            <p class="cantidadCursos"><span class="cantidad">01 </span><span data-section="resumen3" data-value="cCantidad1">Curso</span> - <span class="horas" >05 </span><span data-section="resumen" data-value="cHoras">Horas</span></p>
+                                        </div>
+                                        <button class="btnRuta">
+                                            <a href="#" target="_blank" data-section="resumen" data-value="btnRuta">Conocer curso</a>
+                                        </button>
+
                                         <div class="certificate">
-                                            <p data-section="resumen" data-value="certificates">Certificados</p>
-                                        </div>  
-                                    </li>
+                                            <a href="#"><i class="fas fa-award"></i></a>
+                                            <p data-section="resumen" data-value="certificates" class="certifi">Certificados</p>
+                                        </div>   
+                                    </li>    
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="content-portfolio" class="content closed">
+                </article>
+                <article id="content-portfolio" class="content closed">
                     <div class="inside-content">
                         <div class="container_main" id="container_title">
                             <h2 class="title titlePorfo" data-section="portfolio" data-value="portfolio" id="title">Proyectos</h2>
                         </div>
                         <div class="container_proyects">
                             <div class="container-proyectos">
+                                
                                 <div class="card">
                                     <div class="img_card">
-                                        <a href="https://diegudeveloper.github.io/Html_css_js_Travel_Agency/" target="_blank"><img src="assets/img/proyectos/P01.jpg" alt="Imagen del proyecto"></a>
+                                        <img src="assets/img/proyectos/pj01.jpg" alt="Imagen del proyecto">
                                     </div>
                                     <div class="description_card">
-                                        <h3 data-section="portfolio" data-value="webname1" class="namePorta">Agencia de Viaje - Maquetación</h3>
-                                        <div class="codigo">
-                                            <a href="https://github.com/diegudeveloper/Html_css_js_Travel_Agency" target="_blank"><i class="fas fa-code-branch iconofas"></i></a>
-                                        </div>
+                                        <h3 data-section="portfolio" data-value="webname1" class="namePorta">Agencia de Viaje - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description">Proyecto web sobre Agencia donde podrás comprar boletos de avión, paquetes de estadias y reservas de hospedaje. </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_js_Travel_Agency/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_js_Travel_Agency" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="img_card">
-                                        <a href="https://diegudeveloper.github.io/Html_css_js_Airbnb-Layout/" target="_blank"><img src="assets/img/proyectos/P02.jpg" alt="Imagen del proyecto"></a>
+                                        <img src="assets/img/proyectos/pj02.jpg" alt="Imagen del proyecto">
                                     </div>
                                     <div class="description_card">
-                                        <h3 class="namePorta namePorta1">Airbnb - Clone</h3>
-                                        <div class="codigo">
-                                            <a href="https://github.com/diegudeveloper/Html_css_js_Airbnb-Layout" target="_blank"><i class="fas fa-code-branch iconofas1"></i></a>
-                                        </div>
+                                        <h3 data-section="portfolio" data-value="webname2" class="namePorta">Alquiler de Alojamiento - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description2">Proyecto web sobre una plataforma digital dedicada a la oferta de alojamientos a particulares y turísticos (alquiler vacacional) . </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_js_Airbnb-Layout/" target="_blank">
+                                                <i class="fa-regular fa-eye" target="_blank"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_js_Airbnb-Layout" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="img_card">
-                                        <a href="https://diegudeveloper.github.io/Projects_html_css/" target="_blank"><img src="assets/img/proyectos/P05.jpg" alt="Imagen del proyecto"></a>
+                                        <img src="assets/img/proyectos/pj03.jpg" alt="Imagen del proyecto">
                                     </div>
                                     <div class="description_card">
-                                        <h3 data-section="portfolio" data-value="webname3" class="namePorta namePorta2">Portafolio - Maquetacion</h3>
-                                        <div class="codigo">
-                                            <a href="https://github.com/diegudeveloper/Projects_html_css" target="_blank"><i class="fas fa-code-branch iconofas2"></i></a>
-                                        </div>
+                                        <h3 data-section="portfolio" data-value="webname3" class="namePorta">Ecommerce Aguacate - <span>Maqueta - API</span></h3>
+                                        <p data-section="portfolio" data-value="description3">Proyecto web sobre Ecommerce con venta de Productos Organicos (Aguacates) con resetas para preparar con dichos productos. </p>
+                                        <p class="herramientas">Html - Css - Javascript</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Proyecto03_API/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Proyecto03_API" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="img_card">
-                                        <a href="https://diegudeveloper.github.io/Proyecto03_API/" target="_blank"><img src="assets/img/proyectos/P03.jpg" alt="Imagen del proyecto"></a>
+                                        <img src="assets/img/proyectos/pj04.jpg" alt="Imagen del proyecto">
                                     </div>
                                     <div class="description_card">
-                                        <h3 data-section="portfolio" data-value="webname4" class="namePorta namePorta3">Proyecto API</h3>
-                                        <div class="codigo">
-                                            <a href="https://github.com/diegudeveloper/Proyecto03_API" target="_blank"><i class="fas fa-code-branch iconofas3"></i></a>
-                                        </div>
+                                        <h3 data-section="portfolio" data-value="webname4" class="namePorta">Tienda de Cafe - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description4">Proyecto web sobre tienda de venta de Cafe y sus derivados, servicios y sus productos. Ventas al mayor y al por menor.  </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_Coffe_Webside_Layout-/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_Coffe_Webside_Layout-" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="img_card">
-                                        <a href="https://diegudeveloper.github.io/Html_css_Coffe_Webside_Layout-/" target="_blank"><img src="assets/img/proyectos/P04.jpg" alt="Imagen del proyecto"></a>
+                                        <img src="assets/img/proyectos/pj05.jpg" alt="Imagen del proyecto">
                                     </div>
                                     <div class="description_card">
-                                        <h3 data-section="portfolio" data-value="webname5" class="namePorta namePorta4">Coffe Web - Maquetacion</h3>
-                                        <div class="codigo">
-                                            <a href="https://github.com/diegudeveloper/Html_css_Coffe_Webside_Layout-" target="_blank"><i class="fas fa-code-branch iconofas4"></i></a>
-                                        </div>
+                                        <h3 data-section="portfolio" data-value="webname5" class="namePorta">Portafolio - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description5">Pagina web diseñada para mostrar las diferentes paginas de mis inicios. En ellas se podra observar diferentes tipos de maquetación. </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Projects_html_css/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Projects_html_css" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="img_card">
-                                        <a href="https://diegudeveloper.github.io/Html_css_CV/" target="_blank"><img src="assets/img/proyectos/P06.jpg" alt="Imagen del proyecto"></a>
+                                        <img src="assets/img/proyectos/pj06.jpg" alt="Imagen del proyecto">
                                     </div>
                                     <div class="description_card">
-                                        <h3 class="namePorta namePorta5">Web - CV</h3>
-                                        <div class="codigo">
-                                            <a href="https://github.com/diegudeveloper/Html_css_CV" target="_blank"><i class="fas fa-code-branch iconofas5"></i></a>
-                                        </div>
+                                        <h3 class="namePorta">CV - <span>Maqueta</span></h3>
+                                        <p data-section="portfolio" data-value="description6">Maquetacion sobre un Curriculun Vitae, el mismo es a adaptable a diferentes tipos de dispositivos. </p>
+                                        <p class="herramientas">Html - Css</p>
+                                    </div>
+                                    <div class="codigo">
+                                        <button>
+                                            <a href="https://diegudeveloper.github.io/Html_css_CV/" target="_blank">
+                                                <i class="fa-regular fa-eye"></i>
+                                                <p data-section="portfolio" data-value="btnsiew">Ver Demo</p>
+                                            </a>
+                                        </button> 
+                                        <button>
+                                            <a href="https://github.com/diegudeveloper/Html_css_CV" target="_blank">
+                                                <i class="fab fa-github icongithub colorletter" width="100px"></i>
+                                                <p class="codigo" data-section="portfolio" data-value="btncode">Ver Codigo</p>
+                                            </a>
+                                        </button> 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="content-blog" class="content closed">
+                </article>
+                <article id="content-blog" class="content closed">
                     <div class="inside-content">
                         <div class="about-title lineBlog" id="container_title">
                             <h2 class="title titleBlog" data-section="blog" data-value="textBlog" id="title">Blog</h2>
@@ -416,50 +549,50 @@
                                 <a href="https://dev.to/diegudeveloper/mi-interes-por-el-desarrollo-web-4ej8" target="_blank" class="link_card" id="btn_B01" > 
                                     <div class="card_blog">
                                         <div class="containerImg-blog">
-                                            <img src="assets/img/Blog/01.jpg" alt="Imagen del post">
+                                            <img src="assets/img/Blog/post1.jpg" alt="Imagen del post">
                                         </div>
                                         <div class="containerText-blog">
                                             <h3 class="date">
-                                                10/10/2021
+                                                10/10/2022
                                             </h3>
-                                            <h2 class="title-blog" data-section="blog" data-value="articuleText" >Mi Interes por el Desarrollo Web.</h2>
-                                            <p class="text_blog" data-section="blog" data-value="text">La web está quebrada y por ende no existe control ni camino alguno de... </p>
+                                            <h2 class="title-blog" data-section="blog" data-value="articuleText" >Érase una vez un desarrollador web <br>Parte I</h2>
+                                            <p class="text_blog" data-section="blog" data-value="text">Si tu sueño es ser desarrollador web o ya emprendiste el camino y te sientes estancado, te invito a leer mi historia, con la que seguro te sentirás identificado . . .</p>
                                         </div>                           
                                     </div>
                                 </a>
-                                <a href="https://dev.to/diegudeveloper/mi-interes-por-el-desarrollo-web-4ej8" target="_blank" class="link_card link_card1" id="btn_B01" >
+                                <a href="https://dev.to/diegudeveloper/erase-una-vez-un-desarrollador-web-parte-ii-16g4" target="_blank" class="link_card link_card1" id="btn_B01" >
                                     <div class="card_blog">
                                         <div class="containerImg-blog">
-                                            <img src="assets/img/Blog/02.jpg" alt="Imagen del post">
+                                            <img src="assets/img/Blog/post2.jpg" alt="Imagen del post">
                                         </div>
                                         <div class="containerText-blog">
                                             <h3 class="date">
-                                                10/10/2021
+                                                01/12/2022
                                             </h3>
-                                            <h2 class="title-blog title-blog1" data-section="blog" data-value="articuleText2">Mis primeros 3 proyectos despues de mis 12 proyectos.</h2>
-                                            <p class="text_blog text_blog1" data-section="blog" data-value="text2">Cuando comencé hacer cursos de programación...</p>
+                                            <h2 class="title-blog title-blog1" data-section="blog" data-value="articuleText2">Érase una vez un desarrollador web <br>Parte II.</h2>
+                                            <p class="text_blog text_blog1" data-section="blog" data-value="text2">En mi último post te contaba que lo primordial para comenzar en el maravilloso mundo del desarrollo web es tener claro lo que más te gusta del área . . .</p>
                                         </div> 
                                     </div>                           
                                 </a>
-                                <a href="https://dev.to/diegudeveloper/mi-interes-por-el-desarrollo-web-4ej8" target="_blank" class="link_card link_card2" id="btn_B01" >
+                                <a href="#" target="_blank" class="link_card link_card2" id="btn_B01" >
                                     <div class="card_blog">
                                         <div class="containerImg-blog">
-                                            <img src="assets/img/Blog/03.jpg" alt="Imagen del post">
+                                            <img class="imgblog3" src="assets/img/Blog/Proximamente.png" alt="Imagen del post">
                                         </div>
                                         <div class="containerText-blog">
                                             <h3 class="date">
-                                                10/10/2021
+                                                00/00/2022
                                             </h3>
-                                            <h2 class="title-blog title-blog2" data-section="blog" data-value="articuleText3">¿Qué harías de tu vida si el dinero no importara? </h2>
-                                            <p class="text_blog text_blog2" data-section="blog" data-value="text3">¿Nunca te has hecho esa pregunta? debo confesar que...</p>
+                                            <h2 class="title-blog title-blog2" data-section="blog" data-value="articuleText3">Mi marca personal </h2>
+                                            <p class="text_blog text_blog2" data-section="blog" data-value="text3">PROXIMAMENTE . . .</p>
                                         </div> 
                                     </div> 
                                 </a>                         
                             </div>                            
                         </div> 
                     </div>
-                </div>
-                <div id="content-contact" class="content closed">
+                </article>
+                <article id="content-contact" class="content closed">
                     <div class="inside-content">
                         <div class="inside">
                             <div id="container_title">
@@ -477,8 +610,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
+                </article>
             </div>
         </div>
     </div>
