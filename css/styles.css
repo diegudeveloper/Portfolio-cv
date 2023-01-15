@@ -256,7 +256,7 @@ body.ligth #content-contact::-webkit-scrollbar-thumb  {
 body.ligth #content-blog::-webkit-scrollbar-thumb  {
     background: var(--color-secundary);
 }
-body.ligth .menu-container {
+imagenbody.ligth .menu-container {
     background:#fff;
 }
 body.ligth .menu-container button {
