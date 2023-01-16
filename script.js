@@ -11,17 +11,6 @@ btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');
 	btnswitch.classList.toggle('activo')
 
-	const imagenLigthTecnologia = document.querySelector(".divIcons");
-	const imagenDarkTecnologia = document.querySelector(".divIcons");
-
-	if (imagenLigthTecnologia.src.match("on")) {
-		imagenLigthTecnologia.src = "assets/icons/iconsTools/logo-html5.svg"
-	} else {
-		imagenLigthTecnologia.src = "assets/icons/iconsTools/html5-logo-72.png"
-	};
-
-
-
 	const imagenLigth = document.querySelector('.logo');
 	const imagenDark = document.querySelector('.logoDark')
 
