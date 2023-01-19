@@ -11,10 +11,17 @@ btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');
 	btnswitch.classList.toggle('activo')
 
+	//Localstorge
+	// if(document.body.classList.contains('ligth')) {
+	// 	localStorage.setItem('ligth-mode', 'true');
+	// } else {
+	// 	localStorage.setItem('ligth-mode', 'false');
+	// }
+
+	
 	const imagenLigth = document.querySelector('.logo');
 	const imagenDark = document.querySelector('.logoDark')
 
-	
 	
 	const imagenTools = document.querySelector('.logoTools');
 	const logoCssTools = document.querySelector('.logoCssTools');
@@ -22,6 +29,8 @@ btnswitch.addEventListener('click', () => {
 	const logoSassTools = document.querySelector('.logoSassTools');
 	const logoGitTools = document.querySelector('.logoGitTools');
 	const logoGithubTools = document.querySelector('.logoGithubTools');
+
+	
 
 	if (imagenTools.src.match("on")) {
 		imagenTools.src = 'assets/tools/htmloff.png';
@@ -53,9 +62,8 @@ btnswitch.addEventListener('click', () => {
 	} else {
 		logoGithubTools.src = 'assets/tools/githubon.png';
 	}
+
 	
-
-
 	if (imagenLigth.src.match("on")) {
 		imagenLigth.src = 'assets/logo/Recurso33off.svg';
 	} else {
@@ -69,6 +77,20 @@ btnswitch.addEventListener('click', () => {
 	};
 
 });
+
+// if(localStorage.getItem('ligth-mode') === 'true') {
+// 	document.body.classList.add('ligth');
+// 	btnswitch.classList.add('activo');
+
+	
+// }else {
+// 	document.body.classList.remove('ligth-mode');
+// 	btnswitch.classList.remove('activo');
+
+// }
+
+
+
 
 const changeLanguage = async (language) => {
 	const requestJson = await fetch(`lenguages/${language}.json`);
@@ -160,6 +182,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 });
+
+
+
 
 //#region juego
 
