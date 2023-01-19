@@ -7,15 +7,16 @@ const containerMain = document.querySelector(".container-main");
 const btnswitch = document.querySelector('#switch');
 
 
+
 btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');
 	btnswitch.classList.toggle('activo')
 
-	//Localstorge
+	// //Localstorge
 	// if(document.body.classList.contains('ligth')) {
-	// 	localStorage.setItem('ligth-mode', 'true');
+	// localStorage.setItem('ligth-mode', 'true');
 	// } else {
-	// 	localStorage.setItem('ligth-mode', 'false');
+	// localStorage.setItem('ligth-mode', 'false');
 	// }
 
 	
@@ -78,21 +79,25 @@ btnswitch.addEventListener('click', () => {
 
 });
 
+
+
 // if(localStorage.getItem('ligth-mode') === 'true') {
-// 	document.body.classList.add('ligth');
-// 	btnswitch.classList.add('activo');
-
-	
-// }else {
-// 	document.body.classList.remove('ligth-mode');
-// 	btnswitch.classList.remove('activo');
-
+//  	document.body.classList.add('ligth');
+//  	btnswitch.classList.add('activo');
+//  }else {
+//  	document.body.classList.remove('ligth-mode');
+//  	btnswitch.classList.remove('activo');
 // }
 
 
 
 
-const changeLanguage = async (language) => {
+
+
+
+
+
+async function changeLanguage(language) {
 	const requestJson = await fetch(`lenguages/${language}.json`);
 	const texts = await requestJson.json();
 
@@ -103,7 +108,7 @@ const changeLanguage = async (language) => {
 		textToChange.innerHTML = texts[section][value];
 
 	}
-};
+}
 
 flagsElement.addEventListener("click", (e) => {
 	changeLanguage(e.target.parentElement.dataset.language);
