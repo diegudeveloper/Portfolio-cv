@@ -12,12 +12,12 @@ btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');
 	btnswitch.classList.toggle('activo')
 
-	// //Localstorge
-	// if(document.body.classList.contains('ligth')) {
-	// localStorage.setItem('ligth-mode', 'true');
-	// } else {
-	// localStorage.setItem('ligth-mode', 'false');
-	// }
+	// Localstorge
+	if(document.body.classList.contains('ligth')) {
+	 localStorage.setItem('ligth', 'true');
+	} else {
+	 localStorage.setItem('ligth', 'false');
+	}
 
 	
 	const imagenLigth = document.querySelector('.logo');
@@ -33,63 +33,37 @@ btnswitch.addEventListener('click', () => {
 
 	
 
-	if (imagenTools.src.match("on")) {
-		imagenTools.src = 'assets/tools/htmloff.png';
-	} else {
-		imagenTools.src = 'assets/tools/htmlon.png';
-	}
-	if (logoCssTools.src.match("on")) {
-		logoCssTools.src = 'assets/tools/cssoff.png';
-	} else {
-		logoCssTools.src = 'assets/tools/csson.png';
-	}
-	if (logoJavascriptTools.src.match("on")) {
-		logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
-	} else {
-		logoJavascriptTools.src = 'assets/tools/javascripton.png';
-	}
-	if (logoSassTools.src.match("on")) {
-		logoSassTools.src = 'assets/tools/sassoff.png';
-	} else {
-		logoSassTools.src = 'assets/tools/sasson.png';
-	}
-	if (logoGitTools.src.match("on")) {
-		logoGitTools.src = 'assets/tools/gitoff.png';
-	} else {
-		logoGitTools.src = 'assets/tools/giton.png';
-	}
-	if (logoGithubTools.src.match("on")) {
-		logoGithubTools.src = 'assets/tools/githuboff.png';
-	} else {
-		logoGithubTools.src = 'assets/tools/githubon.png';
-	}
+	if (document.body.classList.contains('ligth')) {
+        imagenTools.src = 'assets/tools/htmlon.png';
+        logoCssTools.src = 'assets/tools/csson.png';
+        logoJavascriptTools.src = 'assets/tools/javascripton.png';
+        logoSassTools.src = 'assets/tools/sasson.png';
+        logoGitTools.src = 'assets/tools/giton.png';
+        logoGithubTools.src = 'assets/tools/githubon.png';
+        imagenLigth.src = 'assets/logo/Recurso35on.svg';
+        imagenDark.src = 'assets/logo/Recurso32off.png';
+    } else {
+        imagenTools.src = 'assets/tools/htmloff.png';
+        logoCssTools.src = 'assets/tools/cssoff.png';
+        logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
+        logoSassTools.src = 'assets/tools/sassoff.png';
+        logoGitTools.src = 'assets/tools/gitoff.png';
+        logoGithubTools.src = 'assets/tools/githuboff.png';
+        imagenLigth.src = 'assets/logo/Recurso33off.svg';
+        imagenDark.src = 'assets/logo/Recurso30on.png';
+    }
 
-	
-	if (imagenLigth.src.match("on")) {
-		imagenLigth.src = 'assets/logo/Recurso33off.svg';
-	} else {
-		imagenLigth.src = 'assets/logo/Recurso35on.svg';
-	}
-
-	if (imagenDark.src.match("on")) {
-		imagenDark.src = 'assets/logo/Recurso32off.png';
-	} else {
-		imagenDark.src = 'assets/logo/Recurso30on.png';
-	};
 
 });
 
 
-
-// if(localStorage.getItem('ligth-mode') === 'true') {
-//  	document.body.classList.add('ligth');
-//  	btnswitch.classList.add('activo');
-//  }else {
-//  	document.body.classList.remove('ligth-mode');
-//  	btnswitch.classList.remove('activo');
-// }
-
-
+if(localStorage.getItem('ligth') !== 'false') {
+	document.body.classList.add('ligth');
+	btnswitch.classList.add('activo');
+}else {
+	document.body.classList.remove('ligth');
+	btnswitch.classList.remove('activo');
+}
 
 
 
