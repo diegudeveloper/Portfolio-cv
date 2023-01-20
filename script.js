@@ -16,7 +16,7 @@ btnswitch.addEventListener('click', () => {
 	if(document.body.classList.contains('ligth')) {
 	 localStorage.setItem('ligth', 'true');
 	} else {
-	 localStorage.setItem('ligth', 'false');
+	 localStorage.setItem('dark', 'false');
 	}
 
 	
@@ -57,12 +57,20 @@ btnswitch.addEventListener('click', () => {
 });
 
 
-if(localStorage.getItem('ligth') !== 'false') {
-	document.body.classList.add('ligth');
-	btnswitch.classList.add('activo');
-}else {
+// if(localStorage.getItem('ligth') !== 'false') {
+// 	document.body.classList.add('ligth');
+// 	btnswitch.classList.add('activo');
+// }else {
+// 	document.body.classList.remove('ligth');
+// 	btnswitch.classList.remove('activo');
+// }
+
+if(localStorage.getItem('dark') !== 'false') {
 	document.body.classList.remove('ligth');
 	btnswitch.classList.remove('activo');
+}else {
+	document.body.classList.add('ligth');
+	btnswitch.classList.add('activo');
 }
 
 
