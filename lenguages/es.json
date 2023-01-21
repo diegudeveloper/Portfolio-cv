@@ -20,7 +20,7 @@
    "about-me": {
       "aboutme":"Sobre Mí",
       "name": "Nombre",
-      "description": "¿Que tal Mundo? mi nombre es Diego Gutiérrez, pero puedes llamarme Diegu, soy aprendiz Fronten Developer, “Hacer que Suceda” es lo mío. <br><br> Desde el 2019 comienzo en el mundo TECH como frontend developer y aunque suene a cliché, soy amante de la tecnología, pero no de la que se consume, sino de la que se crea.  <br><br> Lo que sé, lo he aprendido por ser autodidacta y poseo conocimientos en Html, Css, Sass, Bootstrap, Gig y Github. <br><br> Despues de aprender lo basico comence a aprender de Javascript y React. De forma que pueda realizar proyectos más profesionales y más completos. Desde que inicie este camino he creado más de 20 proyectos por mi cuenta y ¡quiero seguir adelante! <br><br> Fiel a mi valor principal: #HazQueSuceda y convencido de que seamos parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, pero sobre todo convirtiéndonos en la mejor versión de nosotros.<br><br>Herramientas que utilizo en mis Proyectos: ",
+      "description": "¿Que tal Mundo? mi nombre es <span> Diego Gutiérrez</span>, pero puedes llamarme <span>Diegu</span>, soy aprendiz Fronten Developer, “Hacer que Suceda” es lo mío. <br><br> Desde el 2019 comienzo en el mundo TECH como frontend developer y aunque suene a cliché, soy amante de la tecnología, pero no de la que se consume, sino de la que se crea.  <br><br> Lo que sé, lo he aprendido por ser autodidacta y poseo conocimientos en <span>Html, Css, Sass, Bootstrap, Gig y Github.</span> <br><br> Despues de aprender lo basico comence a aprender de <span>Javascript</span> y <span>React</span>. De forma que pueda realizar proyectos más profesionales y más completos. Desde que inicie este camino he creado más de 20 proyectos por mi cuenta y ¡quiero seguir adelante! <br><br> Fiel a mi valor principal: <span>#HazQueSuceda</span>, y quiero ser parte de la comunidad que cambia al mundo, de las personas que crean tecnología, de las que siempre hemos querido ser, </span>pero sobre todo ser mi mejor versión.</span> <br><br>Herramientas que utilizo en mis Proyectos: ",
       "residence": "Residencia: Malta",
       "adress": "Dirección: Sliema",
       "E-mail": "Correo: diegudeveloper@gmail.com",
@@ -66,18 +66,34 @@
 
    "portfolio": {
       "portfolio": "Proyectos",
-      "webname1": "Agencia de Viaje - Maquetación",
-      "webname3": "Portafolio - Maquetación",
-      "webname4": "Proyecto API",
-      "webname5": "Web Coffe - Maquetación"
+      "webname1": "Agencia de Viaje - Maqueta",
+      "description": "Proyecto web sobre Agencia donde podrás comprar boletos de avión, paquetes de estadias y reservas de hospedaje.",
+      "btnsiew": "Ver Demo",
+      "btncode": "Ver Codigo",
+
+      "webname2": "Alquiler de Alojamiento - Maqueta",
+      "description2": "Proyecto web sobre una plataforma digital dedicada a la oferta de alojamientos a particulares y turísticos (alquiler vacacional) .",
+      
+      "webname3": "Ecommerce Aguacate - Maqueta - API",
+      "description3": "Proyecto web sobre Ecommerce con venta de Productos Organicos (Aguacates) con resetas para preparar con dichos productos. ",
+
+      "webname4": "Tienda de Café - Maqueta",
+      "description4": "Proyecto web sobre tienda de venta de Cafe y sus derivados, servicios y sus productos. Ventas al mayor y al por menor. ",
+
+      "webname5": "Portafolio - Maqueta",
+      "description5": "Pagina web diseñada para mostrar las diferentes paginas de mis inicios. En ellas se podra observar diferentes tipos de maquetación.",
+   
+      "description6": "Maquetacion sobre un Curriculun Vitae, el mismo es a adaptable a diferentes tipos de dispositivos. . "
    },
 
    "blog": {
       "textBlog": "Blog",
       "articuleText": "Érase una vez un desarrollador web Parte I.",
-      "text": "Si tu sueño es ser desarrollador web...",
+      "text": "Si tu sueño es ser desarrollador web o ya emprendiste el camino y te sientes estancado, te invito a leer mi historia, con la que seguro te sentirás identificado...",
+
       "articuleText2": "Érase una vez un desarrollador web Parte II.",
-      "text2": "te invito a leer la segunda parte de mi historia, con la...",
+      "text2": "En mi último post te contaba que lo primordial para comenzar en el maravilloso mundo del desarrollo web es tener claro lo que más te gusta del área...",
+
       "articuleText3": "Mi Marca Personal",
       "text3": "PROXIMAMENTE"
    },

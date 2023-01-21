@@ -20,7 +20,7 @@
     "about-me": {
       "aboutme":"About Me",
       "name": "Name",
-      "description": "Hello, world! This is Diego Gutiérrez, but please call me Diegu. I am a Frontend Developer apprentice and “Make it happen” is my motto.<br><br> I started in the tech world in 2019 as a frontend developer, and although it sounds cliché, I am a technology lover, not about the one that is consumed, but the one that is created.<br><br> I am an autodidact. I learned Html, Css, Sass, Bootstrap, Gig and Github by my own and now I am leaning Javascript and React, this to be able of carry out more professional projects. At the moment I've created +20 projects by my own and I want to keep going. <br><br> I try to stay true to my core value: #MakeItHappen, because I am convinced that I can be part of the community that changes the world, the people who create technology, the people I have always wanted to be. But above all, I want to become the best version of me.<br><br> Tools I use in my Projects:",
+      "description": "Hello, world! This is <span>Diego Gutiérrez</span>, but please call me <span>Diegu</span>. I am a Frontend Developer apprentice and “Make it happen” is my motto.<br><br> I started in the tech world in 2019 as a frontend developer, and although it sounds cliché, I am a technology lover, not about the one that is consumed, but the one that is created.<br><br> I am an autodidact. I learned <span>Html, Css, Sass, Bootstrap, Gig and Github</span> by my own and now I am leaning <span>Javascript</span> and <span>React</span>, this to be able of carry out more professional projects. At the moment I've created +20 projects by my own and I want to keep going. <br><br> I try to stay true to my core value: <span>#MakeItHappen</span>, because I am convinced that I can be part of the community that changes the world, the people who create technology, the people I have always wanted to be. But above all, <span>I want to become the best version of me.</span><br><br> Tools I use in my Projects:",
       "residence": "Residence: Malta",
       "adress": "Adress: Sliema",
       "E-mail": "E-mail: diegudeveloper@gmail.com",
@@ -66,18 +66,34 @@
 
     "portfolio": {
       "portfolio": "Projects",
-      "webname1": "Travel Agency - Layout",
-      "webname3": "Portfolio - Layout",
-      "webname4": "Project API",
-      "webname5": "Coffe Web - Layout"
-   },
+      "webname1": "Travel Agency - Maqueta",
+      "description": "Agency web project where you can buy plane tickets, stay packages and lodging reservations.",
+      "btnsiew": "View Demo",
+      "btncode": "View Code",
+
+      "webname2": "Accommodation Rental - Maqueta",
+      "description2": "Web project on a digital platform dedicated to offering accommodation to individuals and tourists (vacation rental).",
+
+      "webname3": "Ecommerce Avocado - Maqueta - API",
+      "description3": "Web project on Ecommerce with sale of Organic Products (Avocados) with recipes to prepare with said products.",
+
+      "webname4": "Coffee Web - Maqueta",
+      "description4": "Web project about a shop selling coffee and its derivatives, services and its products. Wholesale and retail sales.",
+
+      "webname5": "Portfolio - Maqueta",
+      "description5": "Web page designed to show the different pages of my beginnings. In them you can see different types of layout.",
+    
+      "description6": "Layout on a Curriculum Vitae, it is adaptable to different types of devices."
+    },
 
    "blog": {
       "textBlog": "Blog",
       "articuleText": "Once upon a time there was a Web Developer Part I.",
-      "text": "TIf your dream is to be a web developer...",
+      "text": "If your dream is to be a web developer or you have already started the path and you feel stuck, I invite you to read my story, with which you will surely feel identified...",
+
       "articuleText2": "Once upon a time there was a Web Developer Part II.",
-      "text2": "I invite you to read the second part of my story...",
+      "text2": "In my last post I told you that the main thing to start in the wonderful world of web development is to be clear about what you like most about the area...",
+
       "articuleText3": "My Personal Brand",
       "text3": "COMING SOON"
     },
