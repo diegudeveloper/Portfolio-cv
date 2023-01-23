@@ -13,11 +13,11 @@ btnswitch.addEventListener('click', () => {
 	btnswitch.classList.toggle('activo')
 
 	// Localstorge
-	if(document.body.classList.contains('ligth')) {
-	 localStorage.setItem('ligth', 'true');
-	} else {
-	 localStorage.setItem('dark', 'false');
-	}
+	// if(document.body.classList.contains('ligth')) {
+	//  localStorage.setItem('ligth', 'true');
+	// } else {
+	//  localStorage.setItem('dark', 'false');
+	// }
 
 	
 	const imagenLigth = document.querySelector('.logo');
@@ -65,13 +65,13 @@ btnswitch.addEventListener('click', () => {
 // 	btnswitch.classList.remove('activo');
 // }
 
-if(localStorage.getItem('dark') !== 'false') {
-	document.body.classList.remove('ligth');
-	btnswitch.classList.remove('activo');
-}else {
-	document.body.classList.add('ligth');
-	btnswitch.classList.add('activo');
-}
+// if(localStorage.getItem('dark') !== 'false') {
+// 	document.body.classList.remove('ligth');
+// 	btnswitch.classList.remove('activo');
+// }else {
+// 	document.body.classList.add('ligth');
+// 	btnswitch.classList.add('activo');
+// }
 
 
 
