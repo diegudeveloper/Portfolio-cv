@@ -14,7 +14,7 @@
     text-decoration: none;
     width: 100%;
     /* max-width: 230px; */
-    height: 150px;
+    height: 170px;
     margin-bottom: 31px;
     border: 1px solid rgba(251, 177, 59, 0.200);
     box-shadow: -10px -10px 5px 0px rgb(0 0 0 / 30%);
@@ -75,10 +75,10 @@
     padding: 10px 0;
     /* color: var(--color-font); */
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 400;
     padding: 0 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-align: left;
 }
 
@@ -87,7 +87,7 @@
     height: auto;
     padding: 0 10px;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     text-align: start;
     color: #8e9ba4; 
 }
@@ -160,3 +160,9 @@
         flex-direction: column;
     }
 }
+
+/* @media screen and (max-width: 1024px) {
+    .link_card{
+    height: 180px;
+    }
+} */
