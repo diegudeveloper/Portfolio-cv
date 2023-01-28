@@ -7,31 +7,25 @@ const containerMain = document.querySelector(".container-main");
 const btnswitch = document.querySelector('#switch');
 
 
-
 btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');
 	btnswitch.classList.toggle('activo')
 
 	// Localstorge
-	// if(document.body.classList.contains('ligth')) {
-	//  localStorage.setItem('ligth', 'true');
-	// } else {
-	//  localStorage.setItem('dark', 'false');
-	// }
+	if(document.body.classList.contains('ligth')) {
+	  localStorage.setItem('ligth', 'true');
+	 } else {
+	  localStorage.setItem('ligth', 'false');
+	}
 
-	
 	const imagenLigth = document.querySelector('.logo');
 	const imagenDark = document.querySelector('.logoDark')
-
-	
 	const imagenTools = document.querySelector('.logoTools');
 	const logoCssTools = document.querySelector('.logoCssTools');
 	const logoJavascriptTools = document.querySelector('.logoJavascriptTools');
 	const logoSassTools = document.querySelector('.logoSassTools');
 	const logoGitTools = document.querySelector('.logoGitTools');
 	const logoGithubTools = document.querySelector('.logoGithubTools');
-
-	
 
 	if (document.body.classList.contains('ligth')) {
         imagenTools.src = 'assets/tools/htmlon.png';
@@ -52,30 +46,39 @@ btnswitch.addEventListener('click', () => {
         imagenLigth.src = 'assets/logo/Recurso33off.svg';
         imagenDark.src = 'assets/logo/Recurso30on.png';
     }
-
-
 });
 
+if(localStorage.getItem('ligth') === 'true') {
+	document.body.classList.add('ligth');
+	btnswitch.classList.add('activo');
 
-// if(localStorage.getItem('ligth') !== 'false') {
-// 	document.body.classList.add('ligth');
-// 	btnswitch.classList.add('activo');
-// }else {
-// 	document.body.classList.remove('ligth');
-// 	btnswitch.classList.remove('activo');
-// }
+	const imagenLigth = document.querySelector('.logo');
+	const imagenDark = document.querySelector('.logoDark')
+	const imagenTools = document.querySelector('.logoTools');
+	const logoCssTools = document.querySelector('.logoCssTools');
+	const logoJavascriptTools = document.querySelector('.logoJavascriptTools');
+	const logoSassTools = document.querySelector('.logoSassTools');
+	const logoGitTools = document.querySelector('.logoGitTools');
+	const logoGithubTools = document.querySelector('.logoGithubTools');
 
-// if(localStorage.getItem('dark') !== 'false') {
-// 	document.body.classList.remove('ligth');
-// 	btnswitch.classList.remove('activo');
-// }else {
-// 	document.body.classList.add('ligth');
-// 	btnswitch.classList.add('activo');
-// }
-
-
-
-
+	imagenTools.src = 'assets/tools/htmlon.png';
+	logoCssTools.src = 'assets/tools/csson.png';
+	logoJavascriptTools.src = 'assets/tools/javascripton.png';
+	logoSassTools.src = 'assets/tools/sasson.png';
+	logoGitTools.src = 'assets/tools/giton.png';
+	logoGithubTools.src = 'assets/tools/githubon.png';
+	imagenLigth.src = 'assets/logo/Recurso35on.svg';
+	imagenDark.src = 'assets/logo/Recurso32off.png';
+} else {
+	imagenTools.src = 'assets/tools/htmloff.png';
+	logoCssTools.src = 'assets/tools/cssoff.png';
+	logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
+	logoSassTools.src = 'assets/tools/sassoff.png';
+	logoGitTools.src = 'assets/tools/gitoff.png';
+	logoGithubTools.src = 'assets/tools/githuboff.png';
+	imagenLigth.src = 'assets/logo/Recurso33off.svg';
+	imagenDark.src = 'assets/logo/Recurso30on.png';
+}
 
 
 
