@@ -35,7 +35,7 @@ btnswitch.addEventListener('click', () => {
         logoGitTools.src = 'assets/tools/giton.png';
         logoGithubTools.src = 'assets/tools/githubon.png';
         imagenLigth.src = 'assets/logo/Recurso35on.svg';
-        imagenDark.src = 'assets/logo/Recurso32off.png';
+        imagenDark.src = 'assets/logo/Recurso30on.png';
     } else {
         imagenTools.src = 'assets/tools/htmloff.png';
         logoCssTools.src = 'assets/tools/cssoff.png';
@@ -44,7 +44,7 @@ btnswitch.addEventListener('click', () => {
         logoGitTools.src = 'assets/tools/gitoff.png';
         logoGithubTools.src = 'assets/tools/githuboff.png';
         imagenLigth.src = 'assets/logo/Recurso33off.svg';
-        imagenDark.src = 'assets/logo/Recurso30on.png';
+        imagenDark.src = 'assets/logo/Recurso32off.png';
     }
 });
 
@@ -68,7 +68,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoGitTools.src = 'assets/tools/giton.png';
 	logoGithubTools.src = 'assets/tools/githubon.png';
 	imagenLigth.src = 'assets/logo/Recurso35on.svg';
-	imagenDark.src = 'assets/logo/Recurso32off.png';
+	imagenDark.src = 'assets/logo/Recurso30on.png';
 } else {
 	imagenTools.src = 'assets/tools/htmloff.png';
 	logoCssTools.src = 'assets/tools/cssoff.png';
@@ -77,7 +77,7 @@ if(localStorage.getItem('ligth') === 'true') {
 	logoGitTools.src = 'assets/tools/gitoff.png';
 	logoGithubTools.src = 'assets/tools/githuboff.png';
 	imagenLigth.src = 'assets/logo/Recurso33off.svg';
-	imagenDark.src = 'assets/logo/Recurso30on.png';
+	imagenDark.src = 'assets/logo/Recurso32off.png';
 }
 
 
