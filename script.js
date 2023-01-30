@@ -70,6 +70,15 @@ if(localStorage.getItem('ligth') === 'true') {
 	imagenLigth.src = 'assets/logo/Recurso35on.svg';
 	imagenDark.src = 'assets/logo/Recurso30on.png';
 } else {
+	const imagenLigth = document.querySelector('.logo');
+	const imagenDark = document.querySelector('.logoDark')
+	const imagenTools = document.querySelector('.logoTools');
+	const logoCssTools = document.querySelector('.logoCssTools');
+	const logoJavascriptTools = document.querySelector('.logoJavascriptTools');
+	const logoSassTools = document.querySelector('.logoSassTools');
+	const logoGitTools = document.querySelector('.logoGitTools');
+	const logoGithubTools = document.querySelector('.logoGithubTools');
+
 	imagenTools.src = 'assets/tools/htmloff.png';
 	logoCssTools.src = 'assets/tools/cssoff.png';
 	logoJavascriptTools.src = 'assets/tools/javascriptoff.png';
