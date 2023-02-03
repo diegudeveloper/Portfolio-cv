@@ -105,7 +105,7 @@
 .pictureMe .me img {
   width: 130px;
   height: 130px;
-  border-radius: 50%;
+  border-radius: 25%;
   object-fit: contain;
   margin-top: -70px;
   position: relative;
@@ -116,6 +116,7 @@
   overflow: hidden;
   cursor: pointer;
   background-color: #000;
+  border: 0.2px solid var(--color-primary);
 }
 
 /*modal*/
