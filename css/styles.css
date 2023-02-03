@@ -75,7 +75,6 @@ body.ligth {
     align-items: center;
     outline: none;
 }
-
 .switch::after {
     content: "";
     display: block;
@@ -111,12 +110,10 @@ body.ligth {
     justify-content: center;
     align-items: center;
 }
-
 .switch span .ico_dark, .ico_ligth {
     width: 20px;
     height: 20px;
 }
-
 /****** ***** *****switch***** ***** *****  */
 .container-main .container-full {
     width: 95%;
@@ -128,7 +125,6 @@ body.ligth {
     overflow: hidden;
 }
 **********/* INFORMATION-SLIDER */**********
-
 .container-full{
 	display: flex;
 	position: relative;
@@ -303,8 +299,6 @@ body.ligth #content-contact {
     color: var(--color-font);
     text-align: left;
 }
-
-
 body.ligth .menu-picture {
     border-bottom: 1px solid var(--color-primary);
 }
@@ -317,7 +311,6 @@ body.ligth #title {
 body.ligth #container_title {
     border-bottom: 1px solid var(--color-primary);
 }
-
 body.ligth .me::after {
     background-color: #fff;
 }
@@ -372,7 +365,6 @@ body.ligth .containerResumen ul li .ruta {
 body.ligth .link_card {
     background-color: var(--color-font);
 }
-
 body.ligth .namePorta {
     color: var(--color-bg);
 }
@@ -394,15 +386,12 @@ body.ligth .containerText-blog .title-blog {
 body.ligth .main_btn .btn_contact {
     color: var(--color-bg);
 }
-
 .colorletter {
     color: var(--color-primary);
 }
-
 .title::first-letter {
     color: var(--color-primary);
 }
-
 .diegoletter {
     font-size: 2rem;
 }

@@ -1,7 +1,6 @@
 @media screen and (max-width: 1024px) {
     .container-main {
         position: relative;
-
         height: 715vh;
         border: none;
     }
@@ -13,11 +12,9 @@
         position: absolute;
         top: 5rem;
     }
-
     .container-main .container-full .container-menu {
         height: 90%;
     }
-
     .container-main .container-full .container-header {
         position: absolute;
         top: 0;
@@ -26,35 +23,28 @@
         max-height: 600px;
         border-radius: 5px;
     }
-
     .container-header .pictureMe .me img {
         width: 146px;
         height: 146px;
     }
-
     .container-main .container-full .container-information {
         height: auto;
         left: 16%;
         max-width: 580px;
         max-height: auto;
-        /* border-radius: 5px; */
     }
-
     .content {
         height: auto;
         position: initial;
         z-index: 100;
     }
-
     .container-main .container-full .container-information #content-home {
         display: none;
         height: auto;
     }
-
     .content.closed {
         opacity: 1;
     }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -64,11 +54,9 @@
         height: 54px;
         border-bottom: 1px solid var(--color-line);
     }
-
     .linea_horizontal {
         display: none;
     }
-
     .container-main {
         width: 100%;
         height: auto;
@@ -79,16 +67,13 @@
         height: auto;
         max-height: 100%;
         position: initial;
-        
     }
-
     .container-main .container-full .container-menu {
         width: 100%;
         max-width: 580px;
         height: 90px;
         margin: 0 auto 5rem auto;
     }
-
     .container-main .container-full .container-header {
         top: 100px;
         height: 765px;
@@ -100,23 +85,18 @@
         -moz-box-shadow: none;
         box-shadow: none;
     }
-
     .container-main .container-full .container-information {
         position: initial;
         width: 90%;
         height: auto;
         margin: 0 auto;        
     }
-
     #content-about, #content-resumen, #content-portfolio, #content-blog {
         position: initial;
-        /* border-bottom: 1px solid rgba(204, 204, 204, 0.200); */
     }
-
     .container-information .content .inside-content .containerFullBlog .blogLetf .cardLeft {
         width: 250px;
     }
-
     .container-information .content .inside-content .containerFullBlog .blogRight .cardRight {
         width: 250px;
     }
@@ -152,19 +132,11 @@
     }
 }
 
-
 @media screen and (max-width: 320px) {
     .container-main .container-full .container-menu .menu-container .menu-btn .textmenu  span {
         display: none;
     }
-<<<<<<< HEAD
     #content-about{
         overflow-y: initial;
-        
-=======
-
-    #content-about {
-        overflow-y: initial;
->>>>>>> main
     }
 }

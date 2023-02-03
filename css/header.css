@@ -9,63 +9,43 @@
   position: relative;
   top: 0;
   left: 0;
-  /* -webkit-box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.3); */
-
   -webkit-box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2);
   -moz-box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2);
   box-shadow: -16px -16px 5px 0px rgba(251,176,59,0.2);
 }
-
 .bg-img {
   width: 100%;
   height: 50%;
-  background-image: url(../assets/img/02jbg.jpg);
+  background-image: url(../assets/img/002.jpg);
   background-size: cover;
   background-position: center;
   animation: animate 10s infinite;
   transition: ease 10s all;
 }
-
 @keyframes animate {
   20% {
-    background-image: url(../assets/img/01pg.jpg);
+    background-image: url(../assets/img/001.jpg);
     background-size: cover;
   }
   40% {
-    background-image: url(../assets/img/01pg.jpg);
+    background-image: url(../assets/img/001.jpg);
     background-size: cover;
-    
   }
   60% {
-    background-image: url(../assets/img/02jbg.jpg);
+    background-image: url(../assets/img/002.jpg);
     background-size: cover;
     transition: ease-out 50s all;
-    
   }
   100% {
-    background-image: url(../assets/img/02jbg.jpg);
+    background-image: url(../assets/img/002.jpg);
     background-size: cover;
-    
   }
 }
 
 .picture-bg {
   width: 100%;
   height: 100%;
-  /*display: flex;
-  justify-content: center; */
-  
 }
-
-/* .picture-bg img {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  object-fit: cover;
-} */
-
 .pictureMe {
   width: 100%;
   height: 50%;
@@ -73,13 +53,11 @@
   background-color: var(--color-bg);
   transition: 0.3s ease all;
 }
-
 .me {
   height: 80%;
   display: block;
   position: relative;
 }
-
 .me::after {
   content: " ";
   display: block;
@@ -93,7 +71,6 @@
   clip-path: polygon(50% 80%, 100% 0, 100% 80%, 50% 80%, 0 80%, 0 0);
   transition: 0.3s ease all;
 }
-
 .name-me {
   width: 100%;
   height: auto;
@@ -103,7 +80,6 @@
   font-weight: 400;
   margin-top: 20px;
 }
-
 .me .ocupation {
   width: 100%;
   height: auto;
@@ -113,14 +89,12 @@
   margin: 1rem auto;
   position: relative;
 }
-
 .me .social-media {
   width: 100%;
   height: auto;
   display: inline-block;
   margin-top: 1rem;
 }
-
 .me .social-media img {
   width: 5%;
   height: 5%;
@@ -128,7 +102,6 @@
   border: none;
   color: #eeeeee;
 }
-
 .pictureMe .me img {
   width: 130px;
   height: 130px;
@@ -137,7 +110,6 @@
   margin-top: -70px;
   position: relative;
   z-index: 100;
-
   -webkit-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
   -moz-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
   box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
@@ -147,7 +119,6 @@
 }
 
 /*modal*/
-
 body,
 .modal {
   width: 100%;
@@ -156,13 +127,6 @@ body,
   justify-content: center;
   align-items: center;
 }
-
-/* .lbl-modal {
-  font-size: 3rem;
-  width: 100px;
-  height: 50px;
-  background: blue;
-}  */
 .modal {
   position: fixed;
   top: 0;
@@ -180,8 +144,6 @@ body,
 .contenedor {
   width: 100%;
   height: 100%;
-  /* width: 100%;
-  height: 100vh; */
   margin: auto;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
@@ -220,12 +182,6 @@ body,
 #btn-modal {
   display: none;
 }
-/* .lbl-modal {
-  background: #fff;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-} */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .contenedor {
     width: 100%;
@@ -233,7 +189,6 @@ body,
 }
 
 /*modal*/
-
 .me .social-media .fab {
   font-size: 2rem;
   color: #eeeeee;
@@ -241,7 +196,6 @@ body,
 }
 
 /******************************** Footer -header**********************************/
-
 .footer-header {
   width: 100%;
   height: 20%;
@@ -261,11 +215,9 @@ body,
   justify-content: space-evenly;
   align-items: center;
 }
-
 .download {
   border-right: 1px solid var(--color-line);
 }
-
 .cvdownload,
 .contactme {
   width: 90%;
@@ -274,64 +226,38 @@ body,
   justify-content: center;
   position: relative;
 }
-
-/* .cvdownload .submenu {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  overflow: hidden;
-  opacity: 0;
-  top: -60px;
-  right: -20px;
-  display: none;
-}
-
 .cvdownload:hover > .submenu {
   opacity: 1;
   visibility: visible;
   display: block;
 }
-
 .cvdownload .submenu .menuLink {
   width: 100%;
   display: block;
   color: #eeeeee;
   text-decoration: none;
   font-size: 1.3rem;
-} */
-
-
-
+}
 .cvdownload a {
-  /* display: block; */
   width: 50%;
   color: #eeeeee;
   text-decoration: none;
   font-size: 1.3rem;
   flex: initial;
-  /* flex: 1; */
 }
-
 .cvdownload i {
   display: block;
   width: 20%;
   color: #eeeeee;
   font-size: 1.5rem;
-  /* padding-left: 8rem; */
 }
-
 .contactme a {
-  /* display: block; */
   width: 50%;
   color: #eeeeee;
   text-decoration: none;
   font-size: 1.3rem;
   flex: initial;
-  /* flex: 1; */
 }
-
 .contactme i {
   display: block;
   width: 20%;
@@ -339,9 +265,7 @@ body,
   font-size: 1.5rem;
   padding-left: 1.3rem;
 }
-
 /*media queri*/
-
 @media screen and (max-width: 768px) {
   .cvdownload,
   .contactme {
@@ -349,7 +273,6 @@ body,
     margin: 0 auto;
   }
 }
-
 @media screen and (max-width: 450px) {
   .cvdownload,
   .contactme {

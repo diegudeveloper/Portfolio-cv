@@ -89,6 +89,15 @@ if(localStorage.getItem('ligth') === 'true') {
 	imagenDark.src = 'assets/logo/Recurso32off.png';
 }
 
+const buttons = document.querySelectorAll('.menu-btn');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('selected'));
+    button.classList.add('selected');
+  });
+});
+buttons[0].classList.add('selected');
 
 
 async function changeLanguage(language) {
