@@ -86,3 +86,16 @@ body {
     
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .containerImg div {
+        width: 450px;
+        max-width: 450px;
+        height: 400px;
+        max-height: 400px;
+    }
+
+    .containerImg img {
+        width: 100%;
+    }
+}
