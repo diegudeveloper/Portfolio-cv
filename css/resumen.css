@@ -5,13 +5,11 @@
     align-items: center;
     font-weight: 300;
 }
-
 .resumen {
     color: var( --color-font);
     margin-left: 0.5rem;
     font-size: 2rem;
 }
-
 .iconUniversity {
     font-size: 2.8rem;
 }
@@ -27,10 +25,8 @@
     align-items: center;
     padding-top: 3rem;
 }
-
 .containerResumen ul {
     width: 100%;
-    /* padding-left: 20px; */
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
@@ -64,14 +60,6 @@
     line-height: 1.8rem;
     margin-bottom: 3rem;
 }
-
-/* .resumen_education:hover {
-    -webkit-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.75);
-    transition: all 0.5s;
-} */
-
 .university {
     margin-top: 10px;
     font-size: 2rem;
@@ -79,21 +67,17 @@
     font-weight: 100;
     text-align: start;
 }
-
 .date   {
-    /* width:60%; */
     text-align: start;
     font-size: 1.3rem;
     color: var(--color-font);
     padding: 2px;
 }
-
 .where {
     font-size: 1.3rem;
     color: var(--color-font-dark);
     text-align: start;
 }
-
 .ruta {
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -101,22 +85,18 @@
     color: var(--color-secunday);
     font-weight: 300;
 }
-
 .cantidadCursos {
     color: var(--color-font-normal);
     text-align: start;
 }
-
 .cantidadCursos .cCursos,
 .cantidadCursos .cHoras {
     color: var(--color-font-normal);
 }
-
 .cantidadCursos .cantidad, 
 .cantidadCursos .horas {
     color: var(--color-primary);
 }
-
 .btnRuta {
     width: 167px;
     height: 30px;
@@ -128,11 +108,9 @@
     cursor: pointer;
     transition: 0.2s ease-out all;
 }
-
 .btnRuta:hover {
     transform: scale(1.05);
 }
-
 .btnRuta a {
     text-decoration: none;
     color: var(--color-primary);
@@ -140,18 +118,15 @@
     letter-spacing: 0.3rem;
     text-transform: uppercase;
 }
-
 .certificate {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
 }
-
 .certificate a {
     display: flex;
 }
-
 .certificate .fa-award {
     display: block;
     width: 40%;
@@ -160,7 +135,6 @@
     text-align: start;
     margin-right: 1rem;
 }
-
 .certificate p {
     text-align: start;
     text-decoration: none;
@@ -172,14 +146,9 @@
     letter-spacing: 0.2rem;
     transition: 0.2s ease-out all;
 }
-
 .certificate p:hover {
     transform: scale(1.05);
 }
-
-
-
-
 /*modo ligth*/
 
 .titleEstudios {
@@ -188,26 +157,21 @@
 .titleLineEstudios.active {
     border-bottom: 1px solid var(--color-primary);
 }
-
 .titleCursos {
     color: var(-color-secunday);
 }
 .titleLineCursos.active {
     border-bottom: 1px solid var(--color-primary);
 }
-
 .university.active {
     color: var(--color-font);
 }
-
 .where.active {
     color: var(--color-bg);
 }
-
 .description.active {
     color: var(--color-bg);
 }
-
 .certifi.active {
     color: var(--color-bg);
 }
@@ -218,22 +182,17 @@
     color: var(--color-font-normal);
 }
 
-
 @media screen and (min-width: 1024px) {
     .resumen_education {
         width: 45%;
         height: 290px;
     }
-    /* .date {
-        width: 55%;
-    } */
 }
 
 @media screen and (max-width: 768px) {
     .resumen_education {
         max-width: 250px;
         height: 290px;
-        /* width: 75%; */
     }
     .date {
         width: 30%;

@@ -44,22 +44,17 @@
     flex-wrap: wrap;
     padding: 0 1rem;
 }
-
 .description_card p {
-    /* background-color: var(--color-primary); */
-    /* background-color: mediumorchid; */
     padding: 0.2rem;
     color: var(--color-secundary);
     border-radius: 5px;
 }
-
 .description_card p {
     font-size: 1.2rem;
     color: var(--color-font-normal);
     text-align: start;
     margin-bottom: 2rem;
 }
-
 .description_card .herramientas {
     color: var(--color-primary);
 }
@@ -89,14 +84,10 @@
     transition: 0.2s all;
     cursor: pointer;
 }
-
 .card .codigo button:active {
     transform: scale(0.98);
-    /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-    /* Lowering the shadow */
 }
-
 .card .codigo button a {
     display: flex;
     justify-content: center;
@@ -117,14 +108,12 @@
     height: 29px;
     color: var(--color-primary);
 }
-
 .card .codigo button .fa-regular {
     color: var(--color-secundary);
 }
 .card .codigo button p {
     margin-left: 1rem;
 }
-
 /* modo ligth*/
 
 .titlePorfo.active {
@@ -151,7 +140,6 @@
 .namePorta5.active {
     color: var(--color-bg);
 }
-
 .iconofas.active {
     color: var(--color-primary);
 }

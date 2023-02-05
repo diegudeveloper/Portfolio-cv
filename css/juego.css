@@ -3,22 +3,14 @@
   margin: auto;
   width: 80%;
   height: 80%;
-  /* position: absolute; */
   top: 300px;
   left: 0;
-
-  /* background-color: #ffb; */
-  /* background-color: #85ffbd; */
   background-color: #FBB03B;
-  /* background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%); */
   background-image: linear-gradient(45deg, #FBB03B 0%, #926d3083 100%);
-
-  /* border: 8px dashed #993; */
   border-radius: 10px;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 1px 2px rgba(0, 0, 0, 0.3),
-    0 0 1px 3px rgba(0, 0, 0, 0.1);
+  0 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-
 #player {
   background-color: #900;
   border: 4px dashed #b22;
@@ -53,16 +45,13 @@
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.775);
 }
-
 .btn:hover {
   transform: scale(1.2);
 }
-
 .btn-primary {
   background: rgba(251, 176, 59);
   color: #fff;
 }
-
 .message-container {
   position: fixed;
   top: 50%;
@@ -76,7 +65,6 @@
   letter-spacing: 0.5rem;
   font-size: 3rem;
 }
-
 .win-message {
   color: green;
 }

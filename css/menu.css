@@ -12,7 +12,6 @@
 .es {
     color: var(--color-font);
 }
-
 .flags {
     width: 74px;
     height: 60px;
@@ -35,7 +34,6 @@
     height: 30px;
     display: block;
     cursor: pointer;
-    /* border-radius: 50%; */
 }
 .menu-container {
     width: 74px;
@@ -49,7 +47,6 @@
     flex-wrap: wrap ;
     transition: 0.3s ease all;
 }
-
 .menu-container button {
     width: 100%;
     background-color: var(--color-bg);
@@ -65,34 +62,32 @@
     border-bottom: 1px solid var(--color-line);
     transition: 0.3s ease all;
 }
-
 .menu-container button .textmenu {
     color: var(--color-font);
 }
-
 .menu-btn{
     cursor: pointer;
     transition: all ease 0.5s
 }
-
 .menu-btn:hover,
 .menu-btn:focus {
     color: #aaa !important;
-
 }
 .menu-btn .mhome {
     transition: ease 0.2s all;
 }
 .menu-btn:hover {
     border: 1px solid var(--color-primary);
-    
-} 
+}
+
+.menu-btn.selected {
+    border: 1px solid var(--color-primary);
+}
 
 .menu-btn:hover > .mhome {
     transform: scale(1.2);
     color: var(--color-primary);
 }
-
 .btn-flotante {
     width: 74px;
     height: 74px;
@@ -101,17 +96,14 @@
     align-items: center;
     border-bottom: 1px solid var(--color-line);
 }
-
 .menu-picture {
     display: none;
 } 
-
 
 /*mediaqueri*/
 
 @media screen and (max-width: 1024px) {
     .menu-container {
-        /* height: 90%; */
         margin-left: 30px;
         border-radius: 0;
     }
@@ -135,14 +127,12 @@
         flex-wrap: wrap;
         z-index: 10000;
     }
-
     .menu-container button {
         padding: 0 5px;
         flex: 1;
         height: 40%;
         border: none;
         color: var(--color-font);
-        /* padding: 3rem; */
     }
     .container-menu .home {
         display: none;
@@ -183,4 +173,3 @@
         width: 40%;
     }
 }
-
