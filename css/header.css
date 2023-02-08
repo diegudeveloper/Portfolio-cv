@@ -16,7 +16,7 @@
 .bg-img {
   width: 100%;
   height: 50%;
-  background-image: url(../assets/img/002.jpg);
+  background-image: url(../assets/img/002.webp);
   background-size: cover;
   background-position: center;
   animation: animate 10s infinite;
@@ -24,20 +24,20 @@
 }
 @keyframes animate {
   20% {
-    background-image: url(../assets/img/001.jpg);
+    background-image: url(../assets/img/001.webp);
     background-size: cover;
   }
   40% {
-    background-image: url(../assets/img/001.jpg);
+    background-image: url(../assets/img/001.webp);
     background-size: cover;
   }
   60% {
-    background-image: url(../assets/img/002.jpg);
+    background-image: url(../assets/img/002.webp);
     background-size: cover;
     transition: ease-out 50s all;
   }
   100% {
-    background-image: url(../assets/img/002.jpg);
+    background-image: url(../assets/img/002.webp);
     background-size: cover;
   }
 }
