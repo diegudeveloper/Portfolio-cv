@@ -1,87 +1,137 @@
-# Portfolio-cv
+# Portafolio-CV
 
-Portafolio-CV Es mi página personal que utilizo para mostrar mis habilidades, destrezas, mi blog personal y mis proyectos.
+![Portafolio-CV Logo](https://user-images.githubusercontent.com/62949966/239468603-ed51b6a3-f9ee-4e8e-969e-2994e27b5c0f.png)
 
-<img src="https://user-images.githubusercontent.com/62949966/189724912-5b47bd4f-c17e-4767-88fd-affee2366125.png" width="800" align="middle" style="float: center;"><br><br>
-
-
-### Estructura:
-  1. [Entorno de configuración](#Config-environment)
-  2. [Diagrama de Flujo](#flowchart)
-  3. [Deploy](#deployed)
-  4. [Colaboradores](#acknowledgements)
-
-<br><br>
-<img src="https://user-images.githubusercontent.com/62949966/189738584-d61e2725-d3e7-49c2-bf26-8db89cda4341.png" width="450" align="right" />
-
-<img src="https://user-images.githubusercontent.com/62949966/189744250-df201cf0-8bf6-4014-b1e7-c002112ae39a.png" width="450" align="right" />
-
-<img src="https://user-images.githubusercontent.com/62949966/189745327-8888e9e2-fafc-42b5-b1bf-2c2df4e9748e.png" width="450" align="right" />
-
-<img src="https://user-images.githubusercontent.com/62949966/189760710-bf9cab6e-fff4-4be1-b5cf-1e33f692aca2.png" width="450" align="right" />
-
-<img src="https://user-images.githubusercontent.com/62949966/189766640-6bf883c9-f217-4739-8994-1109e1e53650.png" width="450" align="right" />
-
-<img src="https://user-images.githubusercontent.com/62949966/189766920-22787a6a-e54b-4467-b0dc-c1db5a944027.png" width="450" align="right" />
-
-
-
-## ⚙ **Entorno de configuración** <a name="Config-environment"></a>
-
-Este es un entorno personalizado y configurado desde cero usando **HTML**, **CSS** y **JAVASCRIPT**. Está configurada a modo de poder ser visualizada en cualquier dispositivo, ya sea desde una PC, tablet o celular. Tome la decisión de realizarlo con las tecnologías mencionadas, ya que son las que manejo.
-
-<br>
-<!-- GETTING STARTED -->
-
-### **Estructura**
-<br>
-La estructura de la página Portafolio-cv está configurada en 3 componentes:
-
-- Menu
-- Cabecera
-- Cuerpo
-
-Cada componente muestra la información requerida por el usuario. Adicionalmente, posee un modo Dark en su estructura inicial y modo light como segunda opción.<br><br>
-
-📄 El menú posee 8 iconos estructurados de la manera más clara posible a fin de demostrar la información que el usuario quiera observar.
-<br>
-<br>
-👤 La cabecera está compuesta por dos estructuras:
-- Mi nombre, profesión y redes sociales.
-- Contacto y descarga de 📋 CV.<br><br>
-
-🗂️ El cuerpo posee 6 componentes:
-- Inicio
-- Sobre Mi
-- Estudios
-- Portafolio
-- Blog
-- Contactame.
-
- Estos componentes muestran la informacion segun su requerimiento. <br><br>
-
-🕹️ Dentro de su estructura posee un juego oculto el cual funciona a la perfeccion en cualquiera de los distintos dispositivos antes mencionados.
-
+Portafolio-CV es mi página personal que utilizo para mostrar mis habilidades, destrezas, mi blog personal y mis proyectos.
 <br><br>
 
+<h2 style="color: orange;">Tabla de contenidos</h2>
 
-### **Si deseas mejorar o arreglar este proyecto te invito a clonarlo.**>
+- [Entorno de configuración](#entorno-de-configuración)
+- [Estructura](#estructura)
+- [Diagrama de Flujo](#diagrama-de-flujo)
+- [Deploy](#deploy)
+- [Colaboradores](#colaboradores)
+- [Instrucciones de Uso](#instrucciones-de-uso)
+- [Agradecimientos](#agradecimientos)
+<br><br>
+
+<h2 style="color: orange;">Entorno de configuración</h2>
+
+Este es un entorno personalizado y configurado desde cero usando HTML, CSS y JavaScript. Está diseñado para ser visualizado en cualquier dispositivo, incluyendo PC, tablet o celular. Se han utilizado estas tecnologías ya que son las que manejo con mayor destreza.
+
+<h2 style="color: orange;">Estructura</h2>
+
+La estructura de la página Portafolio-CV está configurada en 3 componentes principales:
+<br><br>
+### **Menú**
+
+El menú consta de 8 iconos organizados de manera clara para proporcionar la información que el usuario desea visualizar.
+
+### **Cabecera**
+
+La cabecera está compuesta por dos secciones:
+
+1. Información personal: Mi nombre, profesión y enlaces a mis redes sociales.
+2. Contacto y descarga: Opciones para ponerse en contacto conmigo y descargar mi currículum.
+
+### **Cuerpo**
+
+El cuerpo de la página se divide en 6 secciones:
+
+1. Inicio
+2. Sobre mí
+3. Estudios
+4. Portafolio
+5. Blog
+6. Contáctame
+
+Cada sección muestra la información correspondiente según su categoría.
+
+La página también cuenta con un modo oscuro como opción adicional al modo claro.
+<br><br>
+
+<h2 style="color: orange;">🔗 Diagrama de Flujo</h2>
+
+El diagrama de flujo ilustra la interacción entre las diferentes secciones y componentes de la página Portafolio-CV.
+
+```mermaid
+graph TD;
+    Inicio --> Menu;
+    Menu --> Cabecera;
+    Cabecera --> Cuerpo;
+    Cuerpo --> Inicio;
+    Cuerpo --> Sobre Mí;
+    Cuerpo --> Portafolio;
+    Cuerpo --> Blog;
+    Cuerpo --> Estudios;
+    Cuerpo --> Contacto;
+    Estudios --> Detalles de Estudios;
+      Detalles de Estudio --> Rutas y Certificados;
+    Portafolio --> Detalles de Proyectos;
+      Detalles de Proyecto --> Código Fuente;
+      Detalles de Proyecto --> Demo;
+    Blog --> Detalles del Post;
+      Detalles del Post --> Contenido del Post;
+      Detalles del Post --> Comentarios del Post;
+      Comentarios del Post --> Comentario 1;
+      Comentarios del Post --> Comentario 2;
+    Contacto  --> Detalles donde Ubicarme;
+```
+
 <br>
-Para ejecutar este proyecto en local, echa un vistazo a los siguientes pasos:
+<h2 style="color: orange;">⬇ Deploy</h2>
+
+Si deseas mejorar o modificar este proyecto, te invito a clonarlo y ejecutarlo en tu entorno local siguiendo los siguientes pasos:
+
+1. **Clona el repositorio:** git clone https://github.com/diegudeveloper/Portfolio-cv.git
+
+
+2. Realiza las mejoras o modificaciones deseadas.
+
+3. ¡Despliega tu versión mejorada de Portafolio-CV!
 <br><br>
 
-1. Clona el repostitorio
-   ```sh
-   https://github.com/diegudeveloper/Portfolio-cv.git
-   ```
+<h2 style="color: orange;">Colabordores</h2>
+
+- Armando
+- David
 <br><br>
-2. Mejora, agrega, daña, inventa pero sobre todo nunca dejes de intentarlo.
-   <br><br><br><br><br><br>
-   
- 🚀Desplegar <a name="deployed"></a>
-[**Diegudeveloper**](https://diegudeveloper.github.io/Portfolio-cv/)
 
-## 👍🏻 Agradecimientos <a name="acknowledgements"></a>
+<h2 style="color: orange;">Instrucciones de Uso</h2>
 
-- ✅ [Armando](https://github.com/Armando284)
-- ✅ [David](https://github.com/david-villegas)
+1. Clona el repositorio [Portfolio-cv](https://github.com/diegudeveloper/Portfolio-cv.git).
+
+2. Realiza mejoras, agrega nuevas funcionalidades, rompe cosas, inventa, ¡pero sobre todo, nunca dejes de intentarlo!
+
+3. Despliega tu propia versión de Portafolio-CV y compártela con el mundo.
+<br><br>
+
+<h2 style="color: orange;">Agradecimientos</h2>
+
+Quiero agradecer a Armando y David por su colaboración en este proyecto. Sin su apoyo, no habría sido posible lograr este resultado.
+
+¡Gracias a todos por su tiempo y atención!
+
+---
+<br>
+Este proyecto está bajo la licencia [MIT](LICENSE).
+<br><br><br>
+
+<h2 style="color: orange;">Imagenes</h2>
+
+<details>
+    <summary>🖥 Imagen Modo Pc</summary>
+
+![diegudeveloper github io_Portfolio-cv_](https://github.com/diegudeveloper/Portfolio-cv/assets/62949966/e64c81ab-f4d0-4a59-b967-bfbaaf88134d)
+
+</details>
+
+<details>
+    <summary>🖥 Imagen Modo Movil</summary>
+
+![diegudeveloper github io_Portfolio-cv_ (1)](https://github.com/diegudeveloper/Portfolio-cv/assets/62949966/eaf0bbb3-c3b2-4f1b-9d05-e75ce5ca0d1d)
+
+</details>
+
+  
