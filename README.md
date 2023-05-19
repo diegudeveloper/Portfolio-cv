@@ -141,6 +141,7 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 </details>
 
+---
 <details>
 <br><br>
 
