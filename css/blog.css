@@ -41,12 +41,22 @@
     width: 30%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .containerImg-blog img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.containerImg-blog .imgblog3 {
+    width: 150px;
+    height: auto;
+}
+
+
 .containerText-blog {
     height: 70%;
     flex: 1;
