@@ -51,12 +51,6 @@
     object-fit: cover;
 }
 
-.containerImg-blog .imgblog3 {
-    width: 150px;
-    height: auto;
-}
-
-
 .containerText-blog {
     height: 70%;
     flex: 1;
