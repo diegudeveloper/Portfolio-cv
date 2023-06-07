@@ -33,6 +33,7 @@
     height: 100%;
     max-height: 182px;
     transition: all .9s ease;   
+    object-fit: cover;
 }
 .img_card img:hover {
     transform:scale(1.2);
