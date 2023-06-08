@@ -84,7 +84,13 @@
       "webname5": "Portafolio - Maqueta",
       "description5": "Pagina web diseñada para mostrar las diferentes paginas de mis inicios. En ellas se podra observar diferentes tipos de maquetación.",
    
-      "description6": "Maquetacion sobre un Curriculun Vitae, el mismo es a adaptable a diferentes tipos de dispositivos. . "
+      "description6": "Maquetacion sobre un Curriculun Vitae, el mismo es a adaptable a diferentes tipos de dispositivos. ",
+
+      "webname7": "Carrito de Compra - Javascript",
+      "description7": "Pagina web diseñada para mostrar Productos a comprar y ser mostrados en un carrito de compras. En ellas se podra observar el uso de Javascript.",
+
+      "webname8": "Simulador Email - Javascript",
+      "description8": "Simulador de Envio de Email. Proporciona validaciones en cada campo de entrada y utiliza un spinner externo."
    },
 
    "blog": {

@@ -83,7 +83,13 @@
       "webname5": "Portfolio - Maqueta",
       "description5": "Web page designed to show the different pages of my beginnings. In them you can see different types of layout.",
     
-      "description6": "Layout on a Curriculum Vitae, it is adaptable to different types of devices."
+      "description6": "Layout on a Curriculum Vitae, it is adaptable to different types of devices.",
+
+      "webname7": "Shopping Cart - Javascript",
+      "description7": "Web page designed to show products to buy and be displayed in a shopping cart. In them you can see the use of Javascript.",
+
+      "webname8": "Email Simulator - Javascript",
+      "description8": "Email Sending Simulator. It provides validations on each input field and uses an external spinner."
     },
 
    "blog": {
