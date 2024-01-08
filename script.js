@@ -6,6 +6,15 @@ const toggle = document.getElementById("toggle");
 const containerMain = document.querySelector(".container-main");
 const btnswitch = document.querySelector('#switch');
 
+const cursor = document.querySelector(".cursor");
+const cursor2 = document.querySelector(".cursor2");
+
+/*cursor*/
+document.addEventListener("mousemove",function(e){
+    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+});
+/*cursor*/
+
 
 btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');

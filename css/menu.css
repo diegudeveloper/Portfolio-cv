@@ -88,6 +88,17 @@
     transform: scale(1.2);
     color: var(--color-primary);
 }
+
+.container-menu:hover ~ .cursor{
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: #c6c6c6;
+    opacity: .5;
+}
+  
+.container-menu:hover ~ .cursor2{
+    opacity: 0;
+}
+
 .btn-flotante {
     width: 74px;
     height: 74px;
