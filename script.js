@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Mostrar el contenido de la página
         document.getElementById("content").style.display = "block";
-    }, 3000);
+    }, 2000);
 });
 
 /*loader*/
