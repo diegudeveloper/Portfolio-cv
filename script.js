@@ -1,5 +1,19 @@
 "use strict";
 
+/*loader*/
+document.addEventListener("DOMContentLoaded", function() {
+    // Simular una carga de 3 segundos
+    setTimeout(function(){
+        // Ocultar el loader después de 3 segundos
+        document.getElementById("loader-wrapper").style.display = "none";
+
+        // Mostrar el contenido de la página
+        document.getElementById("content").style.display = "block";
+    }, 3000);
+});
+
+/*loader*/
+
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
 const toggle = document.getElementById("toggle");
