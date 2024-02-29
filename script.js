@@ -2,7 +2,7 @@
 
 /*loader*/
 document.addEventListener("DOMContentLoaded", function() {
-    // Simular una carga de 3 segundos
+    // Simular una carga de 2 segundos
     setTimeout(function(){
         // Ocultar el loader después de 3 segundos
         document.getElementById("loader-wrapper").style.display = "none";
@@ -28,7 +28,6 @@ document.addEventListener("mousemove",function(e){
     cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 });
 /*cursor*/
-
 
 btnswitch.addEventListener('click', () => {
 	document.body.classList.toggle('ligth');
@@ -122,7 +121,6 @@ buttons.forEach(button => {
 });
 buttons[0].classList.add('selected');
 
-
 async function changeLanguage(language) {
 	const requestJson = await fetch(`lenguages/${language}.json`);
 	const texts = await requestJson.json();
@@ -139,8 +137,6 @@ async function changeLanguage(language) {
 flagsElement.addEventListener("click", (e) => {
 	changeLanguage(e.target.parentElement.dataset.language);
 });
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
 	const btnHome = document.getElementById('btn-home');
@@ -213,9 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 });
-
-
-
 
 //#region juego
 
