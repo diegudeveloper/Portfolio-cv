@@ -37,7 +37,7 @@
 }
 .menu-container {
     width: 74px;
-    height: 80%;
+    height: 85%;
     border-radius: 5px;
     background-color: var(--color-bg);
     display: flex;
@@ -61,6 +61,7 @@
     flex: 1;
     border-bottom: 1px solid var(--color-line);
     transition: 0.3s ease all;
+    padding: 0.2rem 0;
 }
 .menu-container button .textmenu {
     color: var(--color-font);
@@ -112,6 +113,12 @@
 } 
 
 /*mediaqueri*/
+
+@media (width >= 1024px) {
+    .flags {
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .menu-container {
